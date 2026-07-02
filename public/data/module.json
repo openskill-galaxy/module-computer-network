@@ -1,0 +1,41 @@
+{
+  "id": "mod-computer-network",
+  "slug": "module-computer-network",
+  "title": "计算机网络学习与题库训练",
+  "subtitle": "面向408考研后端开发网络工程",
+  "description": "面向计算机专业学生408考研后端开发和网络工程学习者的网络体系结构TCP/IPHTTPDNS子网划分路由与综合组网训练模块。",
+  "version": "2.0.0",
+  "license": "MIT",
+  "authors": [
+    "OpenSkill Community"
+  ],
+  "tags": [
+    "计算机网络",
+    "408",
+    "TCP/IP",
+    "HTTP",
+    "DNS",
+    "子网划分",
+    "TCP",
+    "路由"
+  ],
+  "estimatedHours": 170,
+  "difficulty": "intermediate",
+  "updatedAt": "2026-07-02T12:00:00.000Z",
+  "coverEmoji": "🌐",
+  "repoUrl": "https://github.com/openskill-galaxy/module-computer-network",
+  "portalUrl": "https://openskill-galaxy.github.io/",
+  "status": "stable",
+  "stats": {
+    "courses": 14,
+    "lessons": 93,
+    "knowledgePoints": 674,
+    "questions": 3700,
+    "cases": 260,
+    "exams": 100,
+    "routes": 35,
+    "glossary": 360,
+    "faqs": 210,
+    "tags": 299
+  }
+}

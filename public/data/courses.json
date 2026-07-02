@@ -1,0 +1,431 @@
+[
+  {
+    "id": "cn-course-01",
+    "order": 1,
+    "slug": "计算机网络入门与学习路线",
+    "title": "计算机网络入门与学习路线",
+    "description": "网络定义、网络分类、边缘核心、交换方式、性能指标。",
+    "estimatedHours": 6,
+    "difficulty": "easy",
+    "tags": [
+      "计算机网络入门与学习路线"
+    ],
+    "lessonIds": [
+      "cn-lesson-001",
+      "cn-lesson-002",
+      "cn-lesson-003",
+      "cn-lesson-004"
+    ],
+    "totalLessons": 4,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解网络体系结构",
+      "掌握TCP/IP协议",
+      "能子网划分",
+      "具备网络分析能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-course-02",
+    "order": 2,
+    "slug": "网络体系结构与协议分层",
+    "title": "网络体系结构与协议分层",
+    "description": "OSI七层、TCP/IP四层、分层原则、封装与解封装。",
+    "estimatedHours": 8,
+    "difficulty": "easy",
+    "tags": [
+      "网络体系结构与协议分层"
+    ],
+    "lessonIds": [
+      "cn-lesson-005",
+      "cn-lesson-006",
+      "cn-lesson-007",
+      "cn-lesson-008",
+      "cn-lesson-009"
+    ],
+    "totalLessons": 5,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解网络体系结构",
+      "掌握TCP/IP协议",
+      "能子网划分",
+      "具备网络分析能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-course-03",
+    "order": 3,
+    "slug": "物理层基础",
+    "title": "物理层基础",
+    "description": "信号编码、调制、信道容量、香农公式、奈奎斯特、传输介质。",
+    "estimatedHours": 8,
+    "difficulty": "easy",
+    "tags": [
+      "物理层基础"
+    ],
+    "lessonIds": [
+      "cn-lesson-010",
+      "cn-lesson-011",
+      "cn-lesson-012",
+      "cn-lesson-013",
+      "cn-lesson-014",
+      "cn-lesson-015"
+    ],
+    "totalLessons": 6,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解网络体系结构",
+      "掌握TCP/IP协议",
+      "能子网划分",
+      "具备网络分析能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-course-04",
+    "order": 4,
+    "slug": "数据链路层与以太网",
+    "title": "数据链路层与以太网",
+    "description": "帧结构、MAC地址、CSMA/CD、差错检测、停止等待、滑动窗口。",
+    "estimatedHours": 12,
+    "difficulty": "medium",
+    "tags": [
+      "数据链路层与以太网"
+    ],
+    "lessonIds": [
+      "cn-lesson-016",
+      "cn-lesson-017",
+      "cn-lesson-018",
+      "cn-lesson-019",
+      "cn-lesson-020",
+      "cn-lesson-021",
+      "cn-lesson-022",
+      "cn-lesson-023"
+    ],
+    "totalLessons": 8,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解网络体系结构",
+      "掌握TCP/IP协议",
+      "能子网划分",
+      "具备网络分析能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-course-05",
+    "order": 5,
+    "slug": "局域网交换机与VLAN",
+    "title": "局域网、交换机与VLAN",
+    "description": "交换机转发、生成树、VLAN划分、三层交换。",
+    "estimatedHours": 8,
+    "difficulty": "medium",
+    "tags": [
+      "局域网、交换机与VLAN"
+    ],
+    "lessonIds": [
+      "cn-lesson-024",
+      "cn-lesson-025",
+      "cn-lesson-026",
+      "cn-lesson-027",
+      "cn-lesson-028",
+      "cn-lesson-029"
+    ],
+    "totalLessons": 6,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解网络体系结构",
+      "掌握TCP/IP协议",
+      "能子网划分",
+      "具备网络分析能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-course-06",
+    "order": 6,
+    "slug": "网络层与IP协议",
+    "title": "网络层与IP协议",
+    "description": "IPv4协议、IP地址分类、ARP、ICMP、NAT、IPv6入门。",
+    "estimatedHours": 14,
+    "difficulty": "medium",
+    "tags": [
+      "网络层与IP协议"
+    ],
+    "lessonIds": [
+      "cn-lesson-030",
+      "cn-lesson-031",
+      "cn-lesson-032",
+      "cn-lesson-033",
+      "cn-lesson-034",
+      "cn-lesson-035",
+      "cn-lesson-036"
+    ],
+    "totalLessons": 7,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解网络体系结构",
+      "掌握TCP/IP协议",
+      "能子网划分",
+      "具备网络分析能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-course-07",
+    "order": 7,
+    "slug": "子网划分与CIDR",
+    "title": "子网划分与CIDR",
+    "description": "子网掩码、子网划分方法、CIDR、路由聚合、最长前缀匹配。",
+    "estimatedHours": 10,
+    "difficulty": "hard",
+    "tags": [
+      "子网划分与CIDR"
+    ],
+    "lessonIds": [
+      "cn-lesson-037",
+      "cn-lesson-038",
+      "cn-lesson-039",
+      "cn-lesson-040",
+      "cn-lesson-041"
+    ],
+    "totalLessons": 5,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解网络体系结构",
+      "掌握TCP/IP协议",
+      "能子网划分",
+      "具备网络分析能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-course-08",
+    "order": 8,
+    "slug": "路由算法与路由协议",
+    "title": "路由算法与路由协议",
+    "description": "距离向量、链路状态、RIP、OSPF、BGP入门、路由表。",
+    "estimatedHours": 12,
+    "difficulty": "hard",
+    "tags": [
+      "路由算法与路由协议"
+    ],
+    "lessonIds": [
+      "cn-lesson-042",
+      "cn-lesson-043",
+      "cn-lesson-044",
+      "cn-lesson-045",
+      "cn-lesson-046",
+      "cn-lesson-047",
+      "cn-lesson-048"
+    ],
+    "totalLessons": 7,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解网络体系结构",
+      "掌握TCP/IP协议",
+      "能子网划分",
+      "具备网络分析能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-course-09",
+    "order": 9,
+    "slug": "传输层基础",
+    "title": "传输层基础",
+    "description": "端口号、UDP协议、TCP协议概述、可靠传输原理。",
+    "estimatedHours": 8,
+    "difficulty": "medium",
+    "tags": [
+      "传输层基础"
+    ],
+    "lessonIds": [
+      "cn-lesson-049",
+      "cn-lesson-050",
+      "cn-lesson-051",
+      "cn-lesson-052"
+    ],
+    "totalLessons": 4,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解网络体系结构",
+      "掌握TCP/IP协议",
+      "能子网划分",
+      "具备网络分析能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-course-10",
+    "order": 10,
+    "slug": "TCP协议",
+    "title": "TCP协议",
+    "description": "三次握手、四次挥手、可靠传输、流量控制、拥塞控制、TCP选项。",
+    "estimatedHours": 16,
+    "difficulty": "hard",
+    "tags": [
+      "TCP协议"
+    ],
+    "lessonIds": [
+      "cn-lesson-053",
+      "cn-lesson-054",
+      "cn-lesson-055",
+      "cn-lesson-056",
+      "cn-lesson-057",
+      "cn-lesson-058",
+      "cn-lesson-059",
+      "cn-lesson-060",
+      "cn-lesson-061",
+      "cn-lesson-062",
+      "cn-lesson-063",
+      "cn-lesson-064",
+      "cn-lesson-065"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解网络体系结构",
+      "掌握TCP/IP协议",
+      "能子网划分",
+      "具备网络分析能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-course-11",
+    "order": 11,
+    "slug": "UDP协议与可靠传输",
+    "title": "UDP协议与可靠传输",
+    "description": "UDP特点、适用场景、RDT协议、流水线协议、滑动窗口。",
+    "estimatedHours": 8,
+    "difficulty": "medium",
+    "tags": [
+      "UDP协议与可靠传输"
+    ],
+    "lessonIds": [
+      "cn-lesson-066",
+      "cn-lesson-067",
+      "cn-lesson-068",
+      "cn-lesson-069"
+    ],
+    "totalLessons": 4,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解网络体系结构",
+      "掌握TCP/IP协议",
+      "能子网划分",
+      "具备网络分析能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-course-12",
+    "order": 12,
+    "slug": "应用层协议",
+    "title": "应用层协议",
+    "description": "DNS、HTTP、HTTPS、SMTP、FTP、DHCP、TLS基础。",
+    "estimatedHours": 14,
+    "difficulty": "medium",
+    "tags": [
+      "应用层协议"
+    ],
+    "lessonIds": [
+      "cn-lesson-070",
+      "cn-lesson-071",
+      "cn-lesson-072",
+      "cn-lesson-073",
+      "cn-lesson-074",
+      "cn-lesson-075",
+      "cn-lesson-076",
+      "cn-lesson-077",
+      "cn-lesson-078"
+    ],
+    "totalLessons": 9,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解网络体系结构",
+      "掌握TCP/IP协议",
+      "能子网划分",
+      "具备网络分析能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-course-13",
+    "order": 13,
+    "slug": "HTTPDNS与Web网络基础",
+    "title": "HTTP、DNS与Web网络基础",
+    "description": "HTTP报文、状态码、Cookie、缓存、CDN、HTTPS握手、Web安全。",
+    "estimatedHours": 10,
+    "difficulty": "hard",
+    "tags": [
+      "HTTP、DNS与Web网络基础"
+    ],
+    "lessonIds": [
+      "cn-lesson-079",
+      "cn-lesson-080",
+      "cn-lesson-081",
+      "cn-lesson-082",
+      "cn-lesson-083",
+      "cn-lesson-084"
+    ],
+    "totalLessons": 6,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解网络体系结构",
+      "掌握TCP/IP协议",
+      "能子网划分",
+      "具备网络分析能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-course-14",
+    "order": 14,
+    "slug": "网络安全综合题与408复习训练",
+    "title": "网络安全、综合题与408复习训练",
+    "description": "防火墙VPN、综合组网、故障排查、408真题、面试题、模拟测试。",
+    "estimatedHours": 12,
+    "difficulty": "hard",
+    "tags": [
+      "网络安全、综合题与408复习训练"
+    ],
+    "lessonIds": [
+      "cn-lesson-085",
+      "cn-lesson-086",
+      "cn-lesson-087",
+      "cn-lesson-088",
+      "cn-lesson-089",
+      "cn-lesson-090",
+      "cn-lesson-091",
+      "cn-lesson-092",
+      "cn-lesson-093"
+    ],
+    "totalLessons": 9,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解网络体系结构",
+      "掌握TCP/IP协议",
+      "能子网划分",
+      "具备网络分析能力"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  }
+]

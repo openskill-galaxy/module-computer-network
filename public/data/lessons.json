@@ -1,0 +1,4237 @@
+[
+  {
+    "id": "cn-lesson-001",
+    "courseId": "cn-course-01",
+    "order": 1,
+    "title": "计算机网络定义",
+    "slug": "计算机网络定义",
+    "summary": "计算机网络定义章节",
+    "content": "# 计算机网络定义\n\n计算机网络定义的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了计算机网络定义的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-001"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000001",
+      "cn-q-000002",
+      "cn-q-000041",
+      "cn-q-000043",
+      "cn-q-000060"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-002",
+    "courseId": "cn-course-01",
+    "order": 2,
+    "title": "网络分类",
+    "slug": "网络分类",
+    "summary": "网络分类章节",
+    "content": "# 网络分类\n\n网络分类的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了网络分类的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-002"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000001",
+      "cn-q-000002",
+      "cn-q-000041",
+      "cn-q-000043",
+      "cn-q-000060"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-003",
+    "courseId": "cn-course-01",
+    "order": 3,
+    "title": "边缘与核心",
+    "slug": "边缘与核心",
+    "summary": "边缘与核心章节",
+    "content": "# 边缘与核心\n\n边缘与核心的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了边缘与核心的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-003"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000001",
+      "cn-q-000002",
+      "cn-q-000041",
+      "cn-q-000043",
+      "cn-q-000060"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-004",
+    "courseId": "cn-course-01",
+    "order": 4,
+    "title": "分组交换",
+    "slug": "分组交换",
+    "summary": "分组交换章节",
+    "content": "# 分组交换\n\n分组交换的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了分组交换的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-004"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000001",
+      "cn-q-000002",
+      "cn-q-000041",
+      "cn-q-000043",
+      "cn-q-000060"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-005",
+    "courseId": "cn-course-02",
+    "order": 1,
+    "title": "OSI七层模型",
+    "slug": "OSI七层模型",
+    "summary": "OSI七层模型章节",
+    "content": "# OSI七层模型\n\nOSI七层模型的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了OSI七层模型的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-005",
+      "cn-kp-006"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000003",
+      "cn-q-000004",
+      "cn-q-000005",
+      "cn-q-000039",
+      "cn-q-000104"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-006",
+    "courseId": "cn-course-02",
+    "order": 2,
+    "title": "TCP/IP四层",
+    "slug": "TCP/IP四层",
+    "summary": "TCP/IP四层章节",
+    "content": "# TCP/IP四层\n\nTCP/IP四层的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了TCP/IP四层的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-007"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000003",
+      "cn-q-000004",
+      "cn-q-000005",
+      "cn-q-000039",
+      "cn-q-000104"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-007",
+    "courseId": "cn-course-02",
+    "order": 3,
+    "title": "分层原则",
+    "slug": "分层原则",
+    "summary": "分层原则章节",
+    "content": "# 分层原则\n\n分层原则的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了分层原则的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-008"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000003",
+      "cn-q-000004",
+      "cn-q-000005",
+      "cn-q-000039",
+      "cn-q-000104"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-008",
+    "courseId": "cn-course-02",
+    "order": 4,
+    "title": "封装过程",
+    "slug": "封装过程",
+    "summary": "封装过程章节",
+    "content": "# 封装过程\n\n封装过程的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了封装过程的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-009"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000003",
+      "cn-q-000004",
+      "cn-q-000005",
+      "cn-q-000039",
+      "cn-q-000104"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-009",
+    "courseId": "cn-course-02",
+    "order": 5,
+    "title": "解封装",
+    "slug": "解封装",
+    "summary": "解封装章节",
+    "content": "# 解封装\n\n解封装的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了解封装的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-010"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000003",
+      "cn-q-000004",
+      "cn-q-000005",
+      "cn-q-000039",
+      "cn-q-000104"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-010",
+    "courseId": "cn-course-03",
+    "order": 1,
+    "title": "信号与编码",
+    "slug": "信号与编码",
+    "summary": "信号与编码章节",
+    "content": "# 信号与编码\n\n信号与编码的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了信号与编码的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-011"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000006",
+      "cn-q-000007",
+      "cn-q-000053",
+      "cn-q-000061",
+      "cn-q-000084"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-011",
+    "courseId": "cn-course-03",
+    "order": 2,
+    "title": "调制技术",
+    "slug": "调制技术",
+    "summary": "调制技术章节",
+    "content": "# 调制技术\n\n调制技术的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了调制技术的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-012"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000006",
+      "cn-q-000007",
+      "cn-q-000053",
+      "cn-q-000061",
+      "cn-q-000084"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-012",
+    "courseId": "cn-course-03",
+    "order": 3,
+    "title": "香农公式",
+    "slug": "香农公式",
+    "summary": "香农公式章节",
+    "content": "# 香农公式\n\n香农公式的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了香农公式的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-013",
+      "cn-kp-014"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000006",
+      "cn-q-000007",
+      "cn-q-000053",
+      "cn-q-000061",
+      "cn-q-000084"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-013",
+    "courseId": "cn-course-03",
+    "order": 4,
+    "title": "奈奎斯特定理",
+    "slug": "奈奎斯特定理",
+    "summary": "奈奎斯特定理章节",
+    "content": "# 奈奎斯特定理\n\n奈奎斯特定理的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了奈奎斯特定理的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-015"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000006",
+      "cn-q-000007",
+      "cn-q-000053",
+      "cn-q-000061",
+      "cn-q-000084"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-014",
+    "courseId": "cn-course-03",
+    "order": 5,
+    "title": "传输介质",
+    "slug": "传输介质",
+    "summary": "传输介质章节",
+    "content": "# 传输介质\n\n传输介质的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了传输介质的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-016"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000006",
+      "cn-q-000007",
+      "cn-q-000053",
+      "cn-q-000061",
+      "cn-q-000084"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-015",
+    "courseId": "cn-course-03",
+    "order": 6,
+    "title": "信道容量",
+    "slug": "信道容量",
+    "summary": "信道容量章节",
+    "content": "# 信道容量\n\n信道容量的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了信道容量的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-017"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000006",
+      "cn-q-000007",
+      "cn-q-000053",
+      "cn-q-000061",
+      "cn-q-000084"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-016",
+    "courseId": "cn-course-04",
+    "order": 1,
+    "title": "以太网帧结构",
+    "slug": "以太网帧结构",
+    "summary": "以太网帧结构章节",
+    "content": "# 以太网帧结构\n\n以太网帧结构的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了以太网帧结构的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-018",
+      "cn-kp-019"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000008",
+      "cn-q-000009",
+      "cn-q-000010",
+      "cn-q-000055",
+      "cn-q-000057"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-017",
+    "courseId": "cn-course-04",
+    "order": 2,
+    "title": "MAC地址",
+    "slug": "MAC地址",
+    "summary": "MAC地址章节",
+    "content": "# MAC地址\n\nMAC地址的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了MAC地址的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-020"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000008",
+      "cn-q-000009",
+      "cn-q-000010",
+      "cn-q-000055",
+      "cn-q-000057"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-018",
+    "courseId": "cn-course-04",
+    "order": 3,
+    "title": "CSMA/CD",
+    "slug": "CSMA/CD",
+    "summary": "CSMA/CD章节",
+    "content": "# CSMA/CD\n\nCSMA/CD的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了CSMA/CD的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-021",
+      "cn-kp-022"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000008",
+      "cn-q-000009",
+      "cn-q-000010",
+      "cn-q-000055",
+      "cn-q-000057"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-019",
+    "courseId": "cn-course-04",
+    "order": 4,
+    "title": "CRC校验",
+    "slug": "CRC校验",
+    "summary": "CRC校验章节",
+    "content": "# CRC校验\n\nCRC校验的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了CRC校验的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-023"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000008",
+      "cn-q-000009",
+      "cn-q-000010",
+      "cn-q-000055",
+      "cn-q-000057"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-020",
+    "courseId": "cn-course-04",
+    "order": 5,
+    "title": "停止等待协议",
+    "slug": "停止等待协议",
+    "summary": "停止等待协议章节",
+    "content": "# 停止等待协议\n\n停止等待协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了停止等待协议的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-024"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000008",
+      "cn-q-000009",
+      "cn-q-000010",
+      "cn-q-000055",
+      "cn-q-000057"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-021",
+    "courseId": "cn-course-04",
+    "order": 6,
+    "title": "滑动窗口协议",
+    "slug": "滑动窗口协议",
+    "summary": "滑动窗口协议章节",
+    "content": "# 滑动窗口协议\n\n滑动窗口协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了滑动窗口协议的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-025"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000008",
+      "cn-q-000009",
+      "cn-q-000010",
+      "cn-q-000055",
+      "cn-q-000057"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-022",
+    "courseId": "cn-course-04",
+    "order": 7,
+    "title": "后退N帧GBN",
+    "slug": "后退N帧GBN",
+    "summary": "后退N帧GBN章节",
+    "content": "# 后退N帧GBN\n\n后退N帧GBN的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了后退N帧GBN的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-026"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000008",
+      "cn-q-000009",
+      "cn-q-000010",
+      "cn-q-000055",
+      "cn-q-000057"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-023",
+    "courseId": "cn-course-04",
+    "order": 8,
+    "title": "选择重传SR",
+    "slug": "选择重传SR",
+    "summary": "选择重传SR章节",
+    "content": "# 选择重传SR\n\n选择重传SR的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了选择重传SR的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-027"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000008",
+      "cn-q-000009",
+      "cn-q-000010",
+      "cn-q-000055",
+      "cn-q-000057"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-024",
+    "courseId": "cn-course-05",
+    "order": 1,
+    "title": "交换机转发原理",
+    "slug": "交换机转发原理",
+    "summary": "交换机转发原理章节",
+    "content": "# 交换机转发原理\n\n交换机转发原理的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了交换机转发原理的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-028"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-025",
+    "courseId": "cn-course-05",
+    "order": 2,
+    "title": "MAC地址表",
+    "slug": "MAC地址表",
+    "summary": "MAC地址表章节",
+    "content": "# MAC地址表\n\nMAC地址表的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了MAC地址表的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-029"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-026",
+    "courseId": "cn-course-05",
+    "order": 3,
+    "title": "VLAN划分",
+    "slug": "VLAN划分",
+    "summary": "VLAN划分章节",
+    "content": "# VLAN划分\n\nVLAN划分的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了VLAN划分的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-030",
+      "cn-kp-031"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-027",
+    "courseId": "cn-course-05",
+    "order": 4,
+    "title": "VLAN标签",
+    "slug": "VLAN标签",
+    "summary": "VLAN标签章节",
+    "content": "# VLAN标签\n\nVLAN标签的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了VLAN标签的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-032"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-028",
+    "courseId": "cn-course-05",
+    "order": 5,
+    "title": "生成树STP",
+    "slug": "生成树STP",
+    "summary": "生成树STP章节",
+    "content": "# 生成树STP\n\n生成树STP的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了生成树STP的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-033"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-029",
+    "courseId": "cn-course-05",
+    "order": 6,
+    "title": "三层交换",
+    "slug": "三层交换",
+    "summary": "三层交换章节",
+    "content": "# 三层交换\n\n三层交换的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了三层交换的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-034"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-030",
+    "courseId": "cn-course-06",
+    "order": 1,
+    "title": "IP地址与分类",
+    "slug": "IP地址与分类",
+    "summary": "IP地址与分类章节",
+    "content": "# IP地址与分类\n\nIP地址与分类的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了IP地址与分类的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-035",
+      "cn-kp-036"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000013",
+      "cn-q-000014",
+      "cn-q-000015",
+      "cn-q-000065",
+      "cn-q-000096"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-031",
+    "courseId": "cn-course-06",
+    "order": 2,
+    "title": "IP数据报格式",
+    "slug": "IP数据报格式",
+    "summary": "IP数据报格式章节",
+    "content": "# IP数据报格式\n\nIP数据报格式的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了IP数据报格式的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-037"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000013",
+      "cn-q-000014",
+      "cn-q-000015",
+      "cn-q-000065",
+      "cn-q-000096"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-032",
+    "courseId": "cn-course-06",
+    "order": 3,
+    "title": "ARP协议",
+    "slug": "ARP协议",
+    "summary": "ARP协议章节",
+    "content": "# ARP协议\n\nARP协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了ARP协议的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-038",
+      "cn-kp-039"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000013",
+      "cn-q-000014",
+      "cn-q-000015",
+      "cn-q-000065",
+      "cn-q-000096"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-033",
+    "courseId": "cn-course-06",
+    "order": 4,
+    "title": "ICMP协议",
+    "slug": "ICMP协议",
+    "summary": "ICMP协议章节",
+    "content": "# ICMP协议\n\nICMP协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了ICMP协议的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-040"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000013",
+      "cn-q-000014",
+      "cn-q-000015",
+      "cn-q-000065",
+      "cn-q-000096"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-034",
+    "courseId": "cn-course-06",
+    "order": 5,
+    "title": "NAT与PAT",
+    "slug": "NAT与PAT",
+    "summary": "NAT与PAT章节",
+    "content": "# NAT与PAT\n\nNAT与PAT的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了NAT与PAT的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-041",
+      "cn-kp-042"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000013",
+      "cn-q-000014",
+      "cn-q-000015",
+      "cn-q-000065",
+      "cn-q-000096"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-035",
+    "courseId": "cn-course-06",
+    "order": 6,
+    "title": "IPv6入门",
+    "slug": "IPv6入门",
+    "summary": "IPv6入门章节",
+    "content": "# IPv6入门\n\nIPv6入门的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了IPv6入门的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-043"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000013",
+      "cn-q-000014",
+      "cn-q-000015",
+      "cn-q-000065",
+      "cn-q-000096"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-036",
+    "courseId": "cn-course-06",
+    "order": 7,
+    "title": "IP分片",
+    "slug": "IP分片",
+    "summary": "IP分片章节",
+    "content": "# IP分片\n\nIP分片的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了IP分片的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-044"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000013",
+      "cn-q-000014",
+      "cn-q-000015",
+      "cn-q-000065",
+      "cn-q-000096"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-037",
+    "courseId": "cn-course-07",
+    "order": 1,
+    "title": "子网掩码",
+    "slug": "子网掩码",
+    "summary": "子网掩码章节",
+    "content": "# 子网掩码\n\n子网掩码的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了子网掩码的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-045",
+      "cn-kp-046"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000016",
+      "cn-q-000017",
+      "cn-q-000018",
+      "cn-q-000040",
+      "cn-q-000056"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-038",
+    "courseId": "cn-course-07",
+    "order": 2,
+    "title": "子网划分方法",
+    "slug": "子网划分方法",
+    "summary": "子网划分方法章节",
+    "content": "# 子网划分方法\n\n子网划分方法的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了子网划分方法的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-047",
+      "cn-kp-048"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000016",
+      "cn-q-000017",
+      "cn-q-000018",
+      "cn-q-000040",
+      "cn-q-000056"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-039",
+    "courseId": "cn-course-07",
+    "order": 3,
+    "title": "CIDR",
+    "slug": "CIDR",
+    "summary": "CIDR章节",
+    "content": "# CIDR\n\nCIDR的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了CIDR的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-049"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000016",
+      "cn-q-000017",
+      "cn-q-000018",
+      "cn-q-000040",
+      "cn-q-000056"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-040",
+    "courseId": "cn-course-07",
+    "order": 4,
+    "title": "路由聚合",
+    "slug": "路由聚合",
+    "summary": "路由聚合章节",
+    "content": "# 路由聚合\n\n路由聚合的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了路由聚合的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-050"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000016",
+      "cn-q-000017",
+      "cn-q-000018",
+      "cn-q-000040",
+      "cn-q-000056"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-041",
+    "courseId": "cn-course-07",
+    "order": 5,
+    "title": "最长前缀匹配",
+    "slug": "最长前缀匹配",
+    "summary": "最长前缀匹配章节",
+    "content": "# 最长前缀匹配\n\n最长前缀匹配的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了最长前缀匹配的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-051",
+      "cn-kp-052"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000016",
+      "cn-q-000017",
+      "cn-q-000018",
+      "cn-q-000040",
+      "cn-q-000056"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-042",
+    "courseId": "cn-course-08",
+    "order": 1,
+    "title": "距离向量算法",
+    "slug": "距离向量算法",
+    "summary": "距离向量算法章节",
+    "content": "# 距离向量算法\n\n距离向量算法的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了距离向量算法的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-053",
+      "cn-kp-054"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000019",
+      "cn-q-000020",
+      "cn-q-000021",
+      "cn-q-000046",
+      "cn-q-000049"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-043",
+    "courseId": "cn-course-08",
+    "order": 2,
+    "title": "RIP协议",
+    "slug": "RIP协议",
+    "summary": "RIP协议章节",
+    "content": "# RIP协议\n\nRIP协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了RIP协议的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-055"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000019",
+      "cn-q-000020",
+      "cn-q-000021",
+      "cn-q-000046",
+      "cn-q-000049"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-044",
+    "courseId": "cn-course-08",
+    "order": 3,
+    "title": "链路状态算法",
+    "slug": "链路状态算法",
+    "summary": "链路状态算法章节",
+    "content": "# 链路状态算法\n\n链路状态算法的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了链路状态算法的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-056",
+      "cn-kp-057"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000019",
+      "cn-q-000020",
+      "cn-q-000021",
+      "cn-q-000046",
+      "cn-q-000049"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-045",
+    "courseId": "cn-course-08",
+    "order": 4,
+    "title": "OSPF协议",
+    "slug": "OSPF协议",
+    "summary": "OSPF协议章节",
+    "content": "# OSPF协议\n\nOSPF协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了OSPF协议的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-058"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000019",
+      "cn-q-000020",
+      "cn-q-000021",
+      "cn-q-000046",
+      "cn-q-000049"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-046",
+    "courseId": "cn-course-08",
+    "order": 5,
+    "title": "BGP基础",
+    "slug": "BGP基础",
+    "summary": "BGP基础章节",
+    "content": "# BGP基础\n\nBGP基础的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了BGP基础的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-059"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000019",
+      "cn-q-000020",
+      "cn-q-000021",
+      "cn-q-000046",
+      "cn-q-000049"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-047",
+    "courseId": "cn-course-08",
+    "order": 6,
+    "title": "AS自治系统",
+    "slug": "AS自治系统",
+    "summary": "AS自治系统章节",
+    "content": "# AS自治系统\n\nAS自治系统的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了AS自治系统的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-060"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000019",
+      "cn-q-000020",
+      "cn-q-000021",
+      "cn-q-000046",
+      "cn-q-000049"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-048",
+    "courseId": "cn-course-08",
+    "order": 7,
+    "title": "路由表结构",
+    "slug": "路由表结构",
+    "summary": "路由表结构章节",
+    "content": "# 路由表结构\n\n路由表结构的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了路由表结构的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-061"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000019",
+      "cn-q-000020",
+      "cn-q-000021",
+      "cn-q-000046",
+      "cn-q-000049"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-049",
+    "courseId": "cn-course-09",
+    "order": 1,
+    "title": "端口号",
+    "slug": "端口号",
+    "summary": "端口号章节",
+    "content": "# 端口号\n\n端口号的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了端口号的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-062"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000022",
+      "cn-q-000059",
+      "cn-q-000062",
+      "cn-q-000076",
+      "cn-q-000077"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-050",
+    "courseId": "cn-course-09",
+    "order": 2,
+    "title": "UDP协议",
+    "slug": "UDP协议",
+    "summary": "UDP协议章节",
+    "content": "# UDP协议\n\nUDP协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了UDP协议的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-063",
+      "cn-kp-064"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000022",
+      "cn-q-000059",
+      "cn-q-000062",
+      "cn-q-000076",
+      "cn-q-000077"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-051",
+    "courseId": "cn-course-09",
+    "order": 3,
+    "title": "UDP校验和",
+    "slug": "UDP校验和",
+    "summary": "UDP校验和章节",
+    "content": "# UDP校验和\n\nUDP校验和的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了UDP校验和的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-065"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000022",
+      "cn-q-000059",
+      "cn-q-000062",
+      "cn-q-000076",
+      "cn-q-000077"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-052",
+    "courseId": "cn-course-09",
+    "order": 4,
+    "title": "TCP概览",
+    "slug": "TCP概览",
+    "summary": "TCP概览章节",
+    "content": "# TCP概览\n\nTCP概览的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了TCP概览的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-066"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000022",
+      "cn-q-000059",
+      "cn-q-000062",
+      "cn-q-000076",
+      "cn-q-000077"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-053",
+    "courseId": "cn-course-10",
+    "order": 1,
+    "title": "TCP报文段格式",
+    "slug": "TCP报文段格式",
+    "summary": "TCP报文段格式章节",
+    "content": "# TCP报文段格式\n\nTCP报文段格式的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了TCP报文段格式的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-067",
+      "cn-kp-068"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000023",
+      "cn-q-000024",
+      "cn-q-000025",
+      "cn-q-000026",
+      "cn-q-000027"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-054",
+    "courseId": "cn-course-10",
+    "order": 2,
+    "title": "三次握手",
+    "slug": "三次握手",
+    "summary": "三次握手章节",
+    "content": "# 三次握手\n\n三次握手的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了三次握手的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-069",
+      "cn-kp-070",
+      "cn-kp-071"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000023",
+      "cn-q-000024",
+      "cn-q-000025",
+      "cn-q-000026",
+      "cn-q-000027"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-055",
+    "courseId": "cn-course-10",
+    "order": 3,
+    "title": "四次挥手",
+    "slug": "四次挥手",
+    "summary": "四次挥手章节",
+    "content": "# 四次挥手\n\n四次挥手的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了四次挥手的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-072",
+      "cn-kp-073"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000023",
+      "cn-q-000024",
+      "cn-q-000025",
+      "cn-q-000026",
+      "cn-q-000027"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-056",
+    "courseId": "cn-course-10",
+    "order": 4,
+    "title": "序号与确认号",
+    "slug": "序号与确认号",
+    "summary": "序号与确认号章节",
+    "content": "# 序号与确认号\n\n序号与确认号的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了序号与确认号的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-074"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000023",
+      "cn-q-000024",
+      "cn-q-000025",
+      "cn-q-000026",
+      "cn-q-000027"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-057",
+    "courseId": "cn-course-10",
+    "order": 5,
+    "title": "超时重传",
+    "slug": "超时重传",
+    "summary": "超时重传章节",
+    "content": "# 超时重传\n\n超时重传的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了超时重传的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-075"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000023",
+      "cn-q-000024",
+      "cn-q-000025",
+      "cn-q-000026",
+      "cn-q-000027"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-058",
+    "courseId": "cn-course-10",
+    "order": 6,
+    "title": "快速重传",
+    "slug": "快速重传",
+    "summary": "快速重传章节",
+    "content": "# 快速重传\n\n快速重传的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了快速重传的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-076"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000023",
+      "cn-q-000024",
+      "cn-q-000025",
+      "cn-q-000026",
+      "cn-q-000027"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-059",
+    "courseId": "cn-course-10",
+    "order": 7,
+    "title": "流量控制",
+    "slug": "流量控制",
+    "summary": "流量控制章节",
+    "content": "# 流量控制\n\n流量控制的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了流量控制的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-077",
+      "cn-kp-078"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000023",
+      "cn-q-000024",
+      "cn-q-000025",
+      "cn-q-000026",
+      "cn-q-000027"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-060",
+    "courseId": "cn-course-10",
+    "order": 8,
+    "title": "拥塞控制",
+    "slug": "拥塞控制",
+    "summary": "拥塞控制章节",
+    "content": "# 拥塞控制\n\n拥塞控制的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了拥塞控制的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "easy",
+    "knowledgePointIds": [
+      "cn-kp-079",
+      "cn-kp-080"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000023",
+      "cn-q-000024",
+      "cn-q-000025",
+      "cn-q-000026",
+      "cn-q-000027"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-061",
+    "courseId": "cn-course-10",
+    "order": 9,
+    "title": "慢开始",
+    "slug": "慢开始",
+    "summary": "慢开始章节",
+    "content": "# 慢开始\n\n慢开始的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了慢开始的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-081"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000023",
+      "cn-q-000024",
+      "cn-q-000025",
+      "cn-q-000026",
+      "cn-q-000027"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-062",
+    "courseId": "cn-course-10",
+    "order": 10,
+    "title": "拥塞避免",
+    "slug": "拥塞避免",
+    "summary": "拥塞避免章节",
+    "content": "# 拥塞避免\n\n拥塞避免的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了拥塞避免的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-082"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000023",
+      "cn-q-000024",
+      "cn-q-000025",
+      "cn-q-000026",
+      "cn-q-000027"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-063",
+    "courseId": "cn-course-10",
+    "order": 11,
+    "title": "快恢复",
+    "slug": "快恢复",
+    "summary": "快恢复章节",
+    "content": "# 快恢复\n\n快恢复的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了快恢复的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-083"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000023",
+      "cn-q-000024",
+      "cn-q-000025",
+      "cn-q-000026",
+      "cn-q-000027"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-064",
+    "courseId": "cn-course-10",
+    "order": 12,
+    "title": "TCP选项",
+    "slug": "TCP选项",
+    "summary": "TCP选项章节",
+    "content": "# TCP选项\n\nTCP选项的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了TCP选项的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-084"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000023",
+      "cn-q-000024",
+      "cn-q-000025",
+      "cn-q-000026",
+      "cn-q-000027"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-065",
+    "courseId": "cn-course-10",
+    "order": 13,
+    "title": "SACK",
+    "slug": "SACK",
+    "summary": "SACK章节",
+    "content": "# SACK\n\nSACK的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了SACK的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-085"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000023",
+      "cn-q-000024",
+      "cn-q-000025",
+      "cn-q-000026",
+      "cn-q-000027"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-066",
+    "courseId": "cn-course-11",
+    "order": 1,
+    "title": "UDP特点",
+    "slug": "UDP特点",
+    "summary": "UDP特点章节",
+    "content": "# UDP特点\n\nUDP特点的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了UDP特点的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-086"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000028",
+      "cn-q-000045",
+      "cn-q-000047",
+      "cn-q-000066",
+      "cn-q-000090"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-067",
+    "courseId": "cn-course-11",
+    "order": 2,
+    "title": "UDP适用场景",
+    "slug": "UDP适用场景",
+    "summary": "UDP适用场景章节",
+    "content": "# UDP适用场景\n\nUDP适用场景的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了UDP适用场景的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-087"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000028",
+      "cn-q-000045",
+      "cn-q-000047",
+      "cn-q-000066",
+      "cn-q-000090"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-068",
+    "courseId": "cn-course-11",
+    "order": 3,
+    "title": "RDT可靠数据传输",
+    "slug": "RDT可靠数据传输",
+    "summary": "RDT可靠数据传输章节",
+    "content": "# RDT可靠数据传输\n\nRDT可靠数据传输的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了RDT可靠数据传输的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-088"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000028",
+      "cn-q-000045",
+      "cn-q-000047",
+      "cn-q-000066",
+      "cn-q-000090"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-069",
+    "courseId": "cn-course-11",
+    "order": 4,
+    "title": "流水线协议",
+    "slug": "流水线协议",
+    "summary": "流水线协议章节",
+    "content": "# 流水线协议\n\n流水线协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了流水线协议的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-089"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000028",
+      "cn-q-000045",
+      "cn-q-000047",
+      "cn-q-000066",
+      "cn-q-000090"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-070",
+    "courseId": "cn-course-12",
+    "order": 1,
+    "title": "DNS层次结构",
+    "slug": "DNS层次结构",
+    "summary": "DNS层次结构章节",
+    "content": "# DNS层次结构\n\nDNS层次结构的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了DNS层次结构的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-090",
+      "cn-kp-091"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000029",
+      "cn-q-000030",
+      "cn-q-000031",
+      "cn-q-000032",
+      "cn-q-000050"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-071",
+    "courseId": "cn-course-12",
+    "order": 2,
+    "title": "DNS解析过程",
+    "slug": "DNS解析过程",
+    "summary": "DNS解析过程章节",
+    "content": "# DNS解析过程\n\nDNS解析过程的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了DNS解析过程的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-092"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000029",
+      "cn-q-000030",
+      "cn-q-000031",
+      "cn-q-000032",
+      "cn-q-000050"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-072",
+    "courseId": "cn-course-12",
+    "order": 3,
+    "title": "HTTP协议",
+    "slug": "HTTP协议",
+    "summary": "HTTP协议章节",
+    "content": "# HTTP协议\n\nHTTP协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了HTTP协议的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-093"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000029",
+      "cn-q-000030",
+      "cn-q-000031",
+      "cn-q-000032",
+      "cn-q-000050"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-073",
+    "courseId": "cn-course-12",
+    "order": 4,
+    "title": "HTTP请求与响应",
+    "slug": "HTTP请求与响应",
+    "summary": "HTTP请求与响应章节",
+    "content": "# HTTP请求与响应\n\nHTTP请求与响应的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了HTTP请求与响应的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-094"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000029",
+      "cn-q-000030",
+      "cn-q-000031",
+      "cn-q-000032",
+      "cn-q-000050"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-074",
+    "courseId": "cn-course-12",
+    "order": 5,
+    "title": "HTTP状态码",
+    "slug": "HTTP状态码",
+    "summary": "HTTP状态码章节",
+    "content": "# HTTP状态码\n\nHTTP状态码的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了HTTP状态码的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-095"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000029",
+      "cn-q-000030",
+      "cn-q-000031",
+      "cn-q-000032",
+      "cn-q-000050"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-075",
+    "courseId": "cn-course-12",
+    "order": 6,
+    "title": "HTTPS与TLS",
+    "slug": "HTTPS与TLS",
+    "summary": "HTTPS与TLS章节",
+    "content": "# HTTPS与TLS\n\nHTTPS与TLS的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了HTTPS与TLS的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-096",
+      "cn-kp-097"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000029",
+      "cn-q-000030",
+      "cn-q-000031",
+      "cn-q-000032",
+      "cn-q-000050"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-076",
+    "courseId": "cn-course-12",
+    "order": 7,
+    "title": "SMTP协议",
+    "slug": "SMTP协议",
+    "summary": "SMTP协议章节",
+    "content": "# SMTP协议\n\nSMTP协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了SMTP协议的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-098"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000029",
+      "cn-q-000030",
+      "cn-q-000031",
+      "cn-q-000032",
+      "cn-q-000050"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-077",
+    "courseId": "cn-course-12",
+    "order": 8,
+    "title": "FTP协议",
+    "slug": "FTP协议",
+    "summary": "FTP协议章节",
+    "content": "# FTP协议\n\nFTP协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了FTP协议的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-099"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000029",
+      "cn-q-000030",
+      "cn-q-000031",
+      "cn-q-000032",
+      "cn-q-000050"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-078",
+    "courseId": "cn-course-12",
+    "order": 9,
+    "title": "DHCP协议",
+    "slug": "DHCP协议",
+    "summary": "DHCP协议章节",
+    "content": "# DHCP协议\n\nDHCP协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了DHCP协议的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-100"
+    ],
+    "practiceQuestionIds": [
+      "cn-q-000029",
+      "cn-q-000030",
+      "cn-q-000031",
+      "cn-q-000032",
+      "cn-q-000050"
+    ],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-079",
+    "courseId": "cn-course-13",
+    "order": 1,
+    "title": "Cookie与Session",
+    "slug": "Cookie与Session",
+    "summary": "Cookie与Session章节",
+    "content": "# Cookie与Session\n\nCookie与Session的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了Cookie与Session的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-101"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-080",
+    "courseId": "cn-course-13",
+    "order": 2,
+    "title": "Web缓存",
+    "slug": "Web缓存",
+    "summary": "Web缓存章节",
+    "content": "# Web缓存\n\nWeb缓存的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了Web缓存的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-102"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-081",
+    "courseId": "cn-course-13",
+    "order": 3,
+    "title": "CDN原理",
+    "slug": "CDN原理",
+    "summary": "CDN原理章节",
+    "content": "# CDN原理\n\nCDN原理的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了CDN原理的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-103"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-082",
+    "courseId": "cn-course-13",
+    "order": 4,
+    "title": "HTTPS握手",
+    "slug": "HTTPS握手",
+    "summary": "HTTPS握手章节",
+    "content": "# HTTPS握手\n\nHTTPS握手的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了HTTPS握手的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-104",
+      "cn-kp-105"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-083",
+    "courseId": "cn-course-13",
+    "order": 5,
+    "title": "HTTP2特性",
+    "slug": "HTTP2特性",
+    "summary": "HTTP2特性章节",
+    "content": "# HTTP2特性\n\nHTTP2特性的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了HTTP2特性的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-106"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-084",
+    "courseId": "cn-course-13",
+    "order": 6,
+    "title": "WebSocket",
+    "slug": "WebSocket",
+    "summary": "WebSocket章节",
+    "content": "# WebSocket\n\nWebSocket的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了WebSocket的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-107"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-085",
+    "courseId": "cn-course-14",
+    "order": 1,
+    "title": "防火墙分类",
+    "slug": "防火墙分类",
+    "summary": "防火墙分类章节",
+    "content": "# 防火墙分类\n\n防火墙分类的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了防火墙分类的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-108"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-086",
+    "courseId": "cn-course-14",
+    "order": 2,
+    "title": "VPN原理",
+    "slug": "VPN原理",
+    "summary": "VPN原理章节",
+    "content": "# VPN原理\n\nVPN原理的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了VPN原理的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-109"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-087",
+    "courseId": "cn-course-14",
+    "order": 3,
+    "title": "IPSec基础",
+    "slug": "IPSec基础",
+    "summary": "IPSec基础章节",
+    "content": "# IPSec基础\n\nIPSec基础的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了IPSec基础的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-110"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-088",
+    "courseId": "cn-course-14",
+    "order": 4,
+    "title": "综合组网分析",
+    "slug": "综合组网分析",
+    "summary": "综合组网分析章节",
+    "content": "# 综合组网分析\n\n综合组网分析的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了综合组网分析的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-111"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-089",
+    "courseId": "cn-course-14",
+    "order": 5,
+    "title": "网络故障排查",
+    "slug": "网络故障排查",
+    "summary": "网络故障排查章节",
+    "content": "# 网络故障排查\n\n网络故障排查的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了网络故障排查的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-112"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-090",
+    "courseId": "cn-course-14",
+    "order": 6,
+    "title": "408真题精讲",
+    "slug": "408真题精讲",
+    "summary": "408真题精讲章节",
+    "content": "# 408真题精讲\n\n408真题精讲的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了408真题精讲的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-113"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-091",
+    "courseId": "cn-course-14",
+    "order": 7,
+    "title": "面试题精讲",
+    "slug": "面试题精讲",
+    "summary": "面试题精讲章节",
+    "content": "# 面试题精讲\n\n面试题精讲的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了面试题精讲的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-114"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-092",
+    "courseId": "cn-course-14",
+    "order": 8,
+    "title": "期末模拟",
+    "slug": "期末模拟",
+    "summary": "期末模拟章节",
+    "content": "# 期末模拟\n\n期末模拟的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了期末模拟的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-115"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-093",
+    "courseId": "cn-course-14",
+    "order": 9,
+    "title": "考前冲刺",
+    "slug": "考前冲刺",
+    "summary": "考前冲刺章节",
+    "content": "# 考前冲刺\n\n考前冲刺的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了考前冲刺的核心知识。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "medium",
+    "knowledgePointIds": [
+      "cn-kp-116"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-094",
+    "courseId": "cn-course-01",
+    "order": 5,
+    "title": "电路交换特点",
+    "slug": "电路交换特点",
+    "summary": "电路交换特点",
+    "content": "# 电路交换特点\n\n电路交换特点内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0094"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-095",
+    "courseId": "cn-course-01",
+    "order": 6,
+    "title": "网络性能指标",
+    "slug": "网络性能指标",
+    "summary": "网络性能指标",
+    "content": "# 网络性能指标\n\n网络性能指标内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0095"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-096",
+    "courseId": "cn-course-01",
+    "order": 7,
+    "title": "网络拓扑结构",
+    "slug": "网络拓扑结构",
+    "summary": "网络拓扑结构",
+    "content": "# 网络拓扑结构\n\n网络拓扑结构内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0096"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-097",
+    "courseId": "cn-course-02",
+    "order": 6,
+    "title": "协议与服务",
+    "slug": "协议与服务",
+    "summary": "协议与服务",
+    "content": "# 协议与服务\n\n协议与服务内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0097"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-098",
+    "courseId": "cn-course-02",
+    "order": 7,
+    "title": "服务访问点SAP",
+    "slug": "服务访问点SAP",
+    "summary": "服务访问点SAP",
+    "content": "# 服务访问点SAP\n\n服务访问点SAP内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0098"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-099",
+    "courseId": "cn-course-02",
+    "order": 8,
+    "title": "服务原语",
+    "slug": "服务原语",
+    "summary": "服务原语",
+    "content": "# 服务原语\n\n服务原语内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0099"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-100",
+    "courseId": "cn-course-02",
+    "order": 9,
+    "title": "PDU与SDU",
+    "slug": "PDU与SDU",
+    "summary": "PDU与SDU",
+    "content": "# PDU与SDU\n\nPDU与SDU内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0100"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-101",
+    "courseId": "cn-course-03",
+    "order": 7,
+    "title": "数字信号与模拟信号",
+    "slug": "数字信号与模拟信号",
+    "summary": "数字信号与模拟信号",
+    "content": "# 数字信号与模拟信号\n\n数字信号与模拟信号内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0101"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-102",
+    "courseId": "cn-course-03",
+    "order": 8,
+    "title": "编码方式",
+    "slug": "编码方式",
+    "summary": "编码方式",
+    "content": "# 编码方式\n\n编码方式内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0102"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-103",
+    "courseId": "cn-course-03",
+    "order": 9,
+    "title": "调制方式",
+    "slug": "调制方式",
+    "summary": "调制方式",
+    "content": "# 调制方式\n\n调制方式内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0103"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-104",
+    "courseId": "cn-course-03",
+    "order": 10,
+    "title": "双绞线分类",
+    "slug": "双绞线分类",
+    "summary": "双绞线分类",
+    "content": "# 双绞线分类\n\n双绞线分类内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0104"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-105",
+    "courseId": "cn-course-03",
+    "order": 11,
+    "title": "光纤分类",
+    "slug": "光纤分类",
+    "summary": "光纤分类",
+    "content": "# 光纤分类\n\n光纤分类内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0105"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-106",
+    "courseId": "cn-course-04",
+    "order": 9,
+    "title": "LLC与MAC子层",
+    "slug": "LLC与MAC子层",
+    "summary": "LLC与MAC子层",
+    "content": "# LLC与MAC子层\n\nLLC与MAC子层内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0106"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-107",
+    "courseId": "cn-course-04",
+    "order": 10,
+    "title": "网桥转发",
+    "slug": "网桥转发",
+    "summary": "网桥转发",
+    "content": "# 网桥转发\n\n网桥转发内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0107"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-108",
+    "courseId": "cn-course-04",
+    "order": 11,
+    "title": "冲突域与广播域",
+    "slug": "冲突域与广播域",
+    "summary": "冲突域与广播域",
+    "content": "# 冲突域与广播域\n\n冲突域与广播域内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0108"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-109",
+    "courseId": "cn-course-04",
+    "order": 12,
+    "title": "CSMA协议",
+    "slug": "CSMA协议",
+    "summary": "CSMA协议",
+    "content": "# CSMA协议\n\nCSMA协议内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0109"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-110",
+    "courseId": "cn-course-04",
+    "order": 13,
+    "title": "PPP协议",
+    "slug": "PPP协议",
+    "summary": "PPP协议",
+    "content": "# PPP协议\n\nPPP协议内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0110"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-111",
+    "courseId": "cn-course-05",
+    "order": 7,
+    "title": "MAC表学习",
+    "slug": "MAC表学习",
+    "summary": "MAC表学习",
+    "content": "# MAC表学习\n\nMAC表学习内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0111"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-112",
+    "courseId": "cn-course-05",
+    "order": 8,
+    "title": "VLAN端口划分",
+    "slug": "VLAN端口划分",
+    "summary": "VLAN端口划分",
+    "content": "# VLAN端口划分\n\nVLAN端口划分内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0112"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-113",
+    "courseId": "cn-course-05",
+    "order": 9,
+    "title": "8021Q标签",
+    "slug": "8021Q标签",
+    "summary": "8021Q标签",
+    "content": "# 8021Q标签\n\n8021Q标签内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0113"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-114",
+    "courseId": "cn-course-05",
+    "order": 10,
+    "title": "VLAN间路由",
+    "slug": "VLAN间路由",
+    "summary": "VLAN间路由",
+    "content": "# VLAN间路由\n\nVLAN间路由内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0114"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-115",
+    "courseId": "cn-course-05",
+    "order": 11,
+    "title": "链路聚合",
+    "slug": "链路聚合",
+    "summary": "链路聚合",
+    "content": "# 链路聚合\n\n链路聚合内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0115"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-116",
+    "courseId": "cn-course-06",
+    "order": 8,
+    "title": "TTL字段",
+    "slug": "TTL字段",
+    "summary": "TTL字段",
+    "content": "# TTL字段\n\nTTL字段内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0116"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-117",
+    "courseId": "cn-course-06",
+    "order": 9,
+    "title": "IP分片重组",
+    "slug": "IP分片重组",
+    "summary": "IP分片重组",
+    "content": "# IP分片重组\n\nIP分片重组内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0117"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-118",
+    "courseId": "cn-course-06",
+    "order": 10,
+    "title": "IPv4到IPv6过渡",
+    "slug": "IPv4到IPv6过渡",
+    "summary": "IPv4到IPv6过渡",
+    "content": "# IPv4到IPv6过渡\n\nIPv4到IPv6过渡内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0118"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-119",
+    "courseId": "cn-course-06",
+    "order": 11,
+    "title": "ICMP差错报文",
+    "slug": "ICMP差错报文",
+    "summary": "ICMP差错报文",
+    "content": "# ICMP差错报文\n\nICMP差错报文内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0119"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-120",
+    "courseId": "cn-course-07",
+    "order": 6,
+    "title": "子网划分练习",
+    "slug": "子网划分练习",
+    "summary": "子网划分练习",
+    "content": "# 子网划分练习\n\n子网划分练习内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0120"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-121",
+    "courseId": "cn-course-07",
+    "order": 7,
+    "title": "路由聚合练习",
+    "slug": "路由聚合练习",
+    "summary": "路由聚合练习",
+    "content": "# 路由聚合练习\n\n路由聚合练习内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0121"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-122",
+    "courseId": "cn-course-07",
+    "order": 8,
+    "title": "超网概念",
+    "slug": "超网概念",
+    "summary": "超网概念",
+    "content": "# 超网概念\n\n超网概念内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0122"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-123",
+    "courseId": "cn-course-08",
+    "order": 8,
+    "title": "路由表查找",
+    "slug": "路由表查找",
+    "summary": "路由表查找",
+    "content": "# 路由表查找\n\n路由表查找内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0123"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-124",
+    "courseId": "cn-course-08",
+    "order": 9,
+    "title": "静态路由",
+    "slug": "静态路由",
+    "summary": "静态路由",
+    "content": "# 静态路由\n\n静态路由内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0124"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-125",
+    "courseId": "cn-course-08",
+    "order": 10,
+    "title": "默认路由",
+    "slug": "默认路由",
+    "summary": "默认路由",
+    "content": "# 默认路由\n\n默认路由内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0125"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-126",
+    "courseId": "cn-course-08",
+    "order": 11,
+    "title": "RIP计时器",
+    "slug": "RIP计时器",
+    "summary": "RIP计时器",
+    "content": "# RIP计时器\n\nRIP计时器内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0126"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-127",
+    "courseId": "cn-course-08",
+    "order": 12,
+    "title": "OSPF区域",
+    "slug": "OSPF区域",
+    "summary": "OSPF区域",
+    "content": "# OSPF区域\n\nOSPF区域内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0127"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-128",
+    "courseId": "cn-course-08",
+    "order": 13,
+    "title": "BGP路径属性",
+    "slug": "BGP路径属性",
+    "summary": "BGP路径属性",
+    "content": "# BGP路径属性\n\nBGP路径属性内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0128"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-129",
+    "courseId": "cn-course-09",
+    "order": 5,
+    "title": "端口分配IANA",
+    "slug": "端口分配IANA",
+    "summary": "端口分配IANA",
+    "content": "# 端口分配IANA\n\n端口分配IANA内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0129"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-130",
+    "courseId": "cn-course-09",
+    "order": 6,
+    "title": "UDP伪首部",
+    "slug": "UDP伪首部",
+    "summary": "UDP伪首部",
+    "content": "# UDP伪首部\n\nUDP伪首部内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0130"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-131",
+    "courseId": "cn-course-09",
+    "order": 7,
+    "title": "UDP应用场景",
+    "slug": "UDP应用场景",
+    "summary": "UDP应用场景",
+    "content": "# UDP应用场景\n\nUDP应用场景内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0131"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-132",
+    "courseId": "cn-course-10",
+    "order": 14,
+    "title": "TCP首部字段",
+    "slug": "TCP首部字段",
+    "summary": "TCP首部字段",
+    "content": "# TCP首部字段\n\nTCP首部字段内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0132"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-133",
+    "courseId": "cn-course-10",
+    "order": 15,
+    "title": "TCP状态转换",
+    "slug": "TCP状态转换",
+    "summary": "TCP状态转换",
+    "content": "# TCP状态转换\n\nTCP状态转换内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0133"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-134",
+    "courseId": "cn-course-10",
+    "order": 16,
+    "title": "2MSL等待",
+    "slug": "2MSL等待",
+    "summary": "2MSL等待",
+    "content": "# 2MSL等待\n\n2MSL等待内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0134"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-135",
+    "courseId": "cn-course-10",
+    "order": 17,
+    "title": "确认策略",
+    "slug": "确认策略",
+    "summary": "确认策略",
+    "content": "# 确认策略\n\n确认策略内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0135"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-136",
+    "courseId": "cn-course-10",
+    "order": 18,
+    "title": "重传策略",
+    "slug": "重传策略",
+    "summary": "重传策略",
+    "content": "# 重传策略\n\n重传策略内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0136"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-137",
+    "courseId": "cn-course-10",
+    "order": 19,
+    "title": "糊涂窗口综合征",
+    "slug": "糊涂窗口综合征",
+    "summary": "糊涂窗口综合征",
+    "content": "# 糊涂窗口综合征\n\n糊涂窗口综合征内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0137"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-138",
+    "courseId": "cn-course-10",
+    "order": 20,
+    "title": "Nagle算法",
+    "slug": "Nagle算法",
+    "summary": "Nagle算法",
+    "content": "# Nagle算法\n\nNagle算法内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0138"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-139",
+    "courseId": "cn-course-10",
+    "order": 21,
+    "title": "RTT估计",
+    "slug": "RTT估计",
+    "summary": "RTT估计",
+    "content": "# RTT估计\n\nRTT估计内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0139"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-140",
+    "courseId": "cn-course-10",
+    "order": 22,
+    "title": "Karn算法",
+    "slug": "Karn算法",
+    "summary": "Karn算法",
+    "content": "# Karn算法\n\nKarn算法内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0140"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-141",
+    "courseId": "cn-course-10",
+    "order": 23,
+    "title": "TCP性能分析",
+    "slug": "TCP性能分析",
+    "summary": "TCP性能分析",
+    "content": "# TCP性能分析\n\nTCP性能分析内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0141"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-142",
+    "courseId": "cn-course-11",
+    "order": 5,
+    "title": "RDT协议",
+    "slug": "RDT协议",
+    "summary": "RDT协议",
+    "content": "# RDT协议\n\nRDT协议内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0142"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-143",
+    "courseId": "cn-course-11",
+    "order": 6,
+    "title": "流水线协议",
+    "slug": "流水线协议",
+    "summary": "流水线协议",
+    "content": "# 流水线协议\n\n流水线协议内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0143"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-144",
+    "courseId": "cn-course-12",
+    "order": 10,
+    "title": "DNS递归与迭代",
+    "slug": "DNS递归与迭代",
+    "summary": "DNS递归与迭代",
+    "content": "# DNS递归与迭代\n\nDNS递归与迭代内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0144"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-145",
+    "courseId": "cn-course-12",
+    "order": 11,
+    "title": "DNS缓存",
+    "slug": "DNS缓存",
+    "summary": "DNS缓存",
+    "content": "# DNS缓存\n\nDNS缓存内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0145"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-146",
+    "courseId": "cn-course-12",
+    "order": 12,
+    "title": "HTTP持久连接",
+    "slug": "HTTP持久连接",
+    "summary": "HTTP持久连接",
+    "content": "# HTTP持久连接\n\nHTTP持久连接内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0146"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-147",
+    "courseId": "cn-course-12",
+    "order": 13,
+    "title": "HTTP管线化",
+    "slug": "HTTP管线化",
+    "summary": "HTTP管线化",
+    "content": "# HTTP管线化\n\nHTTP管线化内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0147"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-148",
+    "courseId": "cn-course-12",
+    "order": 14,
+    "title": "HTTP2多路复用",
+    "slug": "HTTP2多路复用",
+    "summary": "HTTP2多路复用",
+    "content": "# HTTP2多路复用\n\nHTTP2多路复用内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0148"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-149",
+    "courseId": "cn-course-12",
+    "order": 15,
+    "title": "TLS握手简化",
+    "slug": "TLS握手简化",
+    "summary": "TLS握手简化",
+    "content": "# TLS握手简化\n\nTLS握手简化内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0149"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-150",
+    "courseId": "cn-course-12",
+    "order": 16,
+    "title": "数字证书验证",
+    "slug": "数字证书验证",
+    "summary": "数字证书验证",
+    "content": "# 数字证书验证\n\n数字证书验证内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0150"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-151",
+    "courseId": "cn-course-13",
+    "order": 7,
+    "title": "Web代理",
+    "slug": "Web代理",
+    "summary": "Web代理",
+    "content": "# Web代理\n\nWeb代理内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0151"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-152",
+    "courseId": "cn-course-13",
+    "order": 8,
+    "title": "正向代理与反向代理",
+    "slug": "正向代理与反向代理",
+    "summary": "正向代理与反向代理",
+    "content": "# 正向代理与反向代理\n\n正向代理与反向代理内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0152"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-153",
+    "courseId": "cn-course-13",
+    "order": 9,
+    "title": "HTTPS证书链",
+    "slug": "HTTPS证书链",
+    "summary": "HTTPS证书链",
+    "content": "# HTTPS证书链\n\nHTTPS证书链内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0153"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-154",
+    "courseId": "cn-course-13",
+    "order": 10,
+    "title": "HTTP3与QUIC",
+    "slug": "HTTP3与QUIC",
+    "summary": "HTTP3与QUIC",
+    "content": "# HTTP3与QUIC\n\nHTTP3与QUIC内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0154"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-155",
+    "courseId": "cn-course-14",
+    "order": 10,
+    "title": "包过滤防火墙",
+    "slug": "包过滤防火墙",
+    "summary": "包过滤防火墙",
+    "content": "# 包过滤防火墙\n\n包过滤防火墙内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0155"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-156",
+    "courseId": "cn-course-14",
+    "order": 11,
+    "title": "状态检测防火墙",
+    "slug": "状态检测防火墙",
+    "summary": "状态检测防火墙",
+    "content": "# 状态检测防火墙\n\n状态检测防火墙内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0156"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-157",
+    "courseId": "cn-course-14",
+    "order": 12,
+    "title": "IPSec模式",
+    "slug": "IPSec模式",
+    "summary": "IPSec模式",
+    "content": "# IPSec模式\n\nIPSec模式内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0157"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-158",
+    "courseId": "cn-course-14",
+    "order": 13,
+    "title": "网络层次化设计",
+    "slug": "网络层次化设计",
+    "summary": "网络层次化设计",
+    "content": "# 网络层次化设计\n\n网络层次化设计内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0158"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-159",
+    "courseId": "cn-course-14",
+    "order": 14,
+    "title": "VLAN综合组网",
+    "slug": "VLAN综合组网",
+    "summary": "VLAN综合组网",
+    "content": "# VLAN综合组网\n\nVLAN综合组网内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0159"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-160",
+    "courseId": "cn-course-14",
+    "order": 15,
+    "title": "NAT端口映射",
+    "slug": "NAT端口映射",
+    "summary": "NAT端口映射",
+    "content": "# NAT端口映射\n\nNAT端口映射内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0160"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-161",
+    "courseId": "cn-course-14",
+    "order": 16,
+    "title": "VPN配置",
+    "slug": "VPN配置",
+    "summary": "VPN配置",
+    "content": "# VPN配置\n\nVPN配置内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0161"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-162",
+    "courseId": "cn-course-14",
+    "order": 17,
+    "title": "综合网络设计",
+    "slug": "综合网络设计",
+    "summary": "综合网络设计",
+    "content": "# 综合网络设计\n\n综合网络设计内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0162"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-163",
+    "courseId": "cn-course-14",
+    "order": 18,
+    "title": "408选择题",
+    "slug": "408选择题",
+    "summary": "408选择题",
+    "content": "# 408选择题\n\n408选择题内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0163"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-164",
+    "courseId": "cn-course-14",
+    "order": 19,
+    "title": "408大题",
+    "slug": "408大题",
+    "summary": "408大题",
+    "content": "# 408大题\n\n408大题内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0164"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-165",
+    "courseId": "cn-course-14",
+    "order": 20,
+    "title": "面试高频题",
+    "slug": "面试高频题",
+    "summary": "面试高频题",
+    "content": "# 面试高频题\n\n面试高频题内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0165"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-166",
+    "courseId": "cn-course-14",
+    "order": 21,
+    "title": "期末模拟一",
+    "slug": "期末模拟一",
+    "summary": "期末模拟一",
+    "content": "# 期末模拟一\n\n期末模拟一内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0166"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-167",
+    "courseId": "cn-course-14",
+    "order": 22,
+    "title": "期末模拟二",
+    "slug": "期末模拟二",
+    "summary": "期末模拟二",
+    "content": "# 期末模拟二\n\n期末模拟二内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0167"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-168",
+    "courseId": "cn-course-01",
+    "order": 8,
+    "title": "学习网络资源",
+    "slug": "学习网络资源",
+    "summary": "学习网络资源",
+    "content": "# 学习网络资源\n\n学习网络资源内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0168"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-169",
+    "courseId": "cn-course-02",
+    "order": 10,
+    "title": "分层设计原则",
+    "slug": "分层设计原则",
+    "summary": "分层设计原则",
+    "content": "# 分层设计原则\n\n分层设计原则内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0169"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-170",
+    "courseId": "cn-course-03",
+    "order": 12,
+    "title": "信道复用技术",
+    "slug": "信道复用技术",
+    "summary": "信道复用技术",
+    "content": "# 信道复用技术\n\n信道复用技术内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0170"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-171",
+    "courseId": "cn-course-04",
+    "order": 14,
+    "title": "MAC地址与IP绑定",
+    "slug": "MAC地址与IP绑定",
+    "summary": "MAC地址与IP绑定",
+    "content": "# MAC地址与IP绑定\n\nMAC地址与IP绑定内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0171"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-172",
+    "courseId": "cn-course-05",
+    "order": 12,
+    "title": "交换机组网",
+    "slug": "交换机组网",
+    "summary": "交换机组网",
+    "content": "# 交换机组网\n\n交换机组网内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0172"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-173",
+    "courseId": "cn-course-06",
+    "order": 12,
+    "title": "IP数据报选项",
+    "slug": "IP数据报选项",
+    "summary": "IP数据报选项",
+    "content": "# IP数据报选项\n\nIP数据报选项内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0173"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-174",
+    "courseId": "cn-course-07",
+    "order": 9,
+    "title": "可变长子网掩码VLSM",
+    "slug": "可变长子网掩码VLSM",
+    "summary": "可变长子网掩码VLSM",
+    "content": "# 可变长子网掩码VLSM\n\n可变长子网掩码VLSM内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0174"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-175",
+    "courseId": "cn-course-08",
+    "order": 14,
+    "title": "路由度量",
+    "slug": "路由度量",
+    "summary": "路由度量",
+    "content": "# 路由度量\n\n路由度量内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0175"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-176",
+    "courseId": "cn-course-09",
+    "order": 8,
+    "title": "TCP与UDP对比",
+    "slug": "TCP与UDP对比",
+    "summary": "TCP与UDP对比",
+    "content": "# TCP与UDP对比\n\nTCP与UDP对比内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0176"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-177",
+    "courseId": "cn-course-10",
+    "order": 24,
+    "title": "TIME_WAIT作用",
+    "slug": "TIME_WAIT作用",
+    "summary": "TIME_WAIT作用",
+    "content": "# TIME_WAIT作用\n\nTIME_WAIT作用内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0177"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-178",
+    "courseId": "cn-course-11",
+    "order": 7,
+    "title": "GBN与SR对比",
+    "slug": "GBN与SR对比",
+    "summary": "GBN与SR对比",
+    "content": "# GBN与SR对比\n\nGBN与SR对比内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0178"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-179",
+    "courseId": "cn-course-12",
+    "order": 17,
+    "title": "DHCP中继",
+    "slug": "DHCP中继",
+    "summary": "DHCP中继",
+    "content": "# DHCP中继\n\nDHCP中继内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0179"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cn-lesson-180",
+    "courseId": "cn-course-13",
+    "order": 11,
+    "title": "HTTPS证书验证",
+    "slug": "HTTPS证书验证",
+    "summary": "HTTPS证书验证",
+    "content": "# HTTPS证书验证\n\nHTTPS证书验证内容。",
+    "contentFormat": "markdown",
+    "estimatedMinutes": 30,
+    "difficulty": "hard",
+    "knowledgePointIds": [
+      "cn-kp-0180"
+    ],
+    "practiceQuestionIds": [],
+    "tags": [
+      "计算机网络"
+    ],
+    "prerequisites": [],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  }
+]
