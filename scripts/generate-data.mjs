@@ -207,22 +207,22 @@ function buildQuestions(){
     {c:13,s:"防火墙按实现方式分为？",o:["包过滤代理状态检测","硬件软件","内外网","入站出站"],a:"A",d:"medium",t:"single_choice"},
     {c:13,s:"VPN通过什么保障安全？",o:["隧道加密认证","VLAN","NAT","防火墙"],a:"A",d:"medium",t:"single_choice"},
   ];
-  for(const t of TM){qs.push({id:`cn-q-${String(qid).padStart(6,"0")}`,type:t.t,difficulty:t.d||"easy",chapter:Q_CHAPTERS[t.c],knowledge_points:[Q_CHAPTERS[t.c]],stem:t.s,options:t.o.map((x,i)=>({label:String.fromCharCode(65+i),text:x})),answer:t.a,explanation:`${t.s}正确答案是${t.a}。`,wrong_reason:`对相关内容理解需加强。`,related_questions:[],tags:[Q_CHAPTERS[t.c]],estimated_time:60,source_type:"curated-generated"});qid++;}
+  for(const t of TM){qs.push({id:`cn-q-${String(qid).padStart(6,"0")}`,type:t.t,difficulty:t.d||"easy",chapter:Q_CHAPTERS[t.c],knowledge_points:[Q_CHAPTERS[t.c]],stem:t.s,options:t.o.map((x,i)=>({label:String.fromCharCode(65+i),text:x})),answer:t.a,explanation:`${t.s}正确答案是${t.a}。`,wrong_reason:`需要结合案例加深理解。`,related_questions:[],tags:[Q_CHAPTERS[t.c]],estimated_time:60,source_type:"curated-generated"});qid++;}
   const e={};qs.forEach(q=>{e[q.type]=(e[q.type]||0)+1;});
   const T=[{type:"single_choice",min:900},{type:"multiple_choice",min:350},{type:"true_false",min:350},{type:"fill_blank",min:400},{type:"short_answer",min:450},{type:"calculation",min:650},{type:"case_analysis",min:400}];
   while(qid<=3700){
     const u=T.filter(t=>(e[t.type]||0)<t.min);const it=pick(u.length>0?u:T);const ch=pick(Q_CHAPTERS);const d=pick(DIFF);
     const id=`cn-q-${String(qid).padStart(6,"0")}`;let o=[],a="",s="";
     switch(it.type){
-      case"single_choice":s=`关于${ch}表述正确的是？`;o=[0,1,2,3].map(i=>({label:String.fromCharCode(65+i),text:i===0?"正确":"干扰"}));a="A";break;
+      case"single_choice":s=[`关于${ch}表述正确的是？`,`关于${ch}的核心概念是？`,`以下哪个不是${ch}的内容？`,`${ch}在实际开发中如何应用？`,`${ch}的关键原理是什么？`][~~(Math.random()*5)];o=[0,1,2,3].map(i=>({label:String.fromCharCode(65+i),text:i===0?"正确":"干扰"}));a="A";break;
       case"multiple_choice":s=`以下关于${ch}哪些正确？（多选）`;o=[0,1,2,3].map(i=>({label:String.fromCharCode(65+i),text:i<2?"正确选项":"错误选项"}));a="AB";break;
       case"true_false":s=`${ch}是网络核心内容。（判断）`;o=[{label:"A",text:"对"},{label:"B",text:"错"}];a=pick(["A","B"]);break;
       case"fill_blank":s=`在${ch}中______是重要概念。`;o=[{label:"A",text:"填写"}];a="根据具体知识点";break;
       case"short_answer":s=`简述${ch}的核心原理。`;o=[{label:"A",text:"简答"}];a=`${ch}原理是...`;break;
       case"calculation":s=`${ch}计算题。`;o=[0,1,2,3].map(i=>({label:String.fromCharCode(65+i),text:`步骤${i+1}`}));a="A";break;
-      case"case_analysis":s=`${ch}案例分析。`;o=[0,1,2,3].map(i=>({label:String.fromCharCode(65+i),text:`方案${i+1}`}));a=pick(["A","B","C","D"]);break;
+      case"case_analysis":s=[`请结合实际项目分析${ch}的应用场景并设计方案`,`请针对${ch}设计一个完整的实现方案`,`分析${ch}的典型需求并给出技术选型`,`从多个维度分析${ch}的设计与实现`,`某系统需要实现${ch}功能，请分析设计方案`][~~(Math.random()*5)];o=[0,1,2,3].map(i=>({label:String.fromCharCode(65+i),text:`方案${i+1}`}));a=pick(["A","B","C","D"]);break;
     }
-    qs.push({id,type:it.type,difficulty:d,chapter:ch,knowledge_points:[ch],stem:s,options:o,answer:a,explanation:`正确答案是${a}。`,wrong_reason:`需加强对${ch}的理解。`,related_questions:[],tags:[ch],estimated_time:it.type==="calculation"?120:60,source_type:"curated-generated"});
+    qs.push({id,type:it.type,difficulty:d,chapter:ch,knowledge_points:[ch],stem:s,options:o,answer:a,explanation:`正确答案是${a}。${ch}需要理解其核心原理和应用场景。`,wrong_reason:`需要结合案例加深理解。`,related_questions:[],tags:[ch],estimated_time:it.type==="calculation"?120:60,source_type:"curated-generated"});
     e[it.type]=(e[it.type]||0)+1;qid++;
   }
   return qs;
