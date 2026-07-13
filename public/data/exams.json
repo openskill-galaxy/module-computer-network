@@ -36,7 +36,11 @@
     "tags": [
       "计算机网络入门与学习路线"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "计算机网络入门与学习路线基础测试",
+    "description": "计算机网络入门与学习路线基础测试",
+    "slug": "计算机网络入门与学习路线基础测试"
   },
   {
     "id": "cn-exam-02",
@@ -75,7 +79,11 @@
     "tags": [
       "网络体系结构与协议分层"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "网络体系结构与协议分层基础测试",
+    "description": "网络体系结构与协议分层基础测试",
+    "slug": "网络体系结构与协议分层基础测试"
   },
   {
     "id": "cn-exam-03",
@@ -114,7 +122,11 @@
     "tags": [
       "物理层基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "物理层基础基础测试",
+    "description": "物理层基础基础测试",
+    "slug": "物理层基础基础测试"
   },
   {
     "id": "cn-exam-04",
@@ -153,7 +165,11 @@
     "tags": [
       "数据链路层与以太网"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "数据链路层与以太网基础测试",
+    "description": "数据链路层与以太网基础测试",
+    "slug": "数据链路层与以太网基础测试"
   },
   {
     "id": "cn-exam-05",
@@ -192,7 +208,11 @@
     "tags": [
       "局域网交换机与VLAN"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "局域网交换机与VLAN基础测试",
+    "description": "局域网交换机与VLAN基础测试",
+    "slug": "局域网交换机与vlan基础测试"
   },
   {
     "id": "cn-exam-06",
@@ -231,7 +251,11 @@
     "tags": [
       "网络层与IP协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "网络层与IP协议基础测试",
+    "description": "网络层与IP协议基础测试",
+    "slug": "网络层与ip协议基础测试"
   },
   {
     "id": "cn-exam-07",
@@ -270,7 +294,11 @@
     "tags": [
       "子网划分与CIDR"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "子网划分与CIDR基础测试",
+    "description": "子网划分与CIDR基础测试",
+    "slug": "子网划分与cidr基础测试"
   },
   {
     "id": "cn-exam-08",
@@ -309,7 +337,11 @@
     "tags": [
       "路由算法与路由协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "路由算法与路由协议基础测试",
+    "description": "路由算法与路由协议基础测试",
+    "slug": "路由算法与路由协议基础测试"
   },
   {
     "id": "cn-exam-09",
@@ -348,7 +380,11 @@
     "tags": [
       "传输层基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "传输层基础基础测试",
+    "description": "传输层基础基础测试",
+    "slug": "传输层基础基础测试"
   },
   {
     "id": "cn-exam-10",
@@ -387,7 +423,11 @@
     "tags": [
       "TCP协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "TCP协议基础测试",
+    "description": "TCP协议基础测试",
+    "slug": "tcp协议基础测试"
   },
   {
     "id": "cn-exam-11",
@@ -426,7 +466,11 @@
     "tags": [
       "UDP协议与可靠传输"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "UDP协议与可靠传输基础测试",
+    "description": "UDP协议与可靠传输基础测试",
+    "slug": "udp协议与可靠传输基础测试"
   },
   {
     "id": "cn-exam-12",
@@ -465,7 +509,11 @@
     "tags": [
       "应用层协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "应用层协议基础测试",
+    "description": "应用层协议基础测试",
+    "slug": "应用层协议基础测试"
   },
   {
     "id": "cn-exam-13",
@@ -504,7 +552,11 @@
     "tags": [
       "HTTPDNS与Web网络基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "HTTPDNS与Web网络基础基础测试",
+    "description": "HTTPDNS与Web网络基础基础测试",
+    "slug": "httpdns与web网络基础基础测试"
   },
   {
     "id": "cn-exam-14",
@@ -543,7 +595,11 @@
     "tags": [
       "网络安全综合题与408复习训练"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "网络安全综合题与408复习训练基础测试",
+    "description": "网络安全综合题与408复习训练基础测试",
+    "slug": "网络安全综合题与408复习训练基础测试"
   },
   {
     "id": "cn-exam-15",
@@ -582,7 +638,11 @@
     "tags": [
       "计算机网络入门与学习路线"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "计算机网络入门与学习路线基础测试",
+    "description": "计算机网络入门与学习路线基础测试",
+    "slug": "计算机网络入门与学习路线基础测试"
   },
   {
     "id": "cn-exam-16",
@@ -621,7 +681,11 @@
     "tags": [
       "网络体系结构与协议分层"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "网络体系结构与协议分层基础测试",
+    "description": "网络体系结构与协议分层基础测试",
+    "slug": "网络体系结构与协议分层基础测试"
   },
   {
     "id": "cn-exam-17",
@@ -660,7 +724,11 @@
     "tags": [
       "物理层基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "物理层基础基础测试",
+    "description": "物理层基础基础测试",
+    "slug": "物理层基础基础测试"
   },
   {
     "id": "cn-exam-18",
@@ -699,7 +767,11 @@
     "tags": [
       "数据链路层与以太网"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "数据链路层与以太网基础测试",
+    "description": "数据链路层与以太网基础测试",
+    "slug": "数据链路层与以太网基础测试"
   },
   {
     "id": "cn-exam-19",
@@ -738,7 +810,11 @@
     "tags": [
       "局域网交换机与VLAN"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "局域网交换机与VLAN基础测试",
+    "description": "局域网交换机与VLAN基础测试",
+    "slug": "局域网交换机与vlan基础测试"
   },
   {
     "id": "cn-exam-20",
@@ -777,7 +853,11 @@
     "tags": [
       "网络层与IP协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "网络层与IP协议基础测试",
+    "description": "网络层与IP协议基础测试",
+    "slug": "网络层与ip协议基础测试"
   },
   {
     "id": "cn-exam-21",
@@ -816,7 +896,11 @@
     "tags": [
       "子网划分与CIDR"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "子网划分与CIDR基础测试",
+    "description": "子网划分与CIDR基础测试",
+    "slug": "子网划分与cidr基础测试"
   },
   {
     "id": "cn-exam-22",
@@ -855,7 +939,11 @@
     "tags": [
       "路由算法与路由协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "路由算法与路由协议基础测试",
+    "description": "路由算法与路由协议基础测试",
+    "slug": "路由算法与路由协议基础测试"
   },
   {
     "id": "cn-exam-23",
@@ -894,7 +982,11 @@
     "tags": [
       "传输层基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "传输层基础基础测试",
+    "description": "传输层基础基础测试",
+    "slug": "传输层基础基础测试"
   },
   {
     "id": "cn-exam-24",
@@ -933,7 +1025,11 @@
     "tags": [
       "TCP协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "TCP协议基础测试",
+    "description": "TCP协议基础测试",
+    "slug": "tcp协议基础测试"
   },
   {
     "id": "cn-exam-25",
@@ -972,7 +1068,11 @@
     "tags": [
       "UDP协议与可靠传输"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "UDP协议与可靠传输基础测试",
+    "description": "UDP协议与可靠传输基础测试",
+    "slug": "udp协议与可靠传输基础测试"
   },
   {
     "id": "cn-exam-26",
@@ -1011,7 +1111,11 @@
     "tags": [
       "应用层协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "应用层协议基础测试",
+    "description": "应用层协议基础测试",
+    "slug": "应用层协议基础测试"
   },
   {
     "id": "cn-exam-27",
@@ -1050,7 +1154,11 @@
     "tags": [
       "HTTPDNS与Web网络基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "HTTPDNS与Web网络基础基础测试",
+    "description": "HTTPDNS与Web网络基础基础测试",
+    "slug": "httpdns与web网络基础基础测试"
   },
   {
     "id": "cn-exam-28",
@@ -1089,7 +1197,11 @@
     "tags": [
       "网络安全综合题与408复习训练"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "网络安全综合题与408复习训练基础测试",
+    "description": "网络安全综合题与408复习训练基础测试",
+    "slug": "网络安全综合题与408复习训练基础测试"
   },
   {
     "id": "cn-exam-29",
@@ -1128,7 +1240,11 @@
     "tags": [
       "计算机网络入门与学习路线"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "计算机网络入门与学习路线基础测试",
+    "description": "计算机网络入门与学习路线基础测试",
+    "slug": "计算机网络入门与学习路线基础测试"
   },
   {
     "id": "cn-exam-30",
@@ -1167,7 +1283,11 @@
     "tags": [
       "网络体系结构与协议分层"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "网络体系结构与协议分层基础测试",
+    "description": "网络体系结构与协议分层基础测试",
+    "slug": "网络体系结构与协议分层基础测试"
   },
   {
     "id": "cn-exam-31",
@@ -1206,7 +1326,11 @@
     "tags": [
       "物理层基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "物理层基础基础测试",
+    "description": "物理层基础基础测试",
+    "slug": "物理层基础基础测试"
   },
   {
     "id": "cn-exam-32",
@@ -1245,7 +1369,11 @@
     "tags": [
       "数据链路层与以太网"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "数据链路层与以太网基础测试",
+    "description": "数据链路层与以太网基础测试",
+    "slug": "数据链路层与以太网基础测试"
   },
   {
     "id": "cn-exam-33",
@@ -1284,7 +1412,11 @@
     "tags": [
       "局域网交换机与VLAN"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "局域网交换机与VLAN基础测试",
+    "description": "局域网交换机与VLAN基础测试",
+    "slug": "局域网交换机与vlan基础测试"
   },
   {
     "id": "cn-exam-34",
@@ -1323,7 +1455,11 @@
     "tags": [
       "网络层与IP协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "网络层与IP协议基础测试",
+    "description": "网络层与IP协议基础测试",
+    "slug": "网络层与ip协议基础测试"
   },
   {
     "id": "cn-exam-35",
@@ -1362,7 +1498,11 @@
     "tags": [
       "子网划分与CIDR"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "子网划分与CIDR基础测试",
+    "description": "子网划分与CIDR基础测试",
+    "slug": "子网划分与cidr基础测试"
   },
   {
     "id": "cn-exam-36",
@@ -1401,7 +1541,11 @@
     "tags": [
       "路由算法与路由协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "路由算法与路由协议进阶测试",
+    "description": "路由算法与路由协议进阶测试",
+    "slug": "路由算法与路由协议进阶测试"
   },
   {
     "id": "cn-exam-37",
@@ -1440,7 +1584,11 @@
     "tags": [
       "传输层基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "传输层基础进阶测试",
+    "description": "传输层基础进阶测试",
+    "slug": "传输层基础进阶测试"
   },
   {
     "id": "cn-exam-38",
@@ -1479,7 +1627,11 @@
     "tags": [
       "TCP协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "TCP协议进阶测试",
+    "description": "TCP协议进阶测试",
+    "slug": "tcp协议进阶测试"
   },
   {
     "id": "cn-exam-39",
@@ -1518,7 +1670,11 @@
     "tags": [
       "UDP协议与可靠传输"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "UDP协议与可靠传输进阶测试",
+    "description": "UDP协议与可靠传输进阶测试",
+    "slug": "udp协议与可靠传输进阶测试"
   },
   {
     "id": "cn-exam-40",
@@ -1557,7 +1713,11 @@
     "tags": [
       "应用层协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "应用层协议进阶测试",
+    "description": "应用层协议进阶测试",
+    "slug": "应用层协议进阶测试"
   },
   {
     "id": "cn-exam-41",
@@ -1596,7 +1756,11 @@
     "tags": [
       "HTTPDNS与Web网络基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "HTTPDNS与Web网络基础进阶测试",
+    "description": "HTTPDNS与Web网络基础进阶测试",
+    "slug": "httpdns与web网络基础进阶测试"
   },
   {
     "id": "cn-exam-42",
@@ -1635,7 +1799,11 @@
     "tags": [
       "网络安全综合题与408复习训练"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "网络安全综合题与408复习训练进阶测试",
+    "description": "网络安全综合题与408复习训练进阶测试",
+    "slug": "网络安全综合题与408复习训练进阶测试"
   },
   {
     "id": "cn-exam-43",
@@ -1674,7 +1842,11 @@
     "tags": [
       "计算机网络入门与学习路线"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "计算机网络入门与学习路线进阶测试",
+    "description": "计算机网络入门与学习路线进阶测试",
+    "slug": "计算机网络入门与学习路线进阶测试"
   },
   {
     "id": "cn-exam-44",
@@ -1713,7 +1885,11 @@
     "tags": [
       "网络体系结构与协议分层"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "网络体系结构与协议分层进阶测试",
+    "description": "网络体系结构与协议分层进阶测试",
+    "slug": "网络体系结构与协议分层进阶测试"
   },
   {
     "id": "cn-exam-45",
@@ -1752,7 +1928,11 @@
     "tags": [
       "物理层基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "物理层基础进阶测试",
+    "description": "物理层基础进阶测试",
+    "slug": "物理层基础进阶测试"
   },
   {
     "id": "cn-exam-46",
@@ -1791,7 +1971,11 @@
     "tags": [
       "数据链路层与以太网"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "数据链路层与以太网进阶测试",
+    "description": "数据链路层与以太网进阶测试",
+    "slug": "数据链路层与以太网进阶测试"
   },
   {
     "id": "cn-exam-47",
@@ -1830,7 +2014,11 @@
     "tags": [
       "局域网交换机与VLAN"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "局域网交换机与VLAN进阶测试",
+    "description": "局域网交换机与VLAN进阶测试",
+    "slug": "局域网交换机与vlan进阶测试"
   },
   {
     "id": "cn-exam-48",
@@ -1869,7 +2057,11 @@
     "tags": [
       "网络层与IP协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "网络层与IP协议进阶测试",
+    "description": "网络层与IP协议进阶测试",
+    "slug": "网络层与ip协议进阶测试"
   },
   {
     "id": "cn-exam-49",
@@ -1908,7 +2100,11 @@
     "tags": [
       "子网划分与CIDR"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "子网划分与CIDR进阶测试",
+    "description": "子网划分与CIDR进阶测试",
+    "slug": "子网划分与cidr进阶测试"
   },
   {
     "id": "cn-exam-50",
@@ -1947,7 +2143,11 @@
     "tags": [
       "路由算法与路由协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "路由算法与路由协议进阶测试",
+    "description": "路由算法与路由协议进阶测试",
+    "slug": "路由算法与路由协议进阶测试"
   },
   {
     "id": "cn-exam-51",
@@ -1986,7 +2186,11 @@
     "tags": [
       "传输层基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "传输层基础进阶测试",
+    "description": "传输层基础进阶测试",
+    "slug": "传输层基础进阶测试"
   },
   {
     "id": "cn-exam-52",
@@ -2025,7 +2229,11 @@
     "tags": [
       "TCP协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "TCP协议进阶测试",
+    "description": "TCP协议进阶测试",
+    "slug": "tcp协议进阶测试"
   },
   {
     "id": "cn-exam-53",
@@ -2064,7 +2272,11 @@
     "tags": [
       "UDP协议与可靠传输"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "UDP协议与可靠传输进阶测试",
+    "description": "UDP协议与可靠传输进阶测试",
+    "slug": "udp协议与可靠传输进阶测试"
   },
   {
     "id": "cn-exam-54",
@@ -2103,7 +2315,11 @@
     "tags": [
       "应用层协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "应用层协议进阶测试",
+    "description": "应用层协议进阶测试",
+    "slug": "应用层协议进阶测试"
   },
   {
     "id": "cn-exam-55",
@@ -2142,7 +2358,11 @@
     "tags": [
       "HTTPDNS与Web网络基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "HTTPDNS与Web网络基础进阶测试",
+    "description": "HTTPDNS与Web网络基础进阶测试",
+    "slug": "httpdns与web网络基础进阶测试"
   },
   {
     "id": "cn-exam-56",
@@ -2181,7 +2401,11 @@
     "tags": [
       "网络安全综合题与408复习训练"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "网络安全综合题与408复习训练进阶测试",
+    "description": "网络安全综合题与408复习训练进阶测试",
+    "slug": "网络安全综合题与408复习训练进阶测试"
   },
   {
     "id": "cn-exam-57",
@@ -2220,7 +2444,11 @@
     "tags": [
       "计算机网络入门与学习路线"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "计算机网络入门与学习路线进阶测试",
+    "description": "计算机网络入门与学习路线进阶测试",
+    "slug": "计算机网络入门与学习路线进阶测试"
   },
   {
     "id": "cn-exam-58",
@@ -2259,7 +2487,11 @@
     "tags": [
       "网络体系结构与协议分层"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "网络体系结构与协议分层进阶测试",
+    "description": "网络体系结构与协议分层进阶测试",
+    "slug": "网络体系结构与协议分层进阶测试"
   },
   {
     "id": "cn-exam-59",
@@ -2298,7 +2530,11 @@
     "tags": [
       "物理层基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "物理层基础进阶测试",
+    "description": "物理层基础进阶测试",
+    "slug": "物理层基础进阶测试"
   },
   {
     "id": "cn-exam-60",
@@ -2337,7 +2573,11 @@
     "tags": [
       "数据链路层与以太网"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "数据链路层与以太网进阶测试",
+    "description": "数据链路层与以太网进阶测试",
+    "slug": "数据链路层与以太网进阶测试"
   },
   {
     "id": "cn-exam-61",
@@ -2376,7 +2616,11 @@
     "tags": [
       "局域网交换机与VLAN"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "局域网交换机与VLAN进阶测试",
+    "description": "局域网交换机与VLAN进阶测试",
+    "slug": "局域网交换机与vlan进阶测试"
   },
   {
     "id": "cn-exam-62",
@@ -2415,7 +2659,11 @@
     "tags": [
       "网络层与IP协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "网络层与IP协议进阶测试",
+    "description": "网络层与IP协议进阶测试",
+    "slug": "网络层与ip协议进阶测试"
   },
   {
     "id": "cn-exam-63",
@@ -2454,7 +2702,11 @@
     "tags": [
       "子网划分与CIDR"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "子网划分与CIDR进阶测试",
+    "description": "子网划分与CIDR进阶测试",
+    "slug": "子网划分与cidr进阶测试"
   },
   {
     "id": "cn-exam-64",
@@ -2493,7 +2745,11 @@
     "tags": [
       "路由算法与路由协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "路由算法与路由协议进阶测试",
+    "description": "路由算法与路由协议进阶测试",
+    "slug": "路由算法与路由协议进阶测试"
   },
   {
     "id": "cn-exam-65",
@@ -2532,7 +2788,11 @@
     "tags": [
       "传输层基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "传输层基础进阶测试",
+    "description": "传输层基础进阶测试",
+    "slug": "传输层基础进阶测试"
   },
   {
     "id": "cn-exam-66",
@@ -2571,7 +2831,11 @@
     "tags": [
       "TCP协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "TCP协议综合测试",
+    "description": "TCP协议综合测试",
+    "slug": "tcp协议综合测试"
   },
   {
     "id": "cn-exam-67",
@@ -2610,7 +2874,11 @@
     "tags": [
       "UDP协议与可靠传输"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "UDP协议与可靠传输综合测试",
+    "description": "UDP协议与可靠传输综合测试",
+    "slug": "udp协议与可靠传输综合测试"
   },
   {
     "id": "cn-exam-68",
@@ -2649,7 +2917,11 @@
     "tags": [
       "应用层协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "应用层协议综合测试",
+    "description": "应用层协议综合测试",
+    "slug": "应用层协议综合测试"
   },
   {
     "id": "cn-exam-69",
@@ -2688,7 +2960,11 @@
     "tags": [
       "HTTPDNS与Web网络基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "HTTPDNS与Web网络基础综合测试",
+    "description": "HTTPDNS与Web网络基础综合测试",
+    "slug": "httpdns与web网络基础综合测试"
   },
   {
     "id": "cn-exam-70",
@@ -2727,7 +3003,11 @@
     "tags": [
       "网络安全综合题与408复习训练"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "网络安全综合题与408复习训练综合测试",
+    "description": "网络安全综合题与408复习训练综合测试",
+    "slug": "网络安全综合题与408复习训练综合测试"
   },
   {
     "id": "cn-exam-71",
@@ -2766,7 +3046,11 @@
     "tags": [
       "计算机网络入门与学习路线"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "计算机网络入门与学习路线综合测试",
+    "description": "计算机网络入门与学习路线综合测试",
+    "slug": "计算机网络入门与学习路线综合测试"
   },
   {
     "id": "cn-exam-72",
@@ -2805,7 +3089,11 @@
     "tags": [
       "网络体系结构与协议分层"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "网络体系结构与协议分层综合测试",
+    "description": "网络体系结构与协议分层综合测试",
+    "slug": "网络体系结构与协议分层综合测试"
   },
   {
     "id": "cn-exam-73",
@@ -2844,7 +3132,11 @@
     "tags": [
       "物理层基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "物理层基础综合测试",
+    "description": "物理层基础综合测试",
+    "slug": "物理层基础综合测试"
   },
   {
     "id": "cn-exam-74",
@@ -2883,7 +3175,11 @@
     "tags": [
       "数据链路层与以太网"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "数据链路层与以太网综合测试",
+    "description": "数据链路层与以太网综合测试",
+    "slug": "数据链路层与以太网综合测试"
   },
   {
     "id": "cn-exam-75",
@@ -2922,7 +3218,11 @@
     "tags": [
       "局域网交换机与VLAN"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "局域网交换机与VLAN综合测试",
+    "description": "局域网交换机与VLAN综合测试",
+    "slug": "局域网交换机与vlan综合测试"
   },
   {
     "id": "cn-exam-76",
@@ -2961,7 +3261,11 @@
     "tags": [
       "网络层与IP协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "网络层与IP协议综合测试",
+    "description": "网络层与IP协议综合测试",
+    "slug": "网络层与ip协议综合测试"
   },
   {
     "id": "cn-exam-77",
@@ -3000,7 +3304,11 @@
     "tags": [
       "子网划分与CIDR"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "子网划分与CIDR综合测试",
+    "description": "子网划分与CIDR综合测试",
+    "slug": "子网划分与cidr综合测试"
   },
   {
     "id": "cn-exam-78",
@@ -3039,7 +3347,11 @@
     "tags": [
       "路由算法与路由协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "路由算法与路由协议综合测试",
+    "description": "路由算法与路由协议综合测试",
+    "slug": "路由算法与路由协议综合测试"
   },
   {
     "id": "cn-exam-79",
@@ -3078,7 +3390,11 @@
     "tags": [
       "传输层基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "传输层基础综合测试",
+    "description": "传输层基础综合测试",
+    "slug": "传输层基础综合测试"
   },
   {
     "id": "cn-exam-80",
@@ -3117,7 +3433,11 @@
     "tags": [
       "TCP协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "TCP协议综合测试",
+    "description": "TCP协议综合测试",
+    "slug": "tcp协议综合测试"
   },
   {
     "id": "cn-exam-81",
@@ -3156,7 +3476,11 @@
     "tags": [
       "UDP协议与可靠传输"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "UDP协议与可靠传输综合测试",
+    "description": "UDP协议与可靠传输综合测试",
+    "slug": "udp协议与可靠传输综合测试"
   },
   {
     "id": "cn-exam-82",
@@ -3195,7 +3519,11 @@
     "tags": [
       "应用层协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "应用层协议综合测试",
+    "description": "应用层协议综合测试",
+    "slug": "应用层协议综合测试"
   },
   {
     "id": "cn-exam-83",
@@ -3234,7 +3562,11 @@
     "tags": [
       "HTTPDNS与Web网络基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "HTTPDNS与Web网络基础综合测试",
+    "description": "HTTPDNS与Web网络基础综合测试",
+    "slug": "httpdns与web网络基础综合测试"
   },
   {
     "id": "cn-exam-84",
@@ -3273,7 +3605,11 @@
     "tags": [
       "网络安全综合题与408复习训练"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "网络安全综合题与408复习训练综合测试",
+    "description": "网络安全综合题与408复习训练综合测试",
+    "slug": "网络安全综合题与408复习训练综合测试"
   },
   {
     "id": "cn-exam-85",
@@ -3312,7 +3648,11 @@
     "tags": [
       "计算机网络入门与学习路线"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "计算机网络入门与学习路线综合测试",
+    "description": "计算机网络入门与学习路线综合测试",
+    "slug": "计算机网络入门与学习路线综合测试"
   },
   {
     "id": "cn-exam-86",
@@ -3351,7 +3691,11 @@
     "tags": [
       "网络体系结构与协议分层"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "网络体系结构与协议分层综合测试",
+    "description": "网络体系结构与协议分层综合测试",
+    "slug": "网络体系结构与协议分层综合测试"
   },
   {
     "id": "cn-exam-87",
@@ -3390,7 +3734,11 @@
     "tags": [
       "物理层基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "物理层基础综合测试",
+    "description": "物理层基础综合测试",
+    "slug": "物理层基础综合测试"
   },
   {
     "id": "cn-exam-88",
@@ -3429,7 +3777,11 @@
     "tags": [
       "数据链路层与以太网"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "数据链路层与以太网综合测试",
+    "description": "数据链路层与以太网综合测试",
+    "slug": "数据链路层与以太网综合测试"
   },
   {
     "id": "cn-exam-89",
@@ -3468,7 +3820,11 @@
     "tags": [
       "局域网交换机与VLAN"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "局域网交换机与VLAN综合测试",
+    "description": "局域网交换机与VLAN综合测试",
+    "slug": "局域网交换机与vlan综合测试"
   },
   {
     "id": "cn-exam-90",
@@ -3507,7 +3863,11 @@
     "tags": [
       "网络层与IP协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "网络层与IP协议综合测试",
+    "description": "网络层与IP协议综合测试",
+    "slug": "网络层与ip协议综合测试"
   },
   {
     "id": "cn-exam-91",
@@ -3546,7 +3906,11 @@
     "tags": [
       "子网划分与CIDR"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "子网划分与CIDR综合测试",
+    "description": "子网划分与CIDR综合测试",
+    "slug": "子网划分与cidr综合测试"
   },
   {
     "id": "cn-exam-92",
@@ -3585,7 +3949,11 @@
     "tags": [
       "路由算法与路由协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "路由算法与路由协议综合测试",
+    "description": "路由算法与路由协议综合测试",
+    "slug": "路由算法与路由协议综合测试"
   },
   {
     "id": "cn-exam-93",
@@ -3624,7 +3992,11 @@
     "tags": [
       "传输层基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "传输层基础综合测试",
+    "description": "传输层基础综合测试",
+    "slug": "传输层基础综合测试"
   },
   {
     "id": "cn-exam-94",
@@ -3663,7 +4035,11 @@
     "tags": [
       "TCP协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "TCP协议综合测试",
+    "description": "TCP协议综合测试",
+    "slug": "tcp协议综合测试"
   },
   {
     "id": "cn-exam-95",
@@ -3702,7 +4078,11 @@
     "tags": [
       "UDP协议与可靠传输"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "UDP协议与可靠传输综合测试",
+    "description": "UDP协议与可靠传输综合测试",
+    "slug": "udp协议与可靠传输综合测试"
   },
   {
     "id": "cn-exam-96",
@@ -3741,7 +4121,11 @@
     "tags": [
       "应用层协议"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "应用层协议综合测试",
+    "description": "应用层协议综合测试",
+    "slug": "应用层协议综合测试"
   },
   {
     "id": "cn-exam-97",
@@ -3780,7 +4164,11 @@
     "tags": [
       "HTTPDNS与Web网络基础"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "HTTPDNS与Web网络基础综合测试",
+    "description": "HTTPDNS与Web网络基础综合测试",
+    "slug": "httpdns与web网络基础综合测试"
   },
   {
     "id": "cn-exam-98",
@@ -3819,7 +4207,11 @@
     "tags": [
       "网络安全综合题与408复习训练"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "网络安全综合题与408复习训练综合测试",
+    "description": "网络安全综合题与408复习训练综合测试",
+    "slug": "网络安全综合题与408复习训练综合测试"
   },
   {
     "id": "cn-exam-99",
@@ -3858,7 +4250,11 @@
     "tags": [
       "计算机网络入门与学习路线"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "计算机网络入门与学习路线综合测试",
+    "description": "计算机网络入门与学习路线综合测试",
+    "slug": "计算机网络入门与学习路线综合测试"
   },
   {
     "id": "cn-exam-100",
@@ -3897,6 +4293,10 @@
     "tags": [
       "网络体系结构与协议分层"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "timeLimitMinutes": 90,
+    "summary": "网络体系结构与协议分层综合测试",
+    "description": "网络体系结构与协议分层综合测试",
+    "slug": "网络体系结构与协议分层综合测试"
   }
 ]

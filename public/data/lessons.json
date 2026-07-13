@@ -24,7 +24,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 计算机网络定义\n\n计算机网络定义的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了计算机网络定义的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-001"
+    ]
   },
   {
     "id": "cn-lesson-002",
@@ -51,7 +55,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 网络分类\n\n网络分类的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了网络分类的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-002"
+    ]
   },
   {
     "id": "cn-lesson-003",
@@ -78,7 +86,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 边缘与核心\n\n边缘与核心的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了边缘与核心的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-003"
+    ]
   },
   {
     "id": "cn-lesson-004",
@@ -105,7 +117,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 分组交换\n\n分组交换的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了分组交换的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-004"
+    ]
   },
   {
     "id": "cn-lesson-005",
@@ -133,7 +149,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# OSI七层模型\n\nOSI七层模型的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了OSI七层模型的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-005",
+      "cn-kp-006"
+    ]
   },
   {
     "id": "cn-lesson-006",
@@ -160,7 +181,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# TCP/IP四层\n\nTCP/IP四层的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了TCP/IP四层的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-007"
+    ]
   },
   {
     "id": "cn-lesson-007",
@@ -187,7 +212,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 分层原则\n\n分层原则的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了分层原则的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-008"
+    ]
   },
   {
     "id": "cn-lesson-008",
@@ -214,7 +243,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 封装过程\n\n封装过程的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了封装过程的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-009"
+    ]
   },
   {
     "id": "cn-lesson-009",
@@ -241,7 +274,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 解封装\n\n解封装的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了解封装的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-010"
+    ]
   },
   {
     "id": "cn-lesson-010",
@@ -268,7 +305,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 信号与编码\n\n信号与编码的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了信号与编码的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-011"
+    ]
   },
   {
     "id": "cn-lesson-011",
@@ -295,7 +336,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 调制技术\n\n调制技术的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了调制技术的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-012"
+    ]
   },
   {
     "id": "cn-lesson-012",
@@ -323,7 +368,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 香农公式\n\n香农公式的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了香农公式的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-013",
+      "cn-kp-014"
+    ]
   },
   {
     "id": "cn-lesson-013",
@@ -350,7 +400,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 奈奎斯特定理\n\n奈奎斯特定理的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了奈奎斯特定理的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-015"
+    ]
   },
   {
     "id": "cn-lesson-014",
@@ -377,7 +431,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 传输介质\n\n传输介质的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了传输介质的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-016"
+    ]
   },
   {
     "id": "cn-lesson-015",
@@ -404,7 +462,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 信道容量\n\n信道容量的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了信道容量的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-017"
+    ]
   },
   {
     "id": "cn-lesson-016",
@@ -432,7 +494,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 以太网帧结构\n\n以太网帧结构的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了以太网帧结构的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-018",
+      "cn-kp-019"
+    ]
   },
   {
     "id": "cn-lesson-017",
@@ -459,7 +526,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# MAC地址\n\nMAC地址的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了MAC地址的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-020"
+    ]
   },
   {
     "id": "cn-lesson-018",
@@ -487,7 +558,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# CSMA/CD\n\nCSMA/CD的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了CSMA/CD的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-021",
+      "cn-kp-022"
+    ]
   },
   {
     "id": "cn-lesson-019",
@@ -514,7 +590,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# CRC校验\n\nCRC校验的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了CRC校验的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-023"
+    ]
   },
   {
     "id": "cn-lesson-020",
@@ -541,7 +621,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 停止等待协议\n\n停止等待协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了停止等待协议的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-024"
+    ]
   },
   {
     "id": "cn-lesson-021",
@@ -568,7 +652,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 滑动窗口协议\n\n滑动窗口协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了滑动窗口协议的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-025"
+    ]
   },
   {
     "id": "cn-lesson-022",
@@ -595,7 +683,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 后退N帧GBN\n\n后退N帧GBN的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了后退N帧GBN的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-026"
+    ]
   },
   {
     "id": "cn-lesson-023",
@@ -622,7 +714,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 选择重传SR\n\n选择重传SR的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了选择重传SR的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-027"
+    ]
   },
   {
     "id": "cn-lesson-024",
@@ -643,7 +739,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 交换机转发原理\n\n交换机转发原理的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了交换机转发原理的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-028"
+    ]
   },
   {
     "id": "cn-lesson-025",
@@ -664,7 +764,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# MAC地址表\n\nMAC地址表的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了MAC地址表的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-029"
+    ]
   },
   {
     "id": "cn-lesson-026",
@@ -686,7 +790,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# VLAN划分\n\nVLAN划分的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了VLAN划分的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-030",
+      "cn-kp-031"
+    ]
   },
   {
     "id": "cn-lesson-027",
@@ -707,7 +816,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# VLAN标签\n\nVLAN标签的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了VLAN标签的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-032"
+    ]
   },
   {
     "id": "cn-lesson-028",
@@ -728,7 +841,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 生成树STP\n\n生成树STP的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了生成树STP的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-033"
+    ]
   },
   {
     "id": "cn-lesson-029",
@@ -749,7 +866,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 三层交换\n\n三层交换的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了三层交换的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-034"
+    ]
   },
   {
     "id": "cn-lesson-030",
@@ -777,7 +898,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# IP地址与分类\n\nIP地址与分类的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了IP地址与分类的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-035",
+      "cn-kp-036"
+    ]
   },
   {
     "id": "cn-lesson-031",
@@ -804,7 +930,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# IP数据报格式\n\nIP数据报格式的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了IP数据报格式的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-037"
+    ]
   },
   {
     "id": "cn-lesson-032",
@@ -832,7 +962,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# ARP协议\n\nARP协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了ARP协议的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-038",
+      "cn-kp-039"
+    ]
   },
   {
     "id": "cn-lesson-033",
@@ -859,7 +994,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# ICMP协议\n\nICMP协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了ICMP协议的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-040"
+    ]
   },
   {
     "id": "cn-lesson-034",
@@ -887,7 +1026,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# NAT与PAT\n\nNAT与PAT的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了NAT与PAT的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-041",
+      "cn-kp-042"
+    ]
   },
   {
     "id": "cn-lesson-035",
@@ -914,7 +1058,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# IPv6入门\n\nIPv6入门的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了IPv6入门的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-043"
+    ]
   },
   {
     "id": "cn-lesson-036",
@@ -941,7 +1089,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# IP分片\n\nIP分片的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了IP分片的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-044"
+    ]
   },
   {
     "id": "cn-lesson-037",
@@ -969,7 +1121,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 子网掩码\n\n子网掩码的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了子网掩码的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-045",
+      "cn-kp-046"
+    ]
   },
   {
     "id": "cn-lesson-038",
@@ -997,7 +1154,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 子网划分方法\n\n子网划分方法的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了子网划分方法的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-047",
+      "cn-kp-048"
+    ]
   },
   {
     "id": "cn-lesson-039",
@@ -1024,7 +1186,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# CIDR\n\nCIDR的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了CIDR的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-049"
+    ]
   },
   {
     "id": "cn-lesson-040",
@@ -1051,7 +1217,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 路由聚合\n\n路由聚合的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了路由聚合的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-050"
+    ]
   },
   {
     "id": "cn-lesson-041",
@@ -1079,7 +1249,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 最长前缀匹配\n\n最长前缀匹配的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了最长前缀匹配的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-051",
+      "cn-kp-052"
+    ]
   },
   {
     "id": "cn-lesson-042",
@@ -1107,7 +1282,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 距离向量算法\n\n距离向量算法的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了距离向量算法的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-053",
+      "cn-kp-054"
+    ]
   },
   {
     "id": "cn-lesson-043",
@@ -1134,7 +1314,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# RIP协议\n\nRIP协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了RIP协议的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-055"
+    ]
   },
   {
     "id": "cn-lesson-044",
@@ -1162,7 +1346,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 链路状态算法\n\n链路状态算法的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了链路状态算法的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-056",
+      "cn-kp-057"
+    ]
   },
   {
     "id": "cn-lesson-045",
@@ -1189,7 +1378,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# OSPF协议\n\nOSPF协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了OSPF协议的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-058"
+    ]
   },
   {
     "id": "cn-lesson-046",
@@ -1216,7 +1409,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# BGP基础\n\nBGP基础的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了BGP基础的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-059"
+    ]
   },
   {
     "id": "cn-lesson-047",
@@ -1243,7 +1440,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# AS自治系统\n\nAS自治系统的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了AS自治系统的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-060"
+    ]
   },
   {
     "id": "cn-lesson-048",
@@ -1270,7 +1471,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 路由表结构\n\n路由表结构的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了路由表结构的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-061"
+    ]
   },
   {
     "id": "cn-lesson-049",
@@ -1297,7 +1502,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 端口号\n\n端口号的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了端口号的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-062"
+    ]
   },
   {
     "id": "cn-lesson-050",
@@ -1325,7 +1534,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# UDP协议\n\nUDP协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了UDP协议的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-063",
+      "cn-kp-064"
+    ]
   },
   {
     "id": "cn-lesson-051",
@@ -1352,7 +1566,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# UDP校验和\n\nUDP校验和的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了UDP校验和的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-065"
+    ]
   },
   {
     "id": "cn-lesson-052",
@@ -1379,7 +1597,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# TCP概览\n\nTCP概览的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了TCP概览的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-066"
+    ]
   },
   {
     "id": "cn-lesson-053",
@@ -1407,7 +1629,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# TCP报文段格式\n\nTCP报文段格式的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了TCP报文段格式的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-067",
+      "cn-kp-068"
+    ]
   },
   {
     "id": "cn-lesson-054",
@@ -1436,7 +1663,13 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 三次握手\n\n三次握手的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了三次握手的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-069",
+      "cn-kp-070",
+      "cn-kp-071"
+    ]
   },
   {
     "id": "cn-lesson-055",
@@ -1464,7 +1697,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 四次挥手\n\n四次挥手的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了四次挥手的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-072",
+      "cn-kp-073"
+    ]
   },
   {
     "id": "cn-lesson-056",
@@ -1491,7 +1729,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 序号与确认号\n\n序号与确认号的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了序号与确认号的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-074"
+    ]
   },
   {
     "id": "cn-lesson-057",
@@ -1518,7 +1760,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 超时重传\n\n超时重传的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了超时重传的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-075"
+    ]
   },
   {
     "id": "cn-lesson-058",
@@ -1545,7 +1791,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 快速重传\n\n快速重传的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了快速重传的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-076"
+    ]
   },
   {
     "id": "cn-lesson-059",
@@ -1573,7 +1823,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 流量控制\n\n流量控制的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了流量控制的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-077",
+      "cn-kp-078"
+    ]
   },
   {
     "id": "cn-lesson-060",
@@ -1601,7 +1856,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 拥塞控制\n\n拥塞控制的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了拥塞控制的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-079",
+      "cn-kp-080"
+    ]
   },
   {
     "id": "cn-lesson-061",
@@ -1628,7 +1888,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 慢开始\n\n慢开始的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了慢开始的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-081"
+    ]
   },
   {
     "id": "cn-lesson-062",
@@ -1655,7 +1919,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 拥塞避免\n\n拥塞避免的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了拥塞避免的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-082"
+    ]
   },
   {
     "id": "cn-lesson-063",
@@ -1682,7 +1950,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 快恢复\n\n快恢复的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了快恢复的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-083"
+    ]
   },
   {
     "id": "cn-lesson-064",
@@ -1709,7 +1981,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# TCP选项\n\nTCP选项的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了TCP选项的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-084"
+    ]
   },
   {
     "id": "cn-lesson-065",
@@ -1736,7 +2012,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# SACK\n\nSACK的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了SACK的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-085"
+    ]
   },
   {
     "id": "cn-lesson-066",
@@ -1763,7 +2043,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# UDP特点\n\nUDP特点的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了UDP特点的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-086"
+    ]
   },
   {
     "id": "cn-lesson-067",
@@ -1790,7 +2074,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# UDP适用场景\n\nUDP适用场景的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了UDP适用场景的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-087"
+    ]
   },
   {
     "id": "cn-lesson-068",
@@ -1817,7 +2105,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# RDT可靠数据传输\n\nRDT可靠数据传输的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了RDT可靠数据传输的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-088"
+    ]
   },
   {
     "id": "cn-lesson-069",
@@ -1844,7 +2136,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 流水线协议\n\n流水线协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了流水线协议的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-089"
+    ]
   },
   {
     "id": "cn-lesson-070",
@@ -1872,7 +2168,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# DNS层次结构\n\nDNS层次结构的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了DNS层次结构的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-090",
+      "cn-kp-091"
+    ]
   },
   {
     "id": "cn-lesson-071",
@@ -1899,7 +2200,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# DNS解析过程\n\nDNS解析过程的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了DNS解析过程的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-092"
+    ]
   },
   {
     "id": "cn-lesson-072",
@@ -1926,7 +2231,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# HTTP协议\n\nHTTP协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了HTTP协议的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-093"
+    ]
   },
   {
     "id": "cn-lesson-073",
@@ -1953,7 +2262,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# HTTP请求与响应\n\nHTTP请求与响应的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了HTTP请求与响应的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-094"
+    ]
   },
   {
     "id": "cn-lesson-074",
@@ -1980,7 +2293,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# HTTP状态码\n\nHTTP状态码的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了HTTP状态码的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-095"
+    ]
   },
   {
     "id": "cn-lesson-075",
@@ -2008,7 +2325,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# HTTPS与TLS\n\nHTTPS与TLS的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了HTTPS与TLS的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-096",
+      "cn-kp-097"
+    ]
   },
   {
     "id": "cn-lesson-076",
@@ -2035,7 +2357,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# SMTP协议\n\nSMTP协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了SMTP协议的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-098"
+    ]
   },
   {
     "id": "cn-lesson-077",
@@ -2062,7 +2388,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# FTP协议\n\nFTP协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了FTP协议的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-099"
+    ]
   },
   {
     "id": "cn-lesson-078",
@@ -2089,7 +2419,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# DHCP协议\n\nDHCP协议的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了DHCP协议的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-100"
+    ]
   },
   {
     "id": "cn-lesson-079",
@@ -2110,7 +2444,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# Cookie与Session\n\nCookie与Session的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了Cookie与Session的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-101"
+    ]
   },
   {
     "id": "cn-lesson-080",
@@ -2131,7 +2469,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# Web缓存\n\nWeb缓存的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了Web缓存的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-102"
+    ]
   },
   {
     "id": "cn-lesson-081",
@@ -2152,7 +2494,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# CDN原理\n\nCDN原理的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了CDN原理的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-103"
+    ]
   },
   {
     "id": "cn-lesson-082",
@@ -2174,7 +2520,12 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# HTTPS握手\n\nHTTPS握手的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了HTTPS握手的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-104",
+      "cn-kp-105"
+    ]
   },
   {
     "id": "cn-lesson-083",
@@ -2195,7 +2546,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# HTTP2特性\n\nHTTP2特性的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了HTTP2特性的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-106"
+    ]
   },
   {
     "id": "cn-lesson-084",
@@ -2216,7 +2571,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# WebSocket\n\nWebSocket的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了WebSocket的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-107"
+    ]
   },
   {
     "id": "cn-lesson-085",
@@ -2237,7 +2596,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 防火墙分类\n\n防火墙分类的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了防火墙分类的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-108"
+    ]
   },
   {
     "id": "cn-lesson-086",
@@ -2258,7 +2621,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# VPN原理\n\nVPN原理的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了VPN原理的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-109"
+    ]
   },
   {
     "id": "cn-lesson-087",
@@ -2279,7 +2646,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# IPSec基础\n\nIPSec基础的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了IPSec基础的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-110"
+    ]
   },
   {
     "id": "cn-lesson-088",
@@ -2300,7 +2671,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 综合组网分析\n\n综合组网分析的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了综合组网分析的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-111"
+    ]
   },
   {
     "id": "cn-lesson-089",
@@ -2321,7 +2696,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 网络故障排查\n\n网络故障排查的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了网络故障排查的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-112"
+    ]
   },
   {
     "id": "cn-lesson-090",
@@ -2342,7 +2721,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 408真题精讲\n\n408真题精讲的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了408真题精讲的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-113"
+    ]
   },
   {
     "id": "cn-lesson-091",
@@ -2363,7 +2746,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 面试题精讲\n\n面试题精讲的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了面试题精讲的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-114"
+    ]
   },
   {
     "id": "cn-lesson-092",
@@ -2384,7 +2771,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 期末模拟\n\n期末模拟的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了期末模拟的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-115"
+    ]
   },
   {
     "id": "cn-lesson-093",
@@ -2405,7 +2796,11 @@
       "计算机网络"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "contentMarkdown": "# 考前冲刺\n\n考前冲刺的讲义内容。\n\n## 要点\n\n- 核心概念\n- 计算实例\n- 典型题\n\n## 总结\n\n本章介绍了考前冲刺的核心知识。",
+    "knowledgePoints": [
+      "cn-kp-116"
+    ]
   },
   {
     "id": "cn-lesson-094",
@@ -2424,7 +2819,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#TCP协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-095",
@@ -2443,7 +2840,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#UDP协议与可靠传输拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-096",
@@ -2462,7 +2861,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#应用层协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-097",
@@ -2481,7 +2882,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#HTTP、DNS与Web网络基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-098",
@@ -2500,7 +2903,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络安全、综合题与408复习训练拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-099",
@@ -2519,7 +2924,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#计算机网络入门与学习路线拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-100",
@@ -2538,7 +2945,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络体系结构与协议分层拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-101",
@@ -2557,7 +2966,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#物理层基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-102",
@@ -2576,7 +2987,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#数据链路层与以太网拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-103",
@@ -2595,7 +3008,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#局域网、交换机与VLAN拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-104",
@@ -2614,7 +3029,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络层与IP协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-105",
@@ -2633,7 +3050,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#子网划分与CIDR拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-106",
@@ -2652,7 +3071,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#路由算法与路由协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-107",
@@ -2671,7 +3092,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#传输层基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-108",
@@ -2690,7 +3113,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#TCP协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-109",
@@ -2709,7 +3134,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#UDP协议与可靠传输拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-110",
@@ -2728,7 +3155,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#应用层协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-111",
@@ -2747,7 +3176,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#HTTP、DNS与Web网络基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-112",
@@ -2766,7 +3197,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络安全、综合题与408复习训练拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-113",
@@ -2785,7 +3218,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#计算机网络入门与学习路线拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-114",
@@ -2804,7 +3239,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络体系结构与协议分层拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-115",
@@ -2823,7 +3260,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#物理层基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-116",
@@ -2842,7 +3281,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#数据链路层与以太网拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-117",
@@ -2861,7 +3302,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#局域网、交换机与VLAN拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-118",
@@ -2880,7 +3323,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络层与IP协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-119",
@@ -2899,7 +3344,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#子网划分与CIDR拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-120",
@@ -2918,7 +3365,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#路由算法与路由协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-121",
@@ -2937,7 +3386,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#传输层基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-122",
@@ -2956,7 +3407,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#TCP协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-123",
@@ -2975,7 +3428,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#UDP协议与可靠传输拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-124",
@@ -2994,7 +3449,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#应用层协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-125",
@@ -3013,7 +3470,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#HTTP、DNS与Web网络基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-126",
@@ -3032,7 +3491,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络安全、综合题与408复习训练拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-127",
@@ -3051,7 +3512,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#计算机网络入门与学习路线拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-128",
@@ -3070,7 +3533,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络体系结构与协议分层拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-129",
@@ -3089,7 +3554,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#物理层基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-130",
@@ -3108,7 +3575,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#数据链路层与以太网拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-131",
@@ -3127,7 +3596,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#局域网、交换机与VLAN拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-132",
@@ -3146,7 +3617,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络层与IP协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-133",
@@ -3165,7 +3638,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#子网划分与CIDR拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-134",
@@ -3184,7 +3659,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#路由算法与路由协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-135",
@@ -3203,7 +3680,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#传输层基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-136",
@@ -3222,7 +3701,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#TCP协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-137",
@@ -3241,7 +3722,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#UDP协议与可靠传输拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-138",
@@ -3260,7 +3743,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#应用层协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-139",
@@ -3279,7 +3764,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#HTTP、DNS与Web网络基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-140",
@@ -3298,7 +3785,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络安全、综合题与408复习训练拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-141",
@@ -3317,7 +3806,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#计算机网络入门与学习路线拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-142",
@@ -3336,7 +3827,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络体系结构与协议分层拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-143",
@@ -3355,7 +3848,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#物理层基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-144",
@@ -3374,7 +3869,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#数据链路层与以太网拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-145",
@@ -3393,7 +3890,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#局域网、交换机与VLAN拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-146",
@@ -3412,7 +3911,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络层与IP协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-147",
@@ -3431,7 +3932,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#子网划分与CIDR拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-148",
@@ -3450,7 +3953,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#路由算法与路由协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-149",
@@ -3469,7 +3974,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#传输层基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-150",
@@ -3488,7 +3995,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#TCP协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-151",
@@ -3507,7 +4016,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#UDP协议与可靠传输拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-152",
@@ -3526,7 +4037,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#应用层协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-153",
@@ -3545,7 +4058,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#HTTP、DNS与Web网络基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-154",
@@ -3564,7 +4079,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络安全、综合题与408复习训练拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-155",
@@ -3583,7 +4100,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#计算机网络入门与学习路线拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-156",
@@ -3602,7 +4121,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络体系结构与协议分层拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-157",
@@ -3621,7 +4142,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#物理层基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-158",
@@ -3640,7 +4163,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#数据链路层与以太网拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-159",
@@ -3659,7 +4184,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#局域网、交换机与VLAN拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-160",
@@ -3678,7 +4205,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络层与IP协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-161",
@@ -3697,7 +4226,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#子网划分与CIDR拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-162",
@@ -3716,7 +4247,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#路由算法与路由协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-163",
@@ -3735,7 +4268,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#传输层基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-164",
@@ -3754,7 +4289,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#TCP协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-165",
@@ -3773,7 +4310,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#UDP协议与可靠传输拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-166",
@@ -3792,7 +4331,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#应用层协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-167",
@@ -3811,7 +4352,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#HTTP、DNS与Web网络基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-168",
@@ -3830,7 +4373,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络安全、综合题与408复习训练拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-169",
@@ -3849,7 +4394,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#计算机网络入门与学习路线拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-170",
@@ -3868,7 +4415,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络体系结构与协议分层拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-171",
@@ -3887,7 +4436,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#物理层基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-172",
@@ -3906,7 +4457,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#数据链路层与以太网拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-173",
@@ -3925,7 +4478,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#局域网、交换机与VLAN拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-174",
@@ -3944,7 +4499,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#网络层与IP协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-175",
@@ -3963,7 +4520,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#子网划分与CIDR拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-176",
@@ -3982,7 +4541,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#路由算法与路由协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-177",
@@ -4001,7 +4562,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#传输层基础拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-178",
@@ -4020,7 +4583,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#TCP协议拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-179",
@@ -4039,7 +4604,9 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#UDP协议与可靠传输拓展",
+    "knowledgePoints": []
   },
   {
     "id": "cn-lesson-180",
@@ -4058,6 +4625,8 @@
       "X"
     ],
     "prerequisites": [],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "contentMarkdown": "#应用层协议拓展",
+    "knowledgePoints": []
   }
 ]
