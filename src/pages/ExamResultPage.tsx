@@ -59,7 +59,8 @@ export default function ExamResultPage({ data }: { data: ModuleData }) {
       const q = data.questions.find((qq) => qq.id === qId);
       if (q?.knowledge_points) {
         data.lessons.forEach((les) => {
-          if (les.knowledge_points?.some((kp) => q.knowledge_points?.includes(kp))) {
+          const kps = les.knowledgePoints || [];
+          if (kps.some((kp: string) => q.knowledge_points?.includes(kp))) {
             lessonsSet.add(les.slug);
           }
         });
