@@ -1,9 +1,9 @@
 [
   {
     "id": "mod-computer-network-exam-1",
-    "slug": "final-exam",
-    "title": "计算机网络学习与题库训练 核心期末综合自测",
-    "summary": "全面检验您对 计算机网络学习与题库训练 所有阶段知识体系的掌握程度。",
+    "slug": "basic-exam",
+    "title": "计算机网络基础入门测验",
+    "summary": "覆盖分层模型、IP 与子网掩码、DNS、HTTP 状态码等入门知识点。",
     "difficulty": "easy",
     "questionIds": [
       "mod-computer-network-q-1",
@@ -11,21 +11,55 @@
       "mod-computer-network-q-3",
       "mod-computer-network-q-4",
       "mod-computer-network-q-5",
-      "mod-computer-network-q-6"
+      "mod-computer-network-q-15",
+      "mod-computer-network-q-19",
+      "mod-computer-network-q-20",
+      "mod-computer-network-q-11",
+      "mod-computer-network-q-12"
     ],
-    "timeLimitMinutes": 60,
+    "timeLimitMinutes": 15,
     "passingScore": 60
   },
   {
     "id": "mod-computer-network-exam-2",
-    "slug": "basic-exam",
-    "title": "计算机网络学习与题库训练 基础概念快速评估",
-    "summary": "针对核心基础概念的摸底评估，题目精炼。",
-    "difficulty": "easy",
+    "slug": "advanced-exam",
+    "title": "计算机网络进阶强化测验",
+    "summary": "聚焦 TCP 握手挥手、拥塞控制、子网划分与路由协议等 408 核心考点。",
+    "difficulty": "medium",
     "questionIds": [
-      "mod-computer-network-q-1",
-      "mod-computer-network-q-2",
-      "mod-computer-network-q-3"
+      "mod-computer-network-q-6",
+      "mod-computer-network-q-7",
+      "mod-computer-network-q-8",
+      "mod-computer-network-q-9",
+      "mod-computer-network-q-10",
+      "mod-computer-network-q-16",
+      "mod-computer-network-q-17",
+      "mod-computer-network-q-21",
+      "mod-computer-network-q-22",
+      "mod-computer-network-q-23"
+    ],
+    "timeLimitMinutes": 25,
+    "passingScore": 60
+  },
+  {
+    "id": "mod-computer-network-exam-3",
+    "slug": "final-exam",
+    "title": "计算机网络综合模拟考试",
+    "summary": "综合考查序号计算、TLS 原理、路由协议与 DNS 解析流程，模拟考研难度。",
+    "difficulty": "hard",
+    "questionIds": [
+      "mod-computer-network-q-6",
+      "mod-computer-network-q-8",
+      "mod-computer-network-q-9",
+      "mod-computer-network-q-13",
+      "mod-computer-network-q-14",
+      "mod-computer-network-q-17",
+      "mod-computer-network-q-18",
+      "mod-computer-network-q-21",
+      "mod-computer-network-q-22",
+      "mod-computer-network-q-23",
+      "mod-computer-network-q-24",
+      "mod-computer-network-q-10"
     ],
     "timeLimitMinutes": 30,
     "passingScore": 60
