@@ -7,7 +7,7 @@ export default function PomodoroTimer() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    let timer: any = null;
+    let timer: ReturnType<typeof setInterval> | null = null;
     if (isRunning && secondsLeft > 0) {
       timer = setInterval(() => {
         setSecondsLeft((prev) => prev - 1);
@@ -16,7 +16,7 @@ export default function PomodoroTimer() {
       setIsRunning(false);
       // Play Web Audio chime on completion
       try {
-        const ctx = new (window.AudioContext || (window as any).webkitAudioContext)();
+        const ctx = new (window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext)();
         const osc = ctx.createOscillator();
         const gain = ctx.createGain();
         osc.type = "sine";
@@ -26,11 +26,13 @@ export default function PomodoroTimer() {
         gain.connect(ctx.destination);
         osc.start();
         osc.stop(ctx.currentTime + 0.6);
-      } catch (e) {
+      } catch {
         // ignore audio errors
       }
     }
-    return () => clearInterval(timer);
+    return () => {
+      if (timer) clearInterval(timer);
+    };
   }, [isRunning, secondsLeft]);
 
   const minutes = Math.floor(secondsLeft / 60);
@@ -43,25 +45,28 @@ export default function PomodoroTimer() {
   }
 
   return (
-    <div className="relative">
+    <div className="relative shrink-0">
       <button
         onClick={() => setIsOpen(!isOpen)}
         type="button"
-        className={`btn-ghost text-xs flex items-center gap-1.5 py-1.5 px-2.5 rounded-full transition ${
-          isRunning ? "border-brand-500/50 text-brand-700 dark:text-brand-300 bg-brand-500/10 animate-pulse" : ""
+        className={`btn-ghost text-xs flex items-center gap-1.5 h-9 px-2 sm:px-2.5 py-0 rounded-lg sm:rounded-full transition ${
+          isRunning ? "border-accent/50 text-brand bg-accent-soft animate-pulse" : ""
         }`}
         title="番茄专注计时器"
         aria-label="番茄专注计时器"
         aria-expanded={isOpen}
       >
         <IconTimer size={16} />
-        <span className="font-mono font-bold">{formattedTime}</span>
+        <span className="hidden sm:inline font-mono font-bold">{formattedTime}</span>
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 top-11 z-50 w-64 max-w-[calc(100vw-2rem)] card p-4 bg-white/95 dark:bg-slate-950/95 border-slate-200 dark:border-white/10 backdrop-blur-xl shadow-soft-lg space-y-3 animate-fade-in">
-          <div className="flex items-center justify-between border-b border-slate-200 dark:border-white/10 pb-2">
-            <h4 className="text-xs font-bold text-slate-900 dark:text-white flex items-center gap-1.5">
+        <div
+          className="absolute right-0 top-11 z-50 w-64 max-w-[calc(100vw-2rem)] card p-4 bg-surface backdrop-blur-xl space-y-3 animate-fade-in"
+          style={{ boxShadow: "var(--shadow-lg)" }}
+        >
+          <div className="flex items-center justify-between border-b border-line pb-2">
+            <h4 className="text-xs font-bold text-body flex items-center gap-1.5">
               <span className="inline-flex"><IconTimer size={15} /></span> 专注番茄钟
             </h4>
             <button
@@ -75,10 +80,10 @@ export default function PomodoroTimer() {
           </div>
 
           <div className="text-center py-2">
-            <span className="text-3xl font-extrabold font-mono text-slate-900 dark:text-white tracking-widest block">
+            <span className="text-3xl font-extrabold font-mono text-body tracking-widest block">
               {formattedTime}
             </span>
-            <span className="text-[10px] text-slate-500 dark:text-white/50 mt-1 block">
+            <span className="text-[10px] text-subtle mt-1 block">
               {isRunning ? "保持专注学习中..." : "准备开始 25 分钟高效专注"}
             </span>
           </div>
@@ -86,25 +91,27 @@ export default function PomodoroTimer() {
           <div className="flex justify-center gap-2">
             <button
               onClick={() => setIsRunning(!isRunning)}
+              type="button"
               className="btn-primary text-xs flex-1 py-1.5 font-bold"
             >
               {isRunning ? "暂停" : "开始专注"}
             </button>
             <button
               onClick={() => resetTimer(25)}
+              type="button"
               className="btn-ghost text-xs py-1.5"
             >
               重置
             </button>
           </div>
 
-          <div className="flex justify-center gap-1.5 pt-1.5 border-t border-slate-200 dark:border-white/5">
+          <div className="flex justify-center gap-1.5 pt-1.5 border-t border-line">
             {[15, 25, 45].map((m) => (
               <button
                 key={m}
                 type="button"
                 onClick={() => resetTimer(m)}
-                className="px-3 py-1.5 rounded-lg text-[11px] font-semibold text-slate-500 dark:text-white/40 hover:text-brand-600 dark:hover:text-brand-300 hover:bg-slate-100 dark:hover:bg-white/5 transition"
+                className="px-3 py-1.5 rounded-lg text-[11px] font-semibold text-muted hover:text-brand hover:bg-surface-2 transition"
               >
                 {m}m
               </button>

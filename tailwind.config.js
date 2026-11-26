@@ -26,7 +26,7 @@ export default {
         },
         // Legacy palette kept so existing markup keeps compiling
         brand: {
-          DEFAULT: "#4f46e5",
+          DEFAULT: "var(--accent-text)",
           50: "#eef2ff",
           100: "#e0e7ff",
           300: "#a5b4fc",

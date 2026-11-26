@@ -1,9 +1,11 @@
 import { Client, Account, Databases, ID, Query } from "appwrite";
+import { DEFAULT_APPWRITE } from "../config/constants";
+import { collectProgressBackup, restoreProgressBackup } from "../utils/storage";
 
-const DEFAULT_ENDPOINT = "https://cloud.appwrite.io/v1";
-const DEFAULT_PROJECT = "openskill-galaxy";
-const DATABASE_ID = "openskill_db";
-const COLLECTION_ID = "user_progress";
+const DEFAULT_ENDPOINT = DEFAULT_APPWRITE.endpoint;
+const DEFAULT_PROJECT = DEFAULT_APPWRITE.projectId;
+const DATABASE_ID = DEFAULT_APPWRITE.databaseId;
+const COLLECTION_ID = DEFAULT_APPWRITE.collectionId;
 
 export interface AppwriteConfig {
   endpoint: string;
@@ -69,9 +71,7 @@ export async function registerEmail(email: string, pass: string, name?: string) 
 
 export async function logoutUser() {
   const { account } = getAppwriteInstances();
-  try {
-    await account.deleteSession("current");
-  } catch (e) {}
+  await account.deleteSession("current");
 }
 
 export async function pushProgressToCloud() {
@@ -79,15 +79,7 @@ export async function pushProgressToCloud() {
   if (!user) throw new Error("请先登录或初始化 Appwrite 访客身份");
 
   const { databases } = getAppwriteInstances();
-  const backupData: Record<string, string> = {};
-  
-  for (let i = 0; i < localStorage.length; i++) {
-    const key = localStorage.key(i);
-    if (key && (key.startsWith("openskill-") || key.startsWith("osg-mt:") || key === "theme")) {
-      const val = localStorage.getItem(key);
-      if (val) backupData[key] = val;
-    }
-  }
+  const backupData = collectProgressBackup();
 
   const payload = {
     userId: user.$id,
@@ -100,16 +92,14 @@ export async function pushProgressToCloud() {
       Query.equal("userId", user.$id),
     ]);
 
-    if (existing.documents.length > 0) {
-      const docId = existing.documents[0].$id;
-      return await databases.updateDocument(DATABASE_ID, COLLECTION_ID, docId, payload);
-    } else {
-      return await databases.createDocument(DATABASE_ID, COLLECTION_ID, ID.unique(), payload);
-    }
-  } catch (err: any) {
-    // Fallback: If Appwrite collection doesn't exist on self-hosted instance, save formatted JSON to user preferences
+    const existingId = existing.documents[0]?.$id;
+    if (existingId) return await databases.updateDocument(DATABASE_ID, COLLECTION_ID, existingId, payload);
+    return await databases.createDocument(DATABASE_ID, COLLECTION_ID, user.$id, payload);
+  } catch {
     const { account } = getAppwriteInstances();
-    await account.updatePrefs({ openskill_progress: JSON.stringify(backupData), updatedAt: new Date().toISOString() });
+    await account.updatePrefs({
+      prefs: { ...user.prefs, openskill_progress: payload.data, updatedAt: payload.updatedAt },
+    });
     return { status: "saved_to_user_prefs" };
   }
 }
@@ -118,35 +108,29 @@ export async function pullProgressFromCloud() {
   const user = await getCurrentUser();
   if (!user) throw new Error("请先登录或初始化 Appwrite 访客身份");
 
-  const { databases, account } = getAppwriteInstances();
-  let progressJsonStr = "";
-
+  const { databases } = getAppwriteInstances();
+  const prefs = user.prefs;
+  const candidates: { data: string; updatedAt?: string }[] = [];
+  if (typeof prefs.openskill_progress === "string" && prefs.openskill_progress) {
+    candidates.push({ data: prefs.openskill_progress, updatedAt: prefs.updatedAt });
+  }
   try {
     const existing = await databases.listDocuments(DATABASE_ID, COLLECTION_ID, [
       Query.equal("userId", user.$id),
     ]);
-
-    if (existing.documents.length > 0) {
-      progressJsonStr = existing.documents[0].data;
+    for (const doc of existing.documents) {
+      if (typeof doc.data === "string" && doc.data) {
+        candidates.push({ data: doc.data, updatedAt: doc.updatedAt || doc.$updatedAt });
+      }
     }
-  } catch (err) {
-    // Fallback to user preferences
-    const prefs = await account.getPrefs();
-    if (prefs?.openskill_progress) {
-      progressJsonStr = prefs.openskill_progress;
-    }
+  } catch (error) {
+    if (!candidates.length) throw error;
   }
 
-  if (!progressJsonStr) {
-    throw new Error("云端未查找到存盘进度");
-  }
-
-  const backupData = JSON.parse(progressJsonStr);
-  Object.entries(backupData).forEach(([k, v]) => {
-    if (k.startsWith("openskill-") || k.startsWith("osg-mt:") || k === "theme") {
-      localStorage.setItem(k, v as string);
-    }
-  });
-
+  if (!candidates.length) throw new Error("云端未查找到存盘进度");
+  const timestamp = (value?: string) => value ? Date.parse(value) || 0 : 0;
+  candidates.sort((a, b) => timestamp(b.updatedAt) - timestamp(a.updatedAt));
+  const backupData = JSON.parse(candidates[0].data);
+  restoreProgressBackup(backupData);
   return backupData;
 }

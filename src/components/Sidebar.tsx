@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, matchPath, useLocation } from "react-router-dom";
 
 const groups: { title: string; items: { to: string; label: string; end?: boolean }[] }[] = [
   {
@@ -31,26 +31,25 @@ const groups: { title: string; items: { to: string; label: string; end?: boolean
 ];
 
 export default function Sidebar() {
+  const { pathname } = useLocation();
+  const section = pathname.startsWith("/lessons/") ? "/courses" : pathname.startsWith("/practice/") ? "/questions" : pathname;
   return (
-    <aside className="hidden md:block w-56 shrink-0 border-r border-line">
-      <nav className="sticky top-16 max-h-[calc(100vh-4rem)] overflow-y-auto p-3 space-y-5">
+    <aside className="module-rail hidden md:block shrink-0 border-r border-line">
+      <nav className="sticky top-16 max-h-[calc(100vh-4rem)] overflow-y-auto p-3 space-y-5" aria-label="模块导航">
         {groups.map((g) => (
           <div key={g.title}>
-            <p className="px-3.5 mb-1.5 text-[11px] uppercase tracking-[0.14em] text-subtle font-semibold">
+            <p className="px-3.5 mb-1.5 text-[11px] text-subtle font-semibold">
               {g.title}
             </p>
-            {g.items.map((it) => (
-              <NavLink
-                key={it.to}
-                to={it.to}
-                end={it.end}
-                className={({ isActive }) =>
-                  `nav-link ${isActive ? "nav-link-active" : ""}`
-                }
-              >
-                {it.label}
-              </NavLink>
-            ))}
+            {g.items.map((item) => {
+              const current = Boolean(matchPath({ path: item.to, end: item.end ?? false }, section));
+              return (
+                <Link key={item.to} to={item.to} aria-current={current ? "page" : undefined}
+                  className={`nav-link ${current ? "nav-link-active" : ""}`}>
+                  {item.label}
+                </Link>
+              );
+            })}
           </div>
         ))}
       </nav>

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 
 export default function CodePlayground({
   initialCode,
@@ -7,14 +7,23 @@ export default function CodePlayground({
   initialCode: string;
   language: string;
 }) {
+  const hintId = useId();
+  const releaseTab = useRef(false);
   const [code, setCode] = useState(initialCode);
   const [showSandbox, setShowSandbox] = useState(false);
   // 沙箱内容走 srcDoc（sandbox="allow-scripts" 下无法访问 contentDocument）
   const [sandboxHtml, setSandboxHtml] = useState("");
   const [runId, setRunId] = useState(0);
 
+  useEffect(() => {
+    releaseTab.current = false;
+    setCode(initialCode);
+    setShowSandbox(false);
+    setSandboxHtml("");
+  }, [initialCode, language]);
+
   const isExecutable =
-    ["javascript", "typescript", "js", "ts", "html", "xml"].includes(
+    ["javascript", "js", "html"].includes(
       language.toLowerCase()
     );
 
@@ -22,10 +31,12 @@ export default function CodePlayground({
     let htmlContent = "";
     const lang = language.toLowerCase();
 
-    if (lang === "html" || lang === "xml") {
+    if (lang === "html") {
       htmlContent = code;
     } else {
-        htmlContent = `
+      // Pass the source as a string so a syntax error cannot prevent the console from starting.
+      const source = JSON.stringify(code).replace(/</g, "\\u003c");
+      htmlContent = `
           <!DOCTYPE html>
           <html>
             <head>
@@ -70,31 +81,42 @@ export default function CodePlayground({
               <h4>控制台输出 (Console Output)</h4>
               <div id="output"></div>
               <script>
-                const outputDiv = document.getElementById('output');
-                const log = (...args) => {
-                  const pre = document.createElement('pre');
-                  pre.textContent = args.map(arg => {
-                    if (typeof arg === 'object') {
-                      try { return JSON.stringify(arg, null, 2); } catch(e) { return String(arg); }
-                    }
-                    return String(arg);
-                  }).join(' ');
-                  outputDiv.appendChild(pre);
-                };
-                console.log = log;
-                console.info = log;
-                console.warn = log;
-                console.error = (err) => {
-                  const pre = document.createElement('pre');
-                  pre.className = 'error';
-                  pre.textContent = String(err);
-                  outputDiv.appendChild(pre);
-                };
-                try {
-                  ${code}
-                } catch (err) {
-                  console.error("运行时错误: " + err.message);
-                }
+                (() => {
+                  const output = document.getElementById('output');
+                  const write = (isError, args) => {
+                    const line = document.createElement('pre');
+                    if (isError) line.className = 'error';
+                    line.textContent = args.map(value => {
+                      if (value instanceof Error) return String(value);
+                      if (value && typeof value === 'object') {
+                        try { return JSON.stringify(value, null, 2); } catch {}
+                      }
+                      return String(value);
+                    }).join(' ');
+                    output.appendChild(line);
+                  };
+                  console.log = console.info = console.warn = (...args) => write(false, args);
+                  console.error = (...args) => write(true, args);
+                  const showError = (reason) => {
+                    const kind = reason instanceof SyntaxError ? '语法错误' : '运行时错误';
+                    console.error(kind + ': ' + (reason instanceof Error ? reason.message : String(reason)));
+                  };
+                  window.addEventListener('error', event => {
+                    event.preventDefault();
+                    const message = event.message === 'Script error.'
+                      ? '回调执行失败，浏览器未提供详细信息' : event.message;
+                    showError(event.error || message);
+                  });
+                  window.addEventListener('unhandledrejection', event => {
+                    event.preventDefault();
+                    showError(event.reason);
+                  });
+                  try {
+                    (0, eval)(${source});
+                  } catch (err) {
+                    showError(err);
+                  }
+                })();
               </script>
             </body>
           </html>
@@ -107,35 +129,32 @@ export default function CodePlayground({
   };
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
-    if (e.key === "Tab") {
-      e.preventDefault();
-      const start = e.currentTarget.selectionStart;
-      const end = e.currentTarget.selectionEnd;
-      const newValue = code.substring(0, start) + "  " + code.substring(end);
-      setCode(newValue);
-      
-      // Reset selection positions
-      const target = e.currentTarget;
-      setTimeout(() => {
-        if (target) {
-          target.selectionStart = target.selectionEnd = start + 2;
-        }
-      }, 0);
+    if (e.key === "Escape") {
+      releaseTab.current = true;
+      return;
     }
+    const indent = e.key === "Tab" && !releaseTab.current && !e.shiftKey &&
+      !e.ctrlKey && !e.altKey && !e.metaKey;
+    releaseTab.current = false;
+    if (!indent) return;
+    e.preventDefault();
+    const target = e.currentTarget;
+    target.setRangeText("  ", target.selectionStart, target.selectionEnd, "end");
+    setCode(target.value);
   };
 
   if (!isExecutable) return null;
 
   return (
-    <div className="mt-4 rounded-2xl border border-slate-200 dark:border-white/[0.06] bg-white dark:bg-slate-950/20 overflow-hidden shadow-xl">
-      <div className="flex items-center justify-between border-b border-slate-200 dark:border-white/[0.06] bg-slate-50 dark:bg-slate-950/40 px-4 py-2.5">
-        <span className="text-xs font-bold text-slate-700 dark:text-white/60 tracking-wider">交互式代码演练沙箱 ({language.toUpperCase()})
+    <div className="mt-4 rounded-2xl border border-line bg-surface overflow-hidden shadow-sm">
+      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-line bg-surface-2 px-4 py-2.5">
+        <span className="text-xs font-bold text-muted tracking-wider">交互式代码演练沙箱 ({language.toUpperCase()})
         </span>
         <div className="flex gap-2">
           {showSandbox && (
             <button
               onClick={() => setShowSandbox(false)}
-              className="px-2.5 py-1 rounded-lg border border-slate-200 dark:border-white/10 hover:bg-slate-100 dark:hover:bg-white/5 text-[10px] font-semibold text-slate-600 dark:text-white/60 hover:text-slate-900 dark:hover:text-white transition"
+              className="px-2.5 py-1 rounded-lg border border-line hover:bg-surface-3 text-[10px] font-semibold text-muted hover:text-body transition"
               type="button"
             >
               关闭控制台
@@ -151,13 +170,20 @@ export default function CodePlayground({
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row divide-y md:divide-y-0 md:divide-x divide-slate-200 dark:divide-white/[0.06] h-[240px]">
+      <p id={hintId} className="px-4 py-1.5 text-xs text-muted">
+        Tab 缩进，按 Esc 后再按 Tab 可移至下一项。
+      </p>
+      <div className="flex flex-col md:flex-row divide-y md:divide-y-0 md:divide-x divide-line md:h-[260px]">
         {/* Editor */}
         <textarea
           value={code}
           onChange={(e) => setCode(e.target.value)}
           onKeyDown={handleKeyDown}
-          className="flex-1 p-4 bg-slate-900 text-emerald-300 text-xs font-mono focus:outline-none resize-none leading-relaxed"
+          onBlur={() => { releaseTab.current = false; }}
+          aria-describedby={hintId}
+          aria-label="代码编辑器"
+          spellCheck={false}
+          className="flex-1 min-h-[180px] md:min-h-0 p-4 bg-[#0f1117] text-emerald-300 text-xs font-mono focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-accent resize-none leading-relaxed"
           style={{ fontFamily: 'SFMono-Regular, Consolas, Monaco, monospace' }}
         />
 
@@ -166,7 +192,7 @@ export default function CodePlayground({
           <iframe
             key={runId}
             title="Code Sandbox Output"
-            className="flex-1 bg-slate-950 h-full border-0"
+            className="flex-1 min-h-[200px] md:min-h-0 bg-[#090a0f] border-0"
             sandbox="allow-scripts"
             srcDoc={sandboxHtml}
           />

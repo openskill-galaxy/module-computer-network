@@ -1,34 +1,74 @@
+import ContentFeedback from "./ContentFeedback";
+import { Link } from "react-router-dom";
 import type { ModuleMeta } from "../types";
+import { IconGithub, colorFromId, monogram } from "./icons";
 
 export default function Footer({ module }: { module: ModuleMeta }) {
   const versionStr = module?.version ? `v${module.version}` : "v1.0.0";
   const updatedStr = module?.updatedAt ? `更新于 ${module.updatedAt}` : `更新于 ${new Date().toISOString().slice(0, 10)}`;
   const licenseStr = module?.license || "MIT License";
+  const badgeColor = colorFromId(module?.slug || "module");
 
   return (
-    <footer className="border-t border-slate-200 dark:border-white/10 bg-white/90 dark:bg-slate-950/40">
-      <div className="container-page py-6 text-sm text-slate-600 dark:text-white/60">
-        <div className="flex flex-col md:flex-row gap-3 md:items-center md:justify-between">
-          <div>
-            <p className="text-slate-900 dark:text-white/80 font-bold">{module?.title || "OpenSkill Galaxy 模块"}</p>
-            <p className="text-xs text-slate-500 dark:text-white/50 mt-0.5">
-              {versionStr} · {updatedStr} · {licenseStr}
-            </p>
+    <footer className="border-t border-line mt-8">
+      <div className="container-page py-12 text-sm">
+        <div className="flex flex-col md:flex-row gap-8 md:items-center md:justify-between">
+          <div className="flex items-center gap-3">
+            <span
+              className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-xl text-sm font-bold"
+              style={{ background: badgeColor.soft, color: badgeColor.fg }}
+            >
+              {monogram(module?.title || "OpenSkill")}
+            </span>
+            <div>
+              <p className="text-body font-semibold tracking-tight">
+                {module?.title || "OpenSkill Galaxy 模块"}
+              </p>
+              <p className="mt-0.5 text-xs text-subtle">
+                {versionStr} · {updatedStr} · {licenseStr}
+              </p>
+            </div>
           </div>
-          <div className="flex flex-wrap gap-4 text-xs font-semibold">
-            {module?.repoUrl && (
-              <a className="text-brand-600 dark:text-brand-300 hover:underline" href={module.repoUrl} target="_blank" rel="noreferrer">模块 GitHub 仓库
+
+          <div className="flex flex-wrap gap-6 text-sm font-medium">
+            <ContentFeedback module={module} />
+            {module?.repoUrl && /^https?:\/\//i.test(module.repoUrl) && (
+              <a
+                className="inline-flex items-center gap-1.5 text-muted hover:text-body transition duration-200"
+                href={module.repoUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <IconGithub size={16} /> 模块仓库
               </a>
             )}
-            {module?.portalUrl && (
-              <a className="text-brand-600 dark:text-brand-300 hover:underline" href={module.portalUrl} target="_blank" rel="noreferrer">返回 OpenSkill 总站
-              </a>
-            )}
+            <a
+              className="text-muted hover:text-body transition duration-200"
+              href={module?.portalUrl || "https://openskill-galaxy.github.io/"}
+              target="_blank"
+              rel="noreferrer"
+            >
+              返回 OpenSkill 总站
+            </a>
+            <Link
+              className="text-muted hover:text-body transition duration-200"
+              to="/faq"
+            >
+              常见问题
+            </Link>
+            <Link
+              className="text-muted hover:text-body transition duration-200"
+              to="/about"
+            >
+              关于模块
+            </Link>
           </div>
         </div>
-        <p className="mt-4 text-xs text-slate-400 dark:text-white/40">
-          © {new Date().getFullYear()} OpenSkill Galaxy · 开放技能星河架构体系
-        </p>
+
+        <div className="mt-8 border-t border-line pt-5 flex flex-col sm:flex-row justify-between text-xs text-subtle gap-2">
+          <p>© {new Date().getFullYear()} OpenSkill Galaxy · {licenseStr}</p>
+          <p>Made for student self-learners</p>
+        </div>
       </div>
     </footer>
   );

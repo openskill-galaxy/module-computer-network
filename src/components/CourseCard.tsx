@@ -1,10 +1,11 @@
+import { formatStudyTime } from "../utils/studyTime";
 import { Link } from "react-router-dom";
 import type { Course } from "../types";
 import DifficultyBadge from "./DifficultyBadge";
 import ProgressBar from "./ProgressBar";
 import { useProgressStore, courseProgress } from "../store/useProgressStore";
 
-export default function CourseCard({ course }: { course: Course }) {
+export default function CourseCard({ course, minutes }: { course: Course; minutes?: number }) {
   const progress = useProgressStore((s) => s.progress);
   const cp = courseProgress(course, progress);
   return (
@@ -22,7 +23,7 @@ export default function CourseCard({ course }: { course: Course }) {
       <div className="mt-4">
         <ProgressBar value={cp.percent} />
         <p className="mt-1 text-xs text-slate-500 dark:text-white/50">
-          {cp.completed}/{cp.total} 讲义 · 约 {course.estimatedHours}h
+          {cp.completed}/{cp.total} 节已完成 · 讲义{formatStudyTime(minutes)}
         </p>
       </div>
     </Link>

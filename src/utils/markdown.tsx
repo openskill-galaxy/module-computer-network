@@ -1,5 +1,5 @@
-// 极简 markdown 渲染器：支持标题、段落、列表、代码、引用、行内代码、加粗、链接
-// 不引入外部库，避免 XSS 通过白名单转义处理
+// 轻量化安全 Markdown 渲染器：支持标题(H1-H4)、表格、GitHub 提示框([!NOTE]/[TIP]/[WARNING]/[IMPORTANT])、
+// 段落、无序/有序列表、代码块与演练场、引用、分割线、行内代码、加粗、斜体与安全白名单链接
 import React from "react";
 import CodePlayground from "../components/CodePlayground";
 
@@ -7,42 +7,69 @@ function escapeHtml(s: string): string {
   return s
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;");
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
 }
 
 function inline(s: string): string {
   let out = escapeHtml(s);
   // 行内代码 `code`
-  out = out.replace(/`([^`]+)`/g, '<code>$1</code>');
+  out = out.replace(/`([^`]+)`/g, "<code>$1</code>");
   // 加粗 **text**
   out = out.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
-  // 链接 [text](url) — 仅允许 http/https
+  // 斜体 *text*
+  out = out.replace(/(^|[^*])\*([^*]+)\*(?!\*)/g, "$1<em>$2</em>");
+  // 链接 [text](url) — 仅允许 http/https，且已转义引号防属性注入 XSS
   out = out.replace(
-    /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,
-    '<a href="$2" target="_blank" rel="noreferrer" class="text-brand-300 hover:underline">$1</a>'
+    /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,
+    '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-brand-600 dark:text-brand-300 hover:underline">$1</a>'
   );
   return out;
 }
+
+const CALLOUT_STYLES: Record<string, { label: string; cls: string }> = {
+  NOTE: {
+    label: "提示",
+    cls: "border-sky-500/50 bg-sky-500/10 text-sky-900 dark:text-sky-100",
+  },
+  TIP: {
+    label: "技巧",
+    cls: "border-emerald-500/50 bg-emerald-500/10 text-emerald-900 dark:text-emerald-100",
+  },
+  IMPORTANT: {
+    label: "重点",
+    cls: "border-indigo-500/50 bg-indigo-500/10 text-indigo-900 dark:text-indigo-100",
+  },
+  WARNING: {
+    label: "注意",
+    cls: "border-amber-500/50 bg-amber-500/10 text-amber-900 dark:text-amber-100",
+  },
+  CAUTION: {
+    label: "警告",
+    cls: "border-rose-500/50 bg-rose-500/10 text-rose-900 dark:text-rose-100",
+  },
+};
 
 function CodeBlockWithCopy({ code, language }: { code: string; language?: string }) {
   const [copied, setCopied] = React.useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(code);
+    navigator.clipboard?.writeText(code);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
 
   return (
-    <div className="relative group my-3 rounded-xl overflow-hidden border border-white/[0.08]">
-      <div className="flex items-center justify-between bg-slate-950/80 px-4 py-1.5 border-b border-white/[0.06] text-xs">
-        <span className="text-[10px] font-mono font-semibold text-white/40 uppercase">
+    <div className="relative group my-3 rounded-xl overflow-hidden border border-line dark:border-white/[0.08]">
+      <div className="flex items-center justify-between bg-[#161922] px-4 py-1.5 border-b border-slate-800 text-xs">
+        <span className="text-[10px] font-mono font-semibold text-slate-400 uppercase">
           {language || "code"}
         </span>
         <button
           onClick={handleCopy}
           type="button"
-          className="text-[10px] text-white/50 hover:text-white transition flex items-center gap-1 bg-white/5 px-2 py-0.5 rounded border border-white/10"
+          className="text-[10px] text-slate-200 hover:bg-slate-700 transition flex items-center gap-1 bg-slate-800 px-2 py-0.5 rounded border border-slate-700"
         >
           {copied ? "✓ 已复制" : "复制"}
         </button>
@@ -54,9 +81,24 @@ function CodeBlockWithCopy({ code, language }: { code: string; language?: string
   );
 }
 
-export function renderMarkdown(md: string): React.ReactNode {
+function isTableDivider(line: string): boolean {
+  return /^\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?\s*$/.test(line);
+}
+
+function splitTableRow(line: string): string[] {
+  return line
+    .trim()
+    .replace(/^\|/, "")
+    .replace(/\|$/, "")
+    .split("|")
+    .map((c) => c.trim());
+}
+
+const HEADING_RE = /^(#{1,4})\s+(\S.*)$/;
+
+export function renderMarkdown(md: string, omitTitle?: string): React.ReactNode {
   if (!md) return null;
-  const lines = md.replace(/\r\n/g, "\n").split("\n");
+  const lines = md.replace(/\r\n?/g, "\n").split("\n");
   const blocks: React.ReactNode[] = [];
   let i = 0;
   let key = 0;
@@ -65,17 +107,24 @@ export function renderMarkdown(md: string): React.ReactNode {
   while (i < lines.length) {
     const line = lines[i];
 
-    // 代码块 ```
-    if (line.trim().startsWith("```")) {
-      const langMatch = line.trim().match(/^```([a-zA-Z0-9+#-]+)/);
-      const lang = langMatch ? langMatch[1] : "";
+    // 代码块 ``` 或 ~~~
+    const fenceMatch = line.trim().match(/^(`{3,}|~{3,})([a-zA-Z0-9+#-]*)/);
+    if (fenceMatch) {
+      const fenceToken = fenceMatch[1];
+      const fenceChar = fenceToken[0];
+      const fenceLen = fenceToken.length;
+      const lang = fenceMatch[2] || "";
       const buf: string[] = [];
       i++;
-      while (i < lines.length && !lines[i].trim().startsWith("```")) {
+      while (i < lines.length) {
+        const closeMatch = lines[i].trim().match(/^(`{3,}|~{3,})\s*$/);
+        if (closeMatch && closeMatch[1][0] === fenceChar && closeMatch[1].length >= fenceLen) {
+          break;
+        }
         buf.push(lines[i]);
         i++;
       }
-      i++; // skip closing ```
+      i++; // skip closing fence
       const rawCode = buf.join("\n");
       push(
         <>
@@ -86,28 +135,96 @@ export function renderMarkdown(md: string): React.ReactNode {
       continue;
     }
 
-    // 标题
-    const h = /^(#{1,3})\s+(.*)$/.exec(line);
-    if (h) {
-      const level = h[1].length;
-      const cleanText = h[2].replace(/[*_`]/g, "").trim();
-      const headingId = `heading-${i}-${cleanText.toLowerCase().replace(/[^\w\u4e00-\u9fa5]+/g, "-")}`;
-      const content = inline(h[2]);
-      if (level === 1) push(<h2 id={headingId} dangerouslySetInnerHTML={{ __html: content }} />);
-      else if (level === 2) push(<h2 id={headingId} dangerouslySetInnerHTML={{ __html: content }} />);
-      else push(<h3 id={headingId} dangerouslySetInnerHTML={{ __html: content }} />);
+    // 分割线 ---
+    if (/^\s*([-*_])\1{2,}\s*$/.test(line)) {
+      push(<hr className="my-4 border-slate-200 dark:border-white/10" />);
       i++;
       continue;
     }
 
-    // 引用
+    // Markdown 表格
+    if (line.includes("|") && i + 1 < lines.length && isTableDivider(lines[i + 1])) {
+      const headers = splitTableRow(line);
+      i += 2;
+      const rows: string[][] = [];
+      while (i < lines.length && lines[i].includes("|") && lines[i].trim() !== "") {
+        rows.push(splitTableRow(lines[i]));
+        i++;
+      }
+      push(
+        <div className="my-4 overflow-x-auto rounded-lg border border-slate-200 dark:border-white/10">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-slate-100/80 dark:bg-white/5">
+                {headers.map((h, idx) => (
+                  <th
+                    key={idx}
+                    className="px-3 py-2 text-left font-semibold border-b border-slate-200 dark:border-white/10"
+                    dangerouslySetInnerHTML={{ __html: inline(h) }}
+                  />
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {rows.map((r, rIdx) => (
+                <tr key={rIdx} className="border-b last:border-b-0 border-line">
+                  {headers.map((_, cIdx) => (
+                    <td
+                      key={cIdx}
+                      className="px-3 py-2 align-top"
+                      dangerouslySetInnerHTML={{ __html: inline(r[cIdx] || "") }}
+                    />
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+      continue;
+    }
+
+    // 标题 H1-H4
+    const h = HEADING_RE.exec(line);
+    if (h) {
+      const level = h[1].length;
+      const cleanText = h[2].replace(/[*_`]/g, "").trim();
+      // A lesson already renders its title in the page heading.
+      if (omitTitle === cleanText && h[1].length === 1 && !lines.slice(0, i).some((line) => line.trim())) {
+        i++;
+        continue;
+      }
+      const headingId = `heading-${i}-${cleanText.toLowerCase().replace(/[^\w\u4e00-\u9fa5]+/g, "-")}`;
+      const content = inline(h[2]);
+      if (level <= 2) push(<h2 id={headingId} dangerouslySetInnerHTML={{ __html: content }} />);
+      else if (level === 3) push(<h3 id={headingId} dangerouslySetInnerHTML={{ __html: content }} />);
+      else push(<h4 id={headingId} className="text-sm font-semibold mt-4 mb-1" dangerouslySetInnerHTML={{ __html: content }} />);
+      i++;
+      continue;
+    }
+
+    // 引用与 GitHub 风格 Callout (> [!NOTE] 等)
     if (line.trim().startsWith(">")) {
       const buf: string[] = [];
       while (i < lines.length && lines[i].trim().startsWith(">")) {
         buf.push(lines[i].replace(/^\s*>\s?/, ""));
         i++;
       }
-      push(<blockquote dangerouslySetInnerHTML={{ __html: inline(buf.join(" ")) }} />);
+      const first = buf[0]?.trim() || "";
+      const calloutMatch = /^\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]\s*(.*)$/i.exec(first);
+      if (calloutMatch) {
+        const kind = calloutMatch[1].toUpperCase();
+        const cfg = CALLOUT_STYLES[kind] || CALLOUT_STYLES.NOTE;
+        const body = [calloutMatch[2], ...buf.slice(1)].filter(Boolean).join(" ");
+        push(
+          <div className={`my-3 rounded-lg border-l-4 px-4 py-3 text-sm ${cfg.cls}`}>
+            <div className="font-semibold mb-1">{cfg.label}</div>
+            <div dangerouslySetInnerHTML={{ __html: inline(body) }} />
+          </div>
+        );
+      } else {
+        push(<blockquote dangerouslySetInnerHTML={{ __html: inline(buf.join(" ")) }} />);
+      }
       continue;
     }
 
@@ -156,12 +273,18 @@ export function renderMarkdown(md: string): React.ReactNode {
     while (
       i < lines.length &&
       lines[i].trim() !== "" &&
-      !/^(#{1,3})\s+/.test(lines[i]) &&
+      !HEADING_RE.test(lines[i]) &&
       !/^\s*[-*]\s+/.test(lines[i]) &&
       !/^\s*\d+\.\s+/.test(lines[i]) &&
+      !/^\s*([-*_])\1{2,}\s*$/.test(lines[i]) &&
       !lines[i].trim().startsWith(">") &&
-      !lines[i].trim().startsWith("```")
+      !/^(`{3,}|~{3,})/.test(lines[i].trim()) &&
+      !(lines[i].includes("|") && i + 1 < lines.length && isTableDivider(lines[i + 1]))
     ) {
+      buf.push(lines[i]);
+      i++;
+    }
+    if (buf.length === 0) {
       buf.push(lines[i]);
       i++;
     }

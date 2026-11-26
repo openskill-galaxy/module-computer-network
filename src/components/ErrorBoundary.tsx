@@ -1,4 +1,5 @@
 import { Component, ErrorInfo, ReactNode } from "react";
+import { clearAll } from "../utils/storage";
 
 interface Props {
   children: ReactNode;
@@ -42,7 +43,7 @@ export default class ErrorBoundary extends Component<Props, State> {
               </button>
               <button
                 onClick={() => {
-                  localStorage.clear();
+                  clearAll();
                   window.location.reload();
                 }}
                 className="btn-ghost flex-1 text-xs font-bold"

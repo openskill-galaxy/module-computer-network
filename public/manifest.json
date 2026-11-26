@@ -1,6 +1,7 @@
 {
-  "short_name": "OpenSkill Module",
-  "name": "OpenSkill Galaxy — 学习自测模块",
+  "short_name": "计算机网络学习与题库训练",
+  "name": "OpenSkill Galaxy — 计算机网络学习与题库训练",
+  "description": "面向计算机专业学生408考研后端开发和网络工程学习者的网络体系结构TCP/IPHTTPDNS子网划分路由与综合组网训练模块。",
   "icons": [
     {
       "src": "favicon.svg",
@@ -8,9 +9,10 @@
       "sizes": "any"
     }
   ],
-  "start_url": ".",
-  "background_color": "#fbfbfd",
-  "theme_color": "#4f46e5",
+  "start_url": "/module-computer-network/",
+  "scope": "/module-computer-network/",
+  "background_color": "#f4f5fa",
+  "theme_color": "#3039c9",
   "display": "standalone",
   "orientation": "portrait"
 }

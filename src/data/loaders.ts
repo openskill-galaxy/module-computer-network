@@ -14,7 +14,8 @@ import type {
   FaqItem,
 } from "../types";
 
-const BASE = import.meta.env.BASE_URL || "/module-template/";
+const rawBase = import.meta.env.BASE_URL || "/module-template/";
+const BASE = rawBase.endsWith("/") ? rawBase : rawBase + "/";
 
 async function fetchJson<T>(path: string): Promise<T> {
   const res = await fetch(`${BASE}${path}`);
@@ -80,6 +81,16 @@ export interface ModuleData {
   tags: Tag[];
   glossary: GlossaryTerm[];
   faqs: FaqItem[];
+  drafts: {
+    cases: Case[];
+    knowledgePoints: KnowledgePoint[];
+    faqs: FaqItem[];
+    glossary: GlossaryTerm[];
+  };
+}
+
+function published<T extends { editorialStatus?: "draft" }>(items: T[]): T[] {
+  return items.filter((item) => item.editorialStatus !== "draft");
 }
 
 export async function loadAll(): Promise<ModuleData> {
@@ -108,17 +119,28 @@ export async function loadAll(): Promise<ModuleData> {
     loadGlossary(),
     loadFaqs(),
   ]);
+  const draftTags = new Set(tags.filter((t) => t.editorialStatus === "draft").flatMap((t) => [t.id, t.name, t.slug]));
+  function visibleTags<T extends { tags: string[] }>(items: T[]): T[] {
+    if (!draftTags.size) return items;
+    return items.map((item) => ({ ...item, tags: item.tags.filter((tag) => !draftTags.has(tag)) }));
+  }
   return {
     module,
-    courses,
+    courses: visibleTags(courses),
     lessons,
-    knowledgePoints,
-    questions,
+    knowledgePoints: visibleTags(published(knowledgePoints)),
+    questions: visibleTags(questions),
     exams,
-    cases,
+    cases: visibleTags(published(cases)),
     routes,
-    tags,
-    glossary,
-    faqs,
+    tags: published(tags),
+    glossary: published(glossary),
+    faqs: published(faqs),
+    drafts: {
+      cases: cases.filter((c) => c.editorialStatus === "draft"),
+      knowledgePoints: knowledgePoints.filter((k) => k.editorialStatus === "draft"),
+      faqs: faqs.filter((f) => f.editorialStatus === "draft"),
+      glossary: glossary.filter((g) => g.editorialStatus === "draft"),
+    },
   };
 }

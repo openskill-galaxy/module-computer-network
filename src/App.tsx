@@ -1,6 +1,9 @@
+import { clearPendingPracticeResults, resultPrefix } from "./utils/practiceReview";
+import { STORAGE_PREFIX } from "./utils/storage";
 import { Suspense, lazy, useEffect, useMemo, useState } from "react";
-import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Layout from "./components/Layout";
+import { PageSkeleton } from "./components/SkeletonLoader";
 import { loadAll, type ModuleData } from "./data/loaders";
 import { useProgressStore } from "./store/useProgressStore";
 
@@ -25,49 +28,30 @@ const FaqPage = lazy(() => import("./pages/FaqPage"));
 const AboutPage = lazy(() => import("./pages/AboutPage"));
 const RoutesPage = lazy(() => import("./pages/RoutesPage"));
 
-// 模块级暂存深链目标：App 挂载早于 DeepLinkRedirector（数据加载完成后才挂载），
-// 用变量而非事件传递，避免事件在监听器注册前被派发而丢失。
-let pendingDeepLink: string | null = null;
-
-function DeepLinkRedirector() {
-  const navigate = useNavigate();
+function ScrollToTop() {
+  const { pathname, hash } = useLocation();
   useEffect(() => {
-    if (pendingDeepLink) {
-      const target = pendingDeepLink;
-      pendingDeepLink = null;
-      navigate(target, { replace: true });
+    if (!hash) {
+      window.scrollTo(0, 0);
+      document.body.scrollTo(0, 0);
     }
-  }, [navigate]);
+  }, [pathname, hash]);
   return null;
 }
 
 function RouteFallback() {
-  return (
-    <div className="flex items-center justify-center py-24">
-      <span
-        aria-label="页面加载中"
-        className="h-8 w-8 animate-spin rounded-full border-2 border-line border-t-accent"
-      />
-    </div>
-  );
+  return <PageSkeleton />;
 }
 
 export default function App() {
   const [data, setData] = useState<ModuleData | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [retryCount, setRetryCount] = useState(0);
   const hydrate = useProgressStore((s) => s.hydrate);
 
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const targetPage = params.get("page");
-    if (targetPage) {
-      window.history.replaceState({}, "", window.location.pathname + window.location.hash);
-      pendingDeepLink = targetPage;
-    }
-  }, []);
-
-  useEffect(() => {
     let cancelled = false;
+    setError(null);
     hydrate();
     loadAll()
       .then((d) => !cancelled && setData(d))
@@ -75,10 +59,28 @@ export default function App() {
     return () => {
       cancelled = true;
     };
+  }, [hydrate, retryCount]);
+
+  useEffect(() => {
+    let timer: number;
+    const synchronize = (event: StorageEvent) => {
+      if (event.key !== null) {
+        if (!event.key.startsWith(STORAGE_PREFIX)) return;
+        const key = event.key.slice(STORAGE_PREFIX.length);
+        if (!key.startsWith(resultPrefix) && !["wrongs", "exams", "progress", "favorites", "skip-legacy"].includes(key)) return;
+      }
+      if (event.key === null || event.key === STORAGE_PREFIX + "skip-legacy") clearPendingPracticeResults();
+      window.clearTimeout(timer);
+      timer = window.setTimeout(hydrate, 0);
+    };
+    window.addEventListener("storage", synchronize);
+    return () => {
+      window.clearTimeout(timer);
+      window.removeEventListener("storage", synchronize);
+    };
   }, [hydrate]);
 
   const basename = useMemo(() => {
-    // 与 vite base 保持一致，用于 BrowserRouter
     const fromEnv = import.meta.env.BASE_URL || "/module-template/";
     return fromEnv.endsWith("/") ? fromEnv : fromEnv + "/";
   }, []);
@@ -86,20 +88,32 @@ export default function App() {
   if (error) {
     return (
       <div className="container-page py-20 text-center">
-        <p className="text-rose-600 dark:text-rose-300">数据加载失败：{error}</p>
-        <p className="mt-2 text-white/50 text-sm">请检查 public/data/*.json 是否存在且格式正确。</p>
+        <p className="text-rose-700 dark:text-rose-300 font-medium">数据加载失败：{error}</p>
+        <p className="mt-2 text-muted text-sm">
+          请检查网络连接或确认 public/data/*.json 资源可用。
+        </p>
+        <button
+          type="button"
+          onClick={() => setRetryCount((c) => c + 1)}
+          className="mt-4 inline-flex items-center rounded-lg bg-accent px-4 py-2 text-sm font-medium text-accent-fg hover:opacity-90 transition"
+        >
+          重新加载
+        </button>
       </div>
     );
   }
   if (!data) {
     return (
-      <div className="container-page py-20 text-center text-white/60">加载中…</div>
+      <div className="container-page py-20 text-center text-muted" role="status">
+        <span className="inline-block h-6 w-6 animate-spin rounded-full border-2 border-line border-t-accent align-middle mr-2" />
+        正在加载模块数据…
+      </div>
     );
   }
 
   return (
     <BrowserRouter basename={basename}>
-      <DeepLinkRedirector />
+      <ScrollToTop />
       <Layout data={data}>
         <Suspense fallback={<RouteFallback />}>
           <Routes>

@@ -1,16 +1,16 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import type { SearchResult } from "../types";
 import { buildSearchEntries, createFuse, runSearch, typeLabel } from "../search/search";
 import type { ModuleData } from "../data/loaders";
 import { IconSearch } from "./icons";
 
-let cachedEntries: ReturnType<typeof buildSearchEntries> | null = null;
+let cachedData: ModuleData | null = null;
 let cachedFuse: ReturnType<typeof createFuse> | null = null;
 
 export default function SearchBox({ data }: { data: ModuleData }) {
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState<SearchResult[]>([]);
+  const results = useMemo(() => query.trim() ? runSearch(ensureIndex(data), query, 8) : [], [data, query]);
   const [open, setOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState<number>(-1);
   const navigate = useNavigate();
@@ -28,48 +28,22 @@ export default function SearchBox({ data }: { data: ModuleData }) {
   }, []);
 
   useEffect(() => {
-    function handleKeyDown(e: KeyboardEvent) {
-      if ((e.ctrlKey || e.metaKey) && e.key === "k") {
+    function handleShortcut(e: KeyboardEvent) {
+      if (e.defaultPrevented || document.querySelector('[aria-modal="true"]')) return;
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
         e.preventDefault();
         inputRef.current?.focus();
       }
-      if (e.key === "Escape") {
-        setOpen(false);
-        inputRef.current?.blur();
-      }
-      if (open && results.length > 0) {
-        if (e.key === "ArrowDown") {
-          e.preventDefault();
-          setSelectedIndex((prev) => (prev + 1 < results.length ? prev + 1 : 0));
-        } else if (e.key === "ArrowUp") {
-          e.preventDefault();
-          setSelectedIndex((prev) => (prev - 1 >= 0 ? prev - 1 : results.length - 1));
-        } else if (e.key === "Enter" && selectedIndex >= 0 && results[selectedIndex]) {
-          e.preventDefault();
-          go(results[selectedIndex]);
-        }
-      }
     }
-    document.addEventListener("keydown", handleKeyDown);
-    return () => document.removeEventListener("keydown", handleKeyDown);
-  }, [open, results, selectedIndex]);
+    document.addEventListener("keydown", handleShortcut);
+    return () => document.removeEventListener("keydown", handleShortcut);
+  }, []);
 
   // 聚焦时用 App 已加载的数据预构建索引（避免重复 fetch 全量 JSON）
   function handleFocus() {
     ensureIndex(data);
+    if (query.trim().length > 0) setOpen(true);
   }
-
-  // 输入时即时检索（索引复用同一份缓存）
-  useEffect(() => {
-    if (query.trim().length === 0) {
-      setResults([]);
-      setOpen(false);
-      return;
-    }
-    const fuse = ensureIndex(data);
-    setResults(runSearch(fuse, query, 8));
-    setOpen(true);
-  }, [query, data]);
 
   function go(r: SearchResult) {
     setQuery("");
@@ -78,15 +52,18 @@ export default function SearchBox({ data }: { data: ModuleData }) {
   }
 
   const typeColor: Record<SearchResult["type"], string> = {
-    course: "bg-brand-500/10 text-brand-700 dark:text-brand-300 border-brand-500/20",
-    lesson: "bg-cyan-500/10 text-cyan-700 dark:text-cyan-300 border-cyan-500/20",
-    knowledge: "bg-purple-500/10 text-purple-700 dark:text-purple-300 border-purple-500/20",
-    question: "bg-amber-500/10 text-amber-700 dark:text-amber-300 border-amber-500/20",
-    case: "bg-rose-500/10 text-rose-700 dark:text-rose-300 border-rose-500/20",
-    route: "bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border-emerald-500/20",
-    faq: "bg-blue-500/10 text-blue-700 dark:text-blue-300 border-blue-500/20",
-    glossary: "bg-teal-500/10 text-teal-700 dark:text-teal-300 border-teal-500/20",
+    course: "bg-accent-soft text-brand",
+    lesson: "bg-cyan-500/10 text-cyan-700 dark:text-cyan-300",
+    knowledge: "bg-purple-500/10 text-purple-700 dark:text-purple-300",
+    question: "bg-amber-500/10 text-amber-700 dark:text-amber-300",
+    case: "bg-rose-500/10 text-rose-700 dark:text-rose-300",
+    route: "bg-emerald-500/10 text-emerald-700 dark:text-emerald-300",
+    faq: "bg-blue-500/10 text-blue-700 dark:text-blue-300",
+    glossary: "bg-teal-500/10 text-teal-700 dark:text-teal-300",
   };
+
+  const dropdownClass =
+    "fixed inset-x-4 top-[4.5rem] z-40 sm:absolute sm:inset-x-auto sm:right-0 sm:top-full sm:mt-2 sm:w-[400px] sm:max-w-[calc(100vw-2rem)] rounded-2xl border border-line bg-surface backdrop-blur-xl shadow-[var(--shadow-lg)] overflow-hidden";
 
   return (
     <div ref={boxRef} className="relative">
@@ -96,39 +73,76 @@ export default function SearchBox({ data }: { data: ModuleData }) {
           type="search"
           value={query}
           onFocus={handleFocus}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="搜索课程、知识点、题目…"
-          className="w-full rounded-xl border border-slate-200 dark:border-white/10 bg-slate-50 dark:bg-white/[0.02] pl-10 pr-16 py-2 text-sm text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-white/30 focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500 transition duration-200"
+          onChange={(e) => {
+            setQuery(e.target.value);
+            setOpen(Boolean(e.target.value.trim()));
+            setSelectedIndex(-1);
+          }}
+          onBlur={() => {
+            setOpen(false);
+            setSelectedIndex(-1);
+          }}
+          onKeyDown={(e) => {
+            if (e.nativeEvent.isComposing || e.keyCode === 229) return;
+            if (e.key === "Escape") {
+              e.preventDefault();
+              setOpen(false);
+              setSelectedIndex(-1);
+
+            } else if (results.length > 0 && e.key === "ArrowDown") {
+              e.preventDefault();
+              setOpen(true);
+              setSelectedIndex((prev) => (prev + 1 < results.length ? prev + 1 : 0));
+            } else if (results.length > 0 && e.key === "ArrowUp") {
+              e.preventDefault();
+              setOpen(true);
+              setSelectedIndex((prev) => (prev - 1 >= 0 ? prev - 1 : results.length - 1));
+            } else if (open && results.length > 0 && e.key === "Enter") {
+              e.preventDefault();
+              go(results[selectedIndex >= 0 ? selectedIndex : 0]);
+            }
+          }}
+          placeholder="搜索"
+          className="input pl-9 pr-3 lg:pr-14 py-2 text-base sm:text-sm"
           aria-label="全站搜索"
+          role="combobox"
           aria-autocomplete="list"
-          aria-expanded={open}
+          aria-expanded={open && results.length > 0}
+          aria-controls={open && results.length ? "module-search-results" : undefined}
+          aria-activedescendant={open && results[selectedIndex] ? `module-result-${selectedIndex}` : undefined}
         />
-        <span className="absolute left-3 text-subtle pointer-events-none"><IconSearch size={15} /></span>
-        <span className="hidden sm:inline absolute right-3 text-[9px] font-bold text-slate-400 dark:text-white/20 border border-slate-200 dark:border-white/10 rounded px-1.5 py-0.5 pointer-events-none select-none bg-slate-100 dark:bg-white/[0.01]">
-          Ctrl+K
+        <span className="absolute left-3 text-subtle pointer-events-none">
+          <IconSearch size={15} />
+        </span>
+        <span className="hidden lg:inline absolute right-2.5 text-[10px] font-medium text-subtle border border-line rounded px-1.5 py-0.5 pointer-events-none select-none">
+          {/Mac|iPhone|iPad/.test(navigator.platform) ? "⌘ K" : "Ctrl+K"}
         </span>
       </div>
       {open && results.length > 0 && (
         <ul
+          id="module-search-results"
           role="listbox"
           aria-label="搜索匹配结果"
-          className="fixed inset-x-4 top-[4.5rem] z-40 sm:absolute sm:inset-x-auto sm:right-0 sm:top-full sm:mt-2 sm:w-[400px] rounded-2xl border border-slate-200 dark:border-white/[0.08] bg-white/95 dark:bg-slate-950/95 backdrop-blur-xl shadow-soft-lg overflow-hidden p-1.5 space-y-0.5"
+          className={`${dropdownClass} p-1.5 space-y-0.5 max-h-[70vh] overflow-y-auto`}
         >
           {results.map((r, idx) => (
-            <li key={`${r.type}-${r.id}`} role="option" aria-selected={selectedIndex === idx}>
+            <li key={`${r.type}-${r.id}`} id={`module-result-${idx}`} role="option" aria-selected={selectedIndex === idx}>
               <button
                 type="button"
+                tabIndex={-1}
+                onMouseDown={(e) => e.preventDefault()}
                 onClick={() => go(r)}
+                onMouseEnter={() => setSelectedIndex(idx)}
                 className={`flex w-full items-start gap-3 rounded-xl px-3.5 py-2.5 text-left active:scale-[0.99] transition-all duration-150 ${
-                  selectedIndex === idx ? "bg-brand-500/20 border border-brand-500/30" : "hover:bg-slate-100 dark:hover:bg-white/[0.04]"
+                  selectedIndex === idx ? "bg-surface-2" : "hover:bg-surface-2"
                 }`}
               >
-                <span className={`mt-0.5 shrink-0 rounded-md border px-1.5 py-0.5 text-[10px] font-bold ${typeColor[r.type] || "bg-brand-500/10 text-brand-700 dark:text-brand-300"}`}>
+                <span className={`mt-0.5 shrink-0 rounded-md px-1.5 py-0.5 text-[10px] font-semibold ${typeColor[r.type] || "bg-accent-soft text-brand"}`}>
                   {typeLabel[r.type]}
                 </span>
-                <span className="min-w-0">
-                  <span className="block text-sm text-slate-900 dark:text-white font-medium truncate">{r.title}</span>
-                  <span className="block text-xs text-slate-500 dark:text-white/40 truncate mt-0.5">
+                <span className="min-w-0 flex-1">
+                  <span className="block text-sm text-body font-medium truncate">{r.title}</span>
+                  <span className="block text-xs text-muted truncate mt-0.5">
                     {r.summary}
                   </span>
                 </span>
@@ -138,7 +152,7 @@ export default function SearchBox({ data }: { data: ModuleData }) {
         </ul>
       )}
       {open && results.length === 0 && (
-        <div className="fixed inset-x-4 top-[4.5rem] z-40 sm:absolute sm:inset-x-auto sm:right-0 sm:top-full sm:mt-2 sm:w-[320px] rounded-2xl border border-slate-200 dark:border-white/[0.08] bg-white/95 dark:bg-slate-950/95 p-4 text-xs text-slate-500 dark:text-white/40 shadow-soft-lg">
+        <div className={`${dropdownClass} p-4 text-xs text-muted`}>
           未找到匹配结果
         </div>
       )}
@@ -146,14 +160,9 @@ export default function SearchBox({ data }: { data: ModuleData }) {
   );
 }
 
-// 暴露给 SearchPage 复用同一份缓存
-export function getSearchIndex(): { fuse: ReturnType<typeof createFuse> | null } {
-  return { fuse: cachedFuse };
-}
-
 export function ensureIndex(data: ModuleData): ReturnType<typeof createFuse> {
-  if (!cachedEntries || !cachedFuse) {
-    cachedEntries = buildSearchEntries({
+  if (cachedData !== data || !cachedFuse) {
+    const entries = buildSearchEntries({
       courses: data.courses,
       lessons: data.lessons,
       knowledgePoints: data.knowledgePoints,
@@ -163,7 +172,8 @@ export function ensureIndex(data: ModuleData): ReturnType<typeof createFuse> {
       faqs: data.faqs,
       glossary: data.glossary,
     });
-    cachedFuse = createFuse(cachedEntries);
+    cachedData = data;
+    cachedFuse = createFuse(entries);
   }
   return cachedFuse;
 }

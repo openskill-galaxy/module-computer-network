@@ -2,7 +2,7 @@
   "name": "openskill-module-computer-network",
   "version": "1.0.0",
   "private": true,
-  "description": "OpenSkill Galaxy reusable static learning module template.",
+  "description": "面向408考研后端开发网络工程",
   "type": "module",
   "scripts": {
     "dev": "vite",

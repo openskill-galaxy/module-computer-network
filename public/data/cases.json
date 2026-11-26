@@ -17,7 +17,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OSI分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "osi分层案例1"
+    "slug": "osi分层案例1",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-002",
@@ -37,7 +38,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP/IP分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp/ip分层案例2"
+    "slug": "tcp-ip分层案例2",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-003",
@@ -57,7 +59,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过网络时延计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "网络时延计算案例3"
+    "slug": "网络时延计算案例3",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-004",
@@ -77,7 +80,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过吞吐量计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "吞吐量计算案例4"
+    "slug": "吞吐量计算案例4",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-005",
@@ -97,7 +101,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CRC校验掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "crc校验案例5"
+    "slug": "crc校验案例5",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-006",
@@ -117,7 +122,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过停止等待协议掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "停止等待协议案例6"
+    "slug": "停止等待协议案例6",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-007",
@@ -137,7 +143,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过滑动窗口掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "滑动窗口案例7"
+    "slug": "滑动窗口案例7",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-008",
@@ -157,7 +164,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过以太网帧分析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "以太网帧分析案例8"
+    "slug": "以太网帧分析案例8",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-009",
@@ -177,7 +185,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过交换机转发掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "交换机转发案例9"
+    "slug": "交换机转发案例9",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-010",
@@ -197,7 +206,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过VLAN划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "vlan划分案例10"
+    "slug": "vlan划分案例10",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-011",
@@ -217,7 +227,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过IPv4地址分类掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ipv4地址分类案例11"
+    "slug": "ipv4地址分类案例11",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-012",
@@ -237,7 +248,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过子网划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "子网划分案例12"
+    "slug": "子网划分案例12",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-013",
@@ -257,7 +269,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CIDR路由聚合掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cidr路由聚合案例13"
+    "slug": "cidr路由聚合案例13",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-014",
@@ -277,7 +290,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过路由表匹配掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "路由表匹配案例14"
+    "slug": "路由表匹配案例14",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-015",
@@ -297,7 +311,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ARP解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "arp解析案例15"
+    "slug": "arp解析案例15",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-016",
@@ -317,7 +332,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ICMPping掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "icmpping案例16"
+    "slug": "icmpping案例16",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-017",
@@ -337,7 +353,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过NAT转换掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nat转换案例17"
+    "slug": "nat转换案例17",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-018",
@@ -357,7 +374,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP三次握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp三次握手案例18"
+    "slug": "tcp三次握手案例18",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-019",
@@ -377,7 +395,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP四次挥手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp四次挥手案例19"
+    "slug": "tcp四次挥手案例19",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-020",
@@ -397,7 +416,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP可靠传输掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp可靠传输案例20"
+    "slug": "tcp可靠传输案例20",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-021",
@@ -417,7 +437,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过拥塞控制掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "拥塞控制案例21"
+    "slug": "拥塞控制案例21",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-022",
@@ -437,7 +458,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过DNS解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "dns解析案例22"
+    "slug": "dns解析案例22",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-023",
@@ -457,7 +479,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTP请求响应掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "http请求响应案例23"
+    "slug": "http请求响应案例23",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-024",
@@ -477,7 +500,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CookieSession掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cookiesession案例24"
+    "slug": "cookiesession案例24",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-025",
@@ -497,7 +521,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTPS握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "https握手案例25"
+    "slug": "https握手案例25",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-026",
@@ -517,7 +542,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CDN访问掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cdn访问案例26"
+    "slug": "cdn访问案例26",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-027",
@@ -537,7 +563,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过综合网络故障掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "综合网络故障案例27"
+    "slug": "综合网络故障案例27",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-028",
@@ -557,7 +584,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过408网络综合题掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "408网络综合题案例28"
+    "slug": "408网络综合题案例28",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-029",
@@ -577,7 +605,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OSI分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "osi分层案例29"
+    "slug": "osi分层案例29",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-030",
@@ -597,7 +626,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP/IP分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp/ip分层案例30"
+    "slug": "tcp-ip分层案例30",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-031",
@@ -617,7 +647,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过网络时延计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "网络时延计算案例31"
+    "slug": "网络时延计算案例31",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-032",
@@ -637,7 +668,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过吞吐量计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "吞吐量计算案例32"
+    "slug": "吞吐量计算案例32",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-033",
@@ -657,7 +689,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CRC校验掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "crc校验案例33"
+    "slug": "crc校验案例33",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-034",
@@ -677,7 +710,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过停止等待协议掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "停止等待协议案例34"
+    "slug": "停止等待协议案例34",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-035",
@@ -697,7 +731,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过滑动窗口掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "滑动窗口案例35"
+    "slug": "滑动窗口案例35",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-036",
@@ -717,7 +752,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过以太网帧分析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "以太网帧分析案例36"
+    "slug": "以太网帧分析案例36",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-037",
@@ -737,7 +773,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过交换机转发掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "交换机转发案例37"
+    "slug": "交换机转发案例37",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-038",
@@ -757,7 +794,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过VLAN划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "vlan划分案例38"
+    "slug": "vlan划分案例38",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-039",
@@ -777,7 +815,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过IPv4地址分类掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ipv4地址分类案例39"
+    "slug": "ipv4地址分类案例39",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-040",
@@ -797,7 +836,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过子网划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "子网划分案例40"
+    "slug": "子网划分案例40",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-041",
@@ -817,7 +857,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CIDR路由聚合掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cidr路由聚合案例41"
+    "slug": "cidr路由聚合案例41",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-042",
@@ -837,7 +878,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过路由表匹配掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "路由表匹配案例42"
+    "slug": "路由表匹配案例42",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-043",
@@ -857,7 +899,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ARP解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "arp解析案例43"
+    "slug": "arp解析案例43",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-044",
@@ -877,7 +920,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ICMPping掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "icmpping案例44"
+    "slug": "icmpping案例44",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-045",
@@ -897,7 +941,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过NAT转换掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nat转换案例45"
+    "slug": "nat转换案例45",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-046",
@@ -917,7 +962,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP三次握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp三次握手案例46"
+    "slug": "tcp三次握手案例46",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-047",
@@ -937,7 +983,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP四次挥手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp四次挥手案例47"
+    "slug": "tcp四次挥手案例47",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-048",
@@ -957,7 +1004,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP可靠传输掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp可靠传输案例48"
+    "slug": "tcp可靠传输案例48",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-049",
@@ -977,7 +1025,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过拥塞控制掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "拥塞控制案例49"
+    "slug": "拥塞控制案例49",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-050",
@@ -997,7 +1046,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过DNS解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "dns解析案例50"
+    "slug": "dns解析案例50",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-051",
@@ -1017,7 +1067,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTP请求响应掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "http请求响应案例51"
+    "slug": "http请求响应案例51",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-052",
@@ -1037,7 +1088,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CookieSession掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cookiesession案例52"
+    "slug": "cookiesession案例52",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-053",
@@ -1057,7 +1109,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTPS握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "https握手案例53"
+    "slug": "https握手案例53",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-054",
@@ -1077,7 +1130,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CDN访问掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cdn访问案例54"
+    "slug": "cdn访问案例54",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-055",
@@ -1097,7 +1151,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过综合网络故障掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "综合网络故障案例55"
+    "slug": "综合网络故障案例55",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-056",
@@ -1117,7 +1172,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过408网络综合题掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "408网络综合题案例56"
+    "slug": "408网络综合题案例56",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-057",
@@ -1137,7 +1193,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OSI分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "osi分层案例57"
+    "slug": "osi分层案例57",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-058",
@@ -1157,7 +1214,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP/IP分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp/ip分层案例58"
+    "slug": "tcp-ip分层案例58",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-059",
@@ -1177,7 +1235,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过网络时延计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "网络时延计算案例59"
+    "slug": "网络时延计算案例59",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-060",
@@ -1197,7 +1256,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过吞吐量计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "吞吐量计算案例60"
+    "slug": "吞吐量计算案例60",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-061",
@@ -1217,7 +1277,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CRC校验掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "crc校验案例61"
+    "slug": "crc校验案例61",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-062",
@@ -1237,7 +1298,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过停止等待协议掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "停止等待协议案例62"
+    "slug": "停止等待协议案例62",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-063",
@@ -1257,7 +1319,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过滑动窗口掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "滑动窗口案例63"
+    "slug": "滑动窗口案例63",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-064",
@@ -1277,7 +1340,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过以太网帧分析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "以太网帧分析案例64"
+    "slug": "以太网帧分析案例64",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-065",
@@ -1297,7 +1361,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过交换机转发掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "交换机转发案例65"
+    "slug": "交换机转发案例65",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-066",
@@ -1317,7 +1382,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过VLAN划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "vlan划分案例66"
+    "slug": "vlan划分案例66",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-067",
@@ -1337,7 +1403,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过IPv4地址分类掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ipv4地址分类案例67"
+    "slug": "ipv4地址分类案例67",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-068",
@@ -1357,7 +1424,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过子网划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "子网划分案例68"
+    "slug": "子网划分案例68",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-069",
@@ -1377,7 +1445,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CIDR路由聚合掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cidr路由聚合案例69"
+    "slug": "cidr路由聚合案例69",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-070",
@@ -1397,7 +1466,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过路由表匹配掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "路由表匹配案例70"
+    "slug": "路由表匹配案例70",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-071",
@@ -1417,7 +1487,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ARP解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "arp解析案例71"
+    "slug": "arp解析案例71",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-072",
@@ -1437,7 +1508,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ICMPping掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "icmpping案例72"
+    "slug": "icmpping案例72",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-073",
@@ -1457,7 +1529,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过NAT转换掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nat转换案例73"
+    "slug": "nat转换案例73",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-074",
@@ -1477,7 +1550,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP三次握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp三次握手案例74"
+    "slug": "tcp三次握手案例74",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-075",
@@ -1497,7 +1571,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP四次挥手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp四次挥手案例75"
+    "slug": "tcp四次挥手案例75",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-076",
@@ -1517,7 +1592,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP可靠传输掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp可靠传输案例76"
+    "slug": "tcp可靠传输案例76",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-077",
@@ -1537,7 +1613,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过拥塞控制掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "拥塞控制案例77"
+    "slug": "拥塞控制案例77",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-078",
@@ -1557,7 +1634,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过DNS解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "dns解析案例78"
+    "slug": "dns解析案例78",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-079",
@@ -1577,7 +1655,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTP请求响应掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "http请求响应案例79"
+    "slug": "http请求响应案例79",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-080",
@@ -1597,7 +1676,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CookieSession掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cookiesession案例80"
+    "slug": "cookiesession案例80",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-081",
@@ -1617,7 +1697,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTPS握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "https握手案例81"
+    "slug": "https握手案例81",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-082",
@@ -1637,7 +1718,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CDN访问掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cdn访问案例82"
+    "slug": "cdn访问案例82",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-083",
@@ -1657,7 +1739,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过综合网络故障掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "综合网络故障案例83"
+    "slug": "综合网络故障案例83",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-084",
@@ -1677,7 +1760,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过408网络综合题掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "408网络综合题案例84"
+    "slug": "408网络综合题案例84",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-085",
@@ -1697,7 +1781,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OSI分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "osi分层案例85"
+    "slug": "osi分层案例85",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-086",
@@ -1717,7 +1802,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP/IP分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp/ip分层案例86"
+    "slug": "tcp-ip分层案例86",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-087",
@@ -1737,7 +1823,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过网络时延计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "网络时延计算案例87"
+    "slug": "网络时延计算案例87",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-088",
@@ -1757,7 +1844,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过吞吐量计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "吞吐量计算案例88"
+    "slug": "吞吐量计算案例88",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-089",
@@ -1777,7 +1865,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CRC校验掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "crc校验案例89"
+    "slug": "crc校验案例89",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-090",
@@ -1797,7 +1886,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过停止等待协议掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "停止等待协议案例90"
+    "slug": "停止等待协议案例90",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-091",
@@ -1817,7 +1907,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过滑动窗口掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "滑动窗口案例91"
+    "slug": "滑动窗口案例91",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-092",
@@ -1837,7 +1928,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过以太网帧分析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "以太网帧分析案例92"
+    "slug": "以太网帧分析案例92",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-093",
@@ -1857,7 +1949,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过交换机转发掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "交换机转发案例93"
+    "slug": "交换机转发案例93",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-094",
@@ -1877,7 +1970,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过VLAN划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "vlan划分案例94"
+    "slug": "vlan划分案例94",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-095",
@@ -1897,7 +1991,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过IPv4地址分类掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ipv4地址分类案例95"
+    "slug": "ipv4地址分类案例95",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-096",
@@ -1917,7 +2012,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过子网划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "子网划分案例96"
+    "slug": "子网划分案例96",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-097",
@@ -1937,7 +2033,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CIDR路由聚合掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cidr路由聚合案例97"
+    "slug": "cidr路由聚合案例97",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-098",
@@ -1957,7 +2054,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过路由表匹配掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "路由表匹配案例98"
+    "slug": "路由表匹配案例98",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-099",
@@ -1977,7 +2075,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ARP解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "arp解析案例99"
+    "slug": "arp解析案例99",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-100",
@@ -1997,7 +2096,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ICMPping掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "icmpping案例100"
+    "slug": "icmpping案例100",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-101",
@@ -2017,7 +2117,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过NAT转换掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nat转换案例101"
+    "slug": "nat转换案例101",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-102",
@@ -2037,7 +2138,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP三次握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp三次握手案例102"
+    "slug": "tcp三次握手案例102",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-103",
@@ -2057,7 +2159,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP四次挥手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp四次挥手案例103"
+    "slug": "tcp四次挥手案例103",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-104",
@@ -2077,7 +2180,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP可靠传输掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp可靠传输案例104"
+    "slug": "tcp可靠传输案例104",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-105",
@@ -2097,7 +2201,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过拥塞控制掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "拥塞控制案例105"
+    "slug": "拥塞控制案例105",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-106",
@@ -2117,7 +2222,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过DNS解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "dns解析案例106"
+    "slug": "dns解析案例106",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-107",
@@ -2137,7 +2243,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTP请求响应掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "http请求响应案例107"
+    "slug": "http请求响应案例107",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-108",
@@ -2157,7 +2264,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CookieSession掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cookiesession案例108"
+    "slug": "cookiesession案例108",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-109",
@@ -2177,7 +2285,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTPS握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "https握手案例109"
+    "slug": "https握手案例109",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-110",
@@ -2197,7 +2306,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CDN访问掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cdn访问案例110"
+    "slug": "cdn访问案例110",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-111",
@@ -2217,7 +2327,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过综合网络故障掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "综合网络故障案例111"
+    "slug": "综合网络故障案例111",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-112",
@@ -2237,7 +2348,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过408网络综合题掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "408网络综合题案例112"
+    "slug": "408网络综合题案例112",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-113",
@@ -2257,7 +2369,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OSI分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "osi分层案例113"
+    "slug": "osi分层案例113",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-114",
@@ -2277,7 +2390,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP/IP分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp/ip分层案例114"
+    "slug": "tcp-ip分层案例114",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-115",
@@ -2297,7 +2411,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过网络时延计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "网络时延计算案例115"
+    "slug": "网络时延计算案例115",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-116",
@@ -2317,7 +2432,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过吞吐量计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "吞吐量计算案例116"
+    "slug": "吞吐量计算案例116",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-117",
@@ -2337,7 +2453,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CRC校验掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "crc校验案例117"
+    "slug": "crc校验案例117",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-118",
@@ -2357,7 +2474,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过停止等待协议掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "停止等待协议案例118"
+    "slug": "停止等待协议案例118",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-119",
@@ -2377,7 +2495,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过滑动窗口掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "滑动窗口案例119"
+    "slug": "滑动窗口案例119",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-120",
@@ -2397,7 +2516,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过以太网帧分析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "以太网帧分析案例120"
+    "slug": "以太网帧分析案例120",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-121",
@@ -2417,7 +2537,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过交换机转发掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "交换机转发案例121"
+    "slug": "交换机转发案例121",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-122",
@@ -2437,7 +2558,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过VLAN划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "vlan划分案例122"
+    "slug": "vlan划分案例122",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-123",
@@ -2457,7 +2579,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过IPv4地址分类掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ipv4地址分类案例123"
+    "slug": "ipv4地址分类案例123",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-124",
@@ -2477,7 +2600,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过子网划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "子网划分案例124"
+    "slug": "子网划分案例124",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-125",
@@ -2497,7 +2621,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CIDR路由聚合掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cidr路由聚合案例125"
+    "slug": "cidr路由聚合案例125",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-126",
@@ -2517,7 +2642,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过路由表匹配掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "路由表匹配案例126"
+    "slug": "路由表匹配案例126",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-127",
@@ -2537,7 +2663,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ARP解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "arp解析案例127"
+    "slug": "arp解析案例127",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-128",
@@ -2557,7 +2684,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ICMPping掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "icmpping案例128"
+    "slug": "icmpping案例128",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-129",
@@ -2577,7 +2705,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过NAT转换掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nat转换案例129"
+    "slug": "nat转换案例129",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-130",
@@ -2597,7 +2726,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP三次握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp三次握手案例130"
+    "slug": "tcp三次握手案例130",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-131",
@@ -2617,7 +2747,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP四次挥手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp四次挥手案例131"
+    "slug": "tcp四次挥手案例131",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-132",
@@ -2637,7 +2768,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP可靠传输掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp可靠传输案例132"
+    "slug": "tcp可靠传输案例132",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-133",
@@ -2657,7 +2789,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过拥塞控制掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "拥塞控制案例133"
+    "slug": "拥塞控制案例133",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-134",
@@ -2677,7 +2810,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过DNS解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "dns解析案例134"
+    "slug": "dns解析案例134",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-135",
@@ -2697,7 +2831,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTP请求响应掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "http请求响应案例135"
+    "slug": "http请求响应案例135",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-136",
@@ -2717,7 +2852,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CookieSession掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cookiesession案例136"
+    "slug": "cookiesession案例136",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-137",
@@ -2737,7 +2873,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTPS握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "https握手案例137"
+    "slug": "https握手案例137",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-138",
@@ -2757,7 +2894,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CDN访问掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cdn访问案例138"
+    "slug": "cdn访问案例138",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-139",
@@ -2777,7 +2915,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过综合网络故障掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "综合网络故障案例139"
+    "slug": "综合网络故障案例139",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-140",
@@ -2797,7 +2936,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过408网络综合题掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "408网络综合题案例140"
+    "slug": "408网络综合题案例140",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-141",
@@ -2817,7 +2957,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OSI分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "osi分层案例141"
+    "slug": "osi分层案例141",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-142",
@@ -2837,7 +2978,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP/IP分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp/ip分层案例142"
+    "slug": "tcp-ip分层案例142",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-143",
@@ -2857,7 +2999,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过网络时延计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "网络时延计算案例143"
+    "slug": "网络时延计算案例143",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-144",
@@ -2877,7 +3020,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过吞吐量计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "吞吐量计算案例144"
+    "slug": "吞吐量计算案例144",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-145",
@@ -2897,7 +3041,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CRC校验掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "crc校验案例145"
+    "slug": "crc校验案例145",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-146",
@@ -2917,7 +3062,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过停止等待协议掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "停止等待协议案例146"
+    "slug": "停止等待协议案例146",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-147",
@@ -2937,7 +3083,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过滑动窗口掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "滑动窗口案例147"
+    "slug": "滑动窗口案例147",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-148",
@@ -2957,7 +3104,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过以太网帧分析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "以太网帧分析案例148"
+    "slug": "以太网帧分析案例148",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-149",
@@ -2977,7 +3125,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过交换机转发掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "交换机转发案例149"
+    "slug": "交换机转发案例149",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-150",
@@ -2997,7 +3146,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过VLAN划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "vlan划分案例150"
+    "slug": "vlan划分案例150",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-151",
@@ -3017,7 +3167,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过IPv4地址分类掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ipv4地址分类案例151"
+    "slug": "ipv4地址分类案例151",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-152",
@@ -3037,7 +3188,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过子网划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "子网划分案例152"
+    "slug": "子网划分案例152",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-153",
@@ -3057,7 +3209,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CIDR路由聚合掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cidr路由聚合案例153"
+    "slug": "cidr路由聚合案例153",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-154",
@@ -3077,7 +3230,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过路由表匹配掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "路由表匹配案例154"
+    "slug": "路由表匹配案例154",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-155",
@@ -3097,7 +3251,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ARP解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "arp解析案例155"
+    "slug": "arp解析案例155",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-156",
@@ -3117,7 +3272,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ICMPping掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "icmpping案例156"
+    "slug": "icmpping案例156",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-157",
@@ -3137,7 +3293,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过NAT转换掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nat转换案例157"
+    "slug": "nat转换案例157",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-158",
@@ -3157,7 +3314,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP三次握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp三次握手案例158"
+    "slug": "tcp三次握手案例158",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-159",
@@ -3177,7 +3335,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP四次挥手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp四次挥手案例159"
+    "slug": "tcp四次挥手案例159",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-160",
@@ -3197,7 +3356,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP可靠传输掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp可靠传输案例160"
+    "slug": "tcp可靠传输案例160",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-161",
@@ -3217,7 +3377,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过拥塞控制掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "拥塞控制案例161"
+    "slug": "拥塞控制案例161",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-162",
@@ -3237,7 +3398,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过DNS解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "dns解析案例162"
+    "slug": "dns解析案例162",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-163",
@@ -3257,7 +3419,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTP请求响应掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "http请求响应案例163"
+    "slug": "http请求响应案例163",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-164",
@@ -3277,7 +3440,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CookieSession掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cookiesession案例164"
+    "slug": "cookiesession案例164",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-165",
@@ -3297,7 +3461,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTPS握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "https握手案例165"
+    "slug": "https握手案例165",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-166",
@@ -3317,7 +3482,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CDN访问掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cdn访问案例166"
+    "slug": "cdn访问案例166",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-167",
@@ -3337,7 +3503,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过综合网络故障掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "综合网络故障案例167"
+    "slug": "综合网络故障案例167",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-168",
@@ -3357,7 +3524,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过408网络综合题掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "408网络综合题案例168"
+    "slug": "408网络综合题案例168",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-169",
@@ -3377,7 +3545,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OSI分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "osi分层案例169"
+    "slug": "osi分层案例169",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-170",
@@ -3397,7 +3566,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP/IP分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp/ip分层案例170"
+    "slug": "tcp-ip分层案例170",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-171",
@@ -3417,7 +3587,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过网络时延计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "网络时延计算案例171"
+    "slug": "网络时延计算案例171",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-172",
@@ -3437,7 +3608,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过吞吐量计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "吞吐量计算案例172"
+    "slug": "吞吐量计算案例172",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-173",
@@ -3457,7 +3629,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CRC校验掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "crc校验案例173"
+    "slug": "crc校验案例173",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-174",
@@ -3477,7 +3650,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过停止等待协议掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "停止等待协议案例174"
+    "slug": "停止等待协议案例174",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-175",
@@ -3497,7 +3671,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过滑动窗口掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "滑动窗口案例175"
+    "slug": "滑动窗口案例175",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-176",
@@ -3517,7 +3692,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过以太网帧分析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "以太网帧分析案例176"
+    "slug": "以太网帧分析案例176",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-177",
@@ -3537,7 +3713,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过交换机转发掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "交换机转发案例177"
+    "slug": "交换机转发案例177",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-178",
@@ -3557,7 +3734,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过VLAN划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "vlan划分案例178"
+    "slug": "vlan划分案例178",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-179",
@@ -3577,7 +3755,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过IPv4地址分类掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ipv4地址分类案例179"
+    "slug": "ipv4地址分类案例179",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-180",
@@ -3597,7 +3776,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过子网划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "子网划分案例180"
+    "slug": "子网划分案例180",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-181",
@@ -3617,7 +3797,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CIDR路由聚合掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cidr路由聚合案例181"
+    "slug": "cidr路由聚合案例181",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-182",
@@ -3637,7 +3818,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过路由表匹配掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "路由表匹配案例182"
+    "slug": "路由表匹配案例182",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-183",
@@ -3657,7 +3839,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ARP解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "arp解析案例183"
+    "slug": "arp解析案例183",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-184",
@@ -3677,7 +3860,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ICMPping掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "icmpping案例184"
+    "slug": "icmpping案例184",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-185",
@@ -3697,7 +3881,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过NAT转换掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nat转换案例185"
+    "slug": "nat转换案例185",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-186",
@@ -3717,7 +3902,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP三次握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp三次握手案例186"
+    "slug": "tcp三次握手案例186",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-187",
@@ -3737,7 +3923,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP四次挥手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp四次挥手案例187"
+    "slug": "tcp四次挥手案例187",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-188",
@@ -3757,7 +3944,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP可靠传输掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp可靠传输案例188"
+    "slug": "tcp可靠传输案例188",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-189",
@@ -3777,7 +3965,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过拥塞控制掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "拥塞控制案例189"
+    "slug": "拥塞控制案例189",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-190",
@@ -3797,7 +3986,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过DNS解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "dns解析案例190"
+    "slug": "dns解析案例190",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-191",
@@ -3817,7 +4007,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTP请求响应掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "http请求响应案例191"
+    "slug": "http请求响应案例191",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-192",
@@ -3837,7 +4028,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CookieSession掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cookiesession案例192"
+    "slug": "cookiesession案例192",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-193",
@@ -3857,7 +4049,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTPS握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "https握手案例193"
+    "slug": "https握手案例193",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-194",
@@ -3877,7 +4070,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CDN访问掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cdn访问案例194"
+    "slug": "cdn访问案例194",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-195",
@@ -3897,7 +4091,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过综合网络故障掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "综合网络故障案例195"
+    "slug": "综合网络故障案例195",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-196",
@@ -3917,7 +4112,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过408网络综合题掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "408网络综合题案例196"
+    "slug": "408网络综合题案例196",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-197",
@@ -3937,7 +4133,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OSI分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "osi分层案例197"
+    "slug": "osi分层案例197",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-198",
@@ -3957,7 +4154,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP/IP分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp/ip分层案例198"
+    "slug": "tcp-ip分层案例198",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-199",
@@ -3977,7 +4175,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过网络时延计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "网络时延计算案例199"
+    "slug": "网络时延计算案例199",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-200",
@@ -3997,7 +4196,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过吞吐量计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "吞吐量计算案例200"
+    "slug": "吞吐量计算案例200",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-201",
@@ -4017,7 +4217,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CRC校验掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "crc校验案例201"
+    "slug": "crc校验案例201",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-202",
@@ -4037,7 +4238,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过停止等待协议掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "停止等待协议案例202"
+    "slug": "停止等待协议案例202",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-203",
@@ -4057,7 +4259,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过滑动窗口掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "滑动窗口案例203"
+    "slug": "滑动窗口案例203",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-204",
@@ -4077,7 +4280,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过以太网帧分析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "以太网帧分析案例204"
+    "slug": "以太网帧分析案例204",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-205",
@@ -4097,7 +4301,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过交换机转发掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "交换机转发案例205"
+    "slug": "交换机转发案例205",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-206",
@@ -4117,7 +4322,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过VLAN划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "vlan划分案例206"
+    "slug": "vlan划分案例206",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-207",
@@ -4137,7 +4343,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过IPv4地址分类掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ipv4地址分类案例207"
+    "slug": "ipv4地址分类案例207",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-208",
@@ -4157,7 +4364,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过子网划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "子网划分案例208"
+    "slug": "子网划分案例208",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-209",
@@ -4177,7 +4385,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CIDR路由聚合掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cidr路由聚合案例209"
+    "slug": "cidr路由聚合案例209",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-210",
@@ -4197,7 +4406,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过路由表匹配掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "路由表匹配案例210"
+    "slug": "路由表匹配案例210",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-211",
@@ -4217,7 +4427,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ARP解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "arp解析案例211"
+    "slug": "arp解析案例211",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-212",
@@ -4237,7 +4448,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ICMPping掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "icmpping案例212"
+    "slug": "icmpping案例212",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-213",
@@ -4257,7 +4469,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过NAT转换掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nat转换案例213"
+    "slug": "nat转换案例213",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-214",
@@ -4277,7 +4490,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP三次握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp三次握手案例214"
+    "slug": "tcp三次握手案例214",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-215",
@@ -4297,7 +4511,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP四次挥手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp四次挥手案例215"
+    "slug": "tcp四次挥手案例215",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-216",
@@ -4317,7 +4532,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP可靠传输掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp可靠传输案例216"
+    "slug": "tcp可靠传输案例216",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-217",
@@ -4337,7 +4553,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过拥塞控制掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "拥塞控制案例217"
+    "slug": "拥塞控制案例217",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-218",
@@ -4357,7 +4574,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过DNS解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "dns解析案例218"
+    "slug": "dns解析案例218",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-219",
@@ -4377,7 +4595,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTP请求响应掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "http请求响应案例219"
+    "slug": "http请求响应案例219",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-220",
@@ -4397,7 +4616,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CookieSession掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cookiesession案例220"
+    "slug": "cookiesession案例220",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-221",
@@ -4417,7 +4637,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTPS握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "https握手案例221"
+    "slug": "https握手案例221",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-222",
@@ -4437,7 +4658,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CDN访问掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cdn访问案例222"
+    "slug": "cdn访问案例222",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-223",
@@ -4457,7 +4679,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过综合网络故障掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "综合网络故障案例223"
+    "slug": "综合网络故障案例223",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-224",
@@ -4477,7 +4700,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过408网络综合题掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "408网络综合题案例224"
+    "slug": "408网络综合题案例224",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-225",
@@ -4497,7 +4721,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OSI分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "osi分层案例225"
+    "slug": "osi分层案例225",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-226",
@@ -4517,7 +4742,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP/IP分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp/ip分层案例226"
+    "slug": "tcp-ip分层案例226",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-227",
@@ -4537,7 +4763,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过网络时延计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "网络时延计算案例227"
+    "slug": "网络时延计算案例227",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-228",
@@ -4557,7 +4784,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过吞吐量计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "吞吐量计算案例228"
+    "slug": "吞吐量计算案例228",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-229",
@@ -4577,7 +4805,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CRC校验掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "crc校验案例229"
+    "slug": "crc校验案例229",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-230",
@@ -4597,7 +4826,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过停止等待协议掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "停止等待协议案例230"
+    "slug": "停止等待协议案例230",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-231",
@@ -4617,7 +4847,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过滑动窗口掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "滑动窗口案例231"
+    "slug": "滑动窗口案例231",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-232",
@@ -4637,7 +4868,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过以太网帧分析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "以太网帧分析案例232"
+    "slug": "以太网帧分析案例232",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-233",
@@ -4657,7 +4889,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过交换机转发掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "交换机转发案例233"
+    "slug": "交换机转发案例233",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-234",
@@ -4677,7 +4910,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过VLAN划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "vlan划分案例234"
+    "slug": "vlan划分案例234",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-235",
@@ -4697,7 +4931,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过IPv4地址分类掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ipv4地址分类案例235"
+    "slug": "ipv4地址分类案例235",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-236",
@@ -4717,7 +4952,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过子网划分掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "子网划分案例236"
+    "slug": "子网划分案例236",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-237",
@@ -4737,7 +4973,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CIDR路由聚合掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cidr路由聚合案例237"
+    "slug": "cidr路由聚合案例237",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-238",
@@ -4757,7 +4994,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过路由表匹配掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "路由表匹配案例238"
+    "slug": "路由表匹配案例238",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-239",
@@ -4777,7 +5015,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ARP解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "arp解析案例239"
+    "slug": "arp解析案例239",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-240",
@@ -4797,7 +5036,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过ICMPping掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "icmpping案例240"
+    "slug": "icmpping案例240",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-241",
@@ -4817,7 +5057,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过NAT转换掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nat转换案例241"
+    "slug": "nat转换案例241",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-242",
@@ -4837,7 +5078,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP三次握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp三次握手案例242"
+    "slug": "tcp三次握手案例242",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-243",
@@ -4857,7 +5099,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP四次挥手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp四次挥手案例243"
+    "slug": "tcp四次挥手案例243",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-244",
@@ -4877,7 +5120,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP可靠传输掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp可靠传输案例244"
+    "slug": "tcp可靠传输案例244",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-245",
@@ -4897,7 +5141,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过拥塞控制掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "拥塞控制案例245"
+    "slug": "拥塞控制案例245",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-246",
@@ -4917,7 +5162,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过DNS解析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "dns解析案例246"
+    "slug": "dns解析案例246",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-247",
@@ -4937,7 +5183,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTP请求响应掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "http请求响应案例247"
+    "slug": "http请求响应案例247",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-248",
@@ -4957,7 +5204,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CookieSession掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cookiesession案例248"
+    "slug": "cookiesession案例248",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-249",
@@ -4977,7 +5225,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过HTTPS握手掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "https握手案例249"
+    "slug": "https握手案例249",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-250",
@@ -4997,7 +5246,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CDN访问掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "cdn访问案例250"
+    "slug": "cdn访问案例250",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-251",
@@ -5017,7 +5267,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过综合网络故障掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "综合网络故障案例251"
+    "slug": "综合网络故障案例251",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-252",
@@ -5037,7 +5288,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过408网络综合题掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "408网络综合题案例252"
+    "slug": "408网络综合题案例252",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-253",
@@ -5057,7 +5309,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OSI分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "osi分层案例253"
+    "slug": "osi分层案例253",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-254",
@@ -5077,7 +5330,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TCP/IP分层掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "tcp/ip分层案例254"
+    "slug": "tcp-ip分层案例254",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-255",
@@ -5097,7 +5351,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过网络时延计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "网络时延计算案例255"
+    "slug": "网络时延计算案例255",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-256",
@@ -5117,7 +5372,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过吞吐量计算掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "吞吐量计算案例256"
+    "slug": "吞吐量计算案例256",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-257",
@@ -5137,7 +5393,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过CRC校验掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "crc校验案例257"
+    "slug": "crc校验案例257",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-258",
@@ -5157,7 +5414,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过停止等待协议掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "停止等待协议案例258"
+    "slug": "停止等待协议案例258",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-259",
@@ -5177,7 +5435,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过滑动窗口掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "滑动窗口案例259"
+    "slug": "滑动窗口案例259",
+    "editorialStatus": "draft"
   },
   {
     "id": "cn-case-260",
@@ -5197,6 +5456,20 @@
     "backgroundMarkdown": "# 案例背景\n\n通过以太网帧分析掌握计算机网络",
     "tasksMarkdown": "# 实战任务\n\n1. **分析**: 条件\n2. **方法**: 概念\n3. **推导**: 计算\n4. **验证**: 检查\n5. **总结**: 方法",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "以太网帧分析案例260"
+    "slug": "以太网帧分析案例260",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "case-computer-network-workshop",
+    "slug": "workshop-computer-network",
+    "title": "估算分包传输的串行化时延",
+    "summary": "算出单包和全部包的发送时延，写清每次换算的单位。",
+    "difficulty": "medium",
+    "tags": [],
+    "backgroundMarkdown": "一条10 Mbit/s链路连续发送10个长度为1000字节的包。忽略协议开销、传播和排队。",
+    "tasksMarkdown": "算出单包和全部包的发送时延，写清每次换算的单位。",
+    "referenceMarkdown": "每个包8000 bit，单包发送耗时0.8 ms，10个共8 ms。这是发送端把比特放上链路的时长；端到端到达还要计入传播等因素。",
+    "knowledgePoints": [],
+    "estimatedMinutes": 15
   }
 ]

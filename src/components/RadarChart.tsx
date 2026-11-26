@@ -1,4 +1,3 @@
-
 export interface RadarDataPoint {
   label: string;
   score: number; // 0 - 100
@@ -35,8 +34,8 @@ export default function RadarChart({ data, size = 300 }: Props) {
     .join(" ");
 
   return (
-    <div className="flex flex-col items-center justify-center p-2">
-      <svg width={size} height={size} className="overflow-visible">
+    <div className="flex flex-col items-center justify-center p-2 w-full max-w-[300px]">
+      <svg viewBox={`0 0 ${size} ${size}`} className="w-full max-w-[280px] h-auto overflow-visible" role="img" aria-label={data.map((d) => `${d.label} ${Math.round(d.score)}%`).join("，")}>
         <defs>
           <linearGradient id="radarGradient" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stopColor="#6366f1" stopOpacity="0.5" />
@@ -60,7 +59,7 @@ export default function RadarChart({ data, size = 300 }: Props) {
             <polygon
               key={idx}
               points={points}
-              className="fill-none stroke-white/10 stroke-[1]"
+              className="fill-none stroke-slate-300 dark:stroke-white/10 stroke-[1]"
             />
           );
         })}
@@ -75,7 +74,7 @@ export default function RadarChart({ data, size = 300 }: Props) {
               y1={center}
               x2={x}
               y2={y}
-              className="stroke-white/10 stroke-[1]"
+              className="stroke-slate-300 dark:stroke-white/10 stroke-[1]"
             />
           );
         })}
@@ -84,7 +83,7 @@ export default function RadarChart({ data, size = 300 }: Props) {
         <polygon
           points={valuePolygonPoints}
           fill="url(#radarGradient)"
-          className="stroke-indigo-400 stroke-[2] transition-all duration-500"
+          className="stroke-indigo-500 dark:stroke-indigo-400 stroke-[2] transition-all duration-500"
         />
 
         {/* Data Vertices */}
@@ -92,7 +91,7 @@ export default function RadarChart({ data, size = 300 }: Props) {
           const { x, y } = getCoordinates(i, Math.max(0, Math.min(100, d.score)) / 100);
           return (
             <g key={i}>
-              <circle cx={x} cy={y} r="5" className="fill-indigo-400 stroke-white stroke-2" />
+              <circle cx={x} cy={y} r="5" className="fill-indigo-600 dark:fill-indigo-400 stroke-white stroke-2" />
               <circle cx={x} cy={y} r="10" className="fill-indigo-500/20" />
             </g>
           );
@@ -109,9 +108,9 @@ export default function RadarChart({ data, size = 300 }: Props) {
               y={y}
               textAnchor="middle"
               dominantBaseline="middle"
-              className="fill-white/80 text-[11px] font-semibold tracking-wider"
+              className="fill-slate-700 dark:fill-white/80 text-[11px] font-semibold tracking-wider"
             >
-              {d.label} <tspan className="fill-indigo-300 font-bold">{scoreVal}分</tspan>
+              {d.label} <tspan className="fill-indigo-600 dark:fill-indigo-300 font-bold">{scoreVal}%</tspan>
             </text>
           );
         })}

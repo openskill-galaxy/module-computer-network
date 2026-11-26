@@ -19,13 +19,27 @@ export function useModalA11y(onClose: () => void) {
     const prevOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
 
-    const focusable = panelRef.current?.querySelector<HTMLElement>(
-      'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
-    );
-    focusable?.focus();
+    const controls = () => Array.from(panelRef.current?.querySelectorAll<HTMLElement>(
+      'button, [href], input, select, textarea, [tabindex]'
+    ) ?? []).filter((el) => el.tabIndex >= 0 && !el.matches(":disabled") && el.getClientRects().length > 0 &&
+      getComputedStyle(el).visibility === "visible");
+    controls()[0]?.focus();
 
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") onCloseRef.current();
+      if (e.key === "Escape") {
+        e.preventDefault();
+        onCloseRef.current();
+      }
+      if (e.key !== "Tab") return;
+      const elements = controls();
+      const first = elements[0];
+      const last = elements[elements.length - 1];
+      const active = document.activeElement;
+      if (!elements.includes(active as HTMLElement) ||
+          (e.shiftKey ? active === first : active === last)) {
+        e.preventDefault();
+        (e.shiftKey ? last : first)?.focus();
+      }
     };
     document.addEventListener("keydown", handleKeyDown);
 

@@ -1,3 +1,4 @@
+import { clearPendingPracticeResults, readPracticeHistory, recordPracticeResult, type PracticeHistory } from "../utils/practiceReview";
 import { create } from "zustand";
 import type {
   ProgressRecord,
@@ -10,6 +11,7 @@ import { readJson, writeJson, nowIso, clearAll } from "../utils/storage";
 import { calculateSM2 } from "../utils/srs";
 
 interface ProgressState {
+  practiceHistory: PracticeHistory;
   progress: Record<string, ProgressRecord>;
   favorites: FavoriteRecord[];
   wrongs: Record<string, WrongQuestionRecord>;
@@ -31,7 +33,55 @@ interface ProgressState {
   hydrate: () => void;
 }
 
+function updateWrongQuestion(
+  wrongs: Record<string, WrongQuestionRecord>,
+  questionId: string,
+  userAnswer: string[],
+  correct: boolean,
+  at: string
+) {
+  const prev = wrongs[questionId];
+  if (correct) {
+    if (prev) {
+      // 答对：SM-2 推进复习间隔；连续答对达 3 次视为掌握，移出错题本
+      const sm2 = calculateSM2(
+        4,
+        prev.interval ?? 0,
+        prev.repetitions ?? 0,
+        prev.easeFactor ?? 2.5
+      );
+      if (sm2.repetitions >= 3) {
+        delete wrongs[questionId];
+      } else {
+        wrongs[questionId] = {
+          ...prev,
+          lastAnswer: userAnswer,
+          lastAt: at,
+          interval: sm2.interval,
+          repetitions: sm2.repetitions,
+          easeFactor: sm2.easeFactor,
+          nextReviewDate: sm2.nextReviewDate,
+        };
+      }
+    }
+    return;
+  }
+  // 答错：重置重复次数，间隔回到 1 天
+  const sm2 = calculateSM2(1, prev?.interval ?? 0, 0, prev?.easeFactor ?? 2.5);
+  wrongs[questionId] = {
+    questionId,
+    wrongCount: (prev?.wrongCount || 0) + 1,
+    lastAnswer: userAnswer,
+    lastAt: at,
+    interval: sm2.interval,
+    repetitions: sm2.repetitions,
+    easeFactor: sm2.easeFactor,
+    nextReviewDate: sm2.nextReviewDate,
+  };
+}
+
 const EMPTY: ProgressState = {
+  practiceHistory: {},
   progress: {},
   favorites: [],
   wrongs: {},
@@ -52,11 +102,13 @@ export const useProgressStore = create<ProgressState>((set, get) => ({
   ...EMPTY,
 
   hydrate: () => {
+    const wrongs = readJson<Record<string, WrongQuestionRecord>>("wrongs", {});
+    const exams = readJson<ExamRecord[]>("exams", []);
     set({
+      practiceHistory: readPracticeHistory(exams, wrongs),
       progress: readJson<Record<string, ProgressRecord>>("progress", {}),
       favorites: readJson<FavoriteRecord[]>("favorites", []),
-      wrongs: readJson<Record<string, WrongQuestionRecord>>("wrongs", {}),
-      exams: readJson<ExamRecord[]>("exams", []),
+      wrongs, exams,
     });
   },
 
@@ -93,47 +145,12 @@ export const useProgressStore = create<ProgressState>((set, get) => ({
 
   recordAnswer: (questionId, userAnswer, correct) => {
     const wrongs = { ...get().wrongs };
-    const prev = wrongs[questionId];
-    if (correct) {
-      if (prev) {
-        // 答对：SM-2 推进复习间隔；连续答对达 3 次视为掌握，移出错题本
-        const sm2 = calculateSM2(
-          4,
-          prev.interval ?? 0,
-          prev.repetitions ?? 0,
-          prev.easeFactor ?? 2.5
-        );
-        if (sm2.repetitions >= 3) {
-          delete wrongs[questionId];
-        } else {
-          wrongs[questionId] = {
-            ...prev,
-            lastAnswer: userAnswer,
-            lastAt: nowIso(),
-            interval: sm2.interval,
-            repetitions: sm2.repetitions,
-            easeFactor: sm2.easeFactor,
-            nextReviewDate: sm2.nextReviewDate,
-          };
-        }
-      }
-      set({ wrongs });
-      writeJson("wrongs", wrongs);
-      return;
-    }
-    // 答错：重置重复次数，间隔回到 1 天
-    const sm2 = calculateSM2(1, prev?.interval ?? 0, 0, prev?.easeFactor ?? 2.5);
-    wrongs[questionId] = {
-      questionId,
-      wrongCount: (prev?.wrongCount || 0) + 1,
-      lastAnswer: userAnswer,
-      lastAt: nowIso(),
-      interval: sm2.interval,
-      repetitions: sm2.repetitions,
-      easeFactor: sm2.easeFactor,
-      nextReviewDate: sm2.nextReviewDate,
-    };
-    set({ wrongs });
+    if (!userAnswer.some((value) => value.trim())) return;
+    const history = get().practiceHistory;
+    const result = recordPracticeResult(history, questionId, correct, nowIso());
+    updateWrongQuestion(wrongs, questionId, userAnswer, correct, result.lastAt);
+    if (wrongs[questionId]) wrongs[questionId].nextReviewDate = result.nextReviewDate;
+    set({ wrongs, practiceHistory: { ...history, [questionId]: result } });
     writeJson("wrongs", wrongs);
   },
 
@@ -150,14 +167,30 @@ export const useProgressStore = create<ProgressState>((set, get) => ({
   },
 
   addExam: (rec) => {
-    const exams = [rec, ...get().exams];
-    set({ exams });
+    const { exams: previous, wrongs: previousWrongs } = get();
+    if (previous.some((r) => r.examId === rec.examId && r.startedAt === rec.startedAt)) return;
+    const exams = [rec, ...previous];
+    const practiceHistory = { ...get().practiceHistory };
+    const wrongs = { ...previousWrongs };
+    for (const detail of rec.details) {
+      if (detail.userAnswer.some((value) => value.trim())) {
+        const result = recordPracticeResult(practiceHistory, detail.questionId, detail.correct, rec.finishedAt);
+        practiceHistory[detail.questionId] = result;
+        if (Date.parse(result.lastAt) > Date.parse(rec.finishedAt)) continue;
+        updateWrongQuestion(wrongs, detail.questionId, detail.userAnswer, detail.correct, rec.finishedAt);
+        if (wrongs[detail.questionId]) wrongs[detail.questionId].nextReviewDate = result.nextReviewDate;
+      }
+    }
+    set({ exams, wrongs, practiceHistory });
     writeJson("exams", exams);
+    writeJson("wrongs", wrongs);
   },
 
   resetAll: () => {
+    clearPendingPracticeResults();
     clearAll();
     set({
+      practiceHistory: {},
       progress: {},
       favorites: [],
       wrongs: {},

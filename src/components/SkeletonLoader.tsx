@@ -5,7 +5,7 @@ interface SkeletonProps {
 export function Skeleton({ className = "" }: SkeletonProps) {
   return (
     <div
-      className={`animate-pulse rounded-xl bg-slate-200 dark:bg-white/[0.06] ${className}`}
+      className={`animate-pulse rounded-xl bg-surface-2 ${className}`}
       aria-hidden="true"
     />
   );
@@ -13,7 +13,7 @@ export function Skeleton({ className = "" }: SkeletonProps) {
 
 export function CardSkeleton() {
   return (
-    <div className="card p-6 space-y-4 border border-slate-200 dark:border-white/10 bg-white dark:bg-slate-950">
+    <div className="card p-6 space-y-4">
       <div className="flex items-center justify-between">
         <Skeleton className="h-5 w-1/3" />
         <Skeleton className="h-4 w-16 rounded-full" />
@@ -31,7 +31,7 @@ export function CardSkeleton() {
 
 export function PageSkeleton() {
   return (
-    <div className="space-y-6 animate-fade-in">
+    <div className="space-y-6 animate-fade-in" role="status" aria-label="页面加载中">
       <div className="space-y-2">
         <Skeleton className="h-8 w-1/2" />
         <Skeleton className="h-4 w-1/3" />

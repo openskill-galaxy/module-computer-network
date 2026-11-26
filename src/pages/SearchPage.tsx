@@ -1,13 +1,20 @@
-import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { useEffect, useMemo, useState } from "react";
+import { Link, useSearchParams } from "react-router-dom";
 import type { ModuleData } from "../data/loaders";
 import { ensureIndex } from "../components/SearchBox";
 import { runSearch, typeLabel } from "../search/search";
 import EmptyState from "../components/EmptyState";
 
 export default function SearchPage({ data }: { data: ModuleData }) {
-  const [query, setQuery] = useState("");
-  const [submitted, setSubmitted] = useState("");
+  const [searchParams, setSearchParams] = useSearchParams();
+  const urlQ = searchParams.get("q") || "";
+  const [query, setQuery] = useState(urlQ);
+  const [submitted, setSubmitted] = useState(urlQ);
+
+  useEffect(() => {
+    setQuery(urlQ);
+    setSubmitted(urlQ);
+  }, [urlQ]);
 
   const results = useMemo(() => {
     if (!submitted.trim()) return [];
@@ -17,14 +24,16 @@ export default function SearchPage({ data }: { data: ModuleData }) {
 
   function submit(e: React.FormEvent) {
     e.preventDefault();
-    setSubmitted(query);
+    const trimmed = query.trim();
+    setSubmitted(trimmed);
+    setSearchParams(trimmed ? { q: trimmed } : {}, { replace: true });
   }
 
   return (
     <div className="space-y-6">
-      <header>
-        <h1 className="text-2xl font-bold text-white">搜索</h1>
-        <p className="mt-1 text-sm text-white/60">跨课程、讲义、知识点、题目、案例、路线、FAQ、术语全文检索</p>
+      <header className="work-heading">
+        <h1 className="text-2xl font-bold text-body">搜索</h1>
+        <p className="mt-1 text-sm text-muted">跨课程、讲义、知识点、题目、案例、路线、FAQ、术语全文检索</p>
       </header>
 
       <form onSubmit={submit} className="flex gap-2">
@@ -36,7 +45,7 @@ export default function SearchPage({ data }: { data: ModuleData }) {
           className="input"
           autoFocus
         />
-        <button type="submit" className="btn-primary">搜索</button>
+        <button type="submit" className="btn-primary shrink-0">搜索</button>
       </form>
 
       {submitted && results.length === 0 ? (
@@ -44,17 +53,17 @@ export default function SearchPage({ data }: { data: ModuleData }) {
       ) : (
         <div className="space-y-2">
           {submitted && (
-            <p className="text-xs text-white/50">共 {results.length} 条结果</p>
+            <p className="text-xs text-subtle">共 {results.length} 条结果</p>
           )}
           {results.map((r) => (
             <Link key={`${r.type}-${r.id}`} to={r.url} className="card-hover block p-4">
               <div className="flex items-start gap-2">
-                <span className="mt-0.5 rounded bg-brand-500/20 px-1.5 py-0.5 text-xs text-brand-100">
+                <span className="mt-0.5 tag tag-accent shrink-0">
                   {typeLabel[r.type]}
                 </span>
                 <div className="min-w-0">
-                  <p className="text-sm font-medium text-white truncate">{r.title}</p>
-                  <p className="text-xs text-white/60 line-clamp-2">{r.summary}</p>
+                  <p className="text-sm font-medium text-body truncate">{r.title}</p>
+                  <p className="text-xs text-muted line-clamp-2">{r.summary}</p>
                   {r.tags && r.tags.length > 0 && (
                     <div className="mt-1 flex flex-wrap gap-1">
                       {r.tags.slice(0, 3).map((t: string) => <span key={t} className="tag">{t}</span>)}

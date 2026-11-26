@@ -1,9 +1,27 @@
-import { useMemo, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+import { useEffect, useMemo, useState } from "react";
 import type { ModuleData } from "../data/loaders";
 import { renderMarkdown } from "../utils/markdown";
 
 export default function FaqPage({ data }: { data: ModuleData }) {
   const [category, setCategory] = useState<string>("all");
+
+  const { hash, pathname, search } = useLocation();
+  const navigate = useNavigate();
+  const targetId = hash.slice(1);
+  const archived = data.drafts.faqs.find((item) => item.id === targetId);
+  const faqs = useMemo(() => archived ? [...data.faqs, archived] : data.faqs, [data.faqs, archived]);
+  useEffect(() => {
+    if (!targetId) return;
+    const item = faqs.find((faq) => faq.id === targetId);
+    if (item && category !== "all" && item.category !== category) {
+      setCategory("all");
+      return;
+    }
+    const target = document.getElementById(targetId);
+    if (target instanceof HTMLDetailsElement) target.open = true;
+    target?.scrollIntoView({ block: "start" });
+  }, [targetId, faqs, category]);
 
   const categories = useMemo(() => {
     const set = new Set<string>();
@@ -12,13 +30,13 @@ export default function FaqPage({ data }: { data: ModuleData }) {
   }, [data.faqs]);
 
   const filtered = useMemo(
-    () => data.faqs.filter((f) => category === "all" || f.category === category),
-    [data.faqs, category]
+    () => faqs.filter((f) => category === "all" || f.category === category),
+    [faqs, category]
   );
 
   return (
     <div className="space-y-6">
-      <header>
+      <header className="work-heading">
         <h1 className="text-2xl font-bold text-slate-900 dark:text-white">FAQ · 常见问题解答</h1>
         <p className="mt-1 text-sm text-slate-600 dark:text-white/60">共 {data.faqs.length} 个疑难解答</p>
       </header>
@@ -28,7 +46,11 @@ export default function FaqPage({ data }: { data: ModuleData }) {
           <button
             key={c}
             type="button"
-            onClick={() => setCategory(c)}
+            aria-pressed={category === c}
+            onClick={() => {
+              if (hash) navigate(pathname + search, { replace: true });
+              setCategory(c);
+            }}
             className={`rounded-full px-3 py-1.5 text-xs font-semibold transition ${
               category === c ? "bg-brand-600 text-white shadow-sm" : "border border-slate-200 dark:border-white/10 text-slate-700 dark:text-white/70 hover:bg-slate-100 dark:hover:bg-white/5"
             }`}
@@ -40,11 +62,11 @@ export default function FaqPage({ data }: { data: ModuleData }) {
 
       <div className="space-y-3">
         {filtered.map((f) => (
-          <details key={f.id} id={f.id} className="card p-4 group">
+          <details key={f.id} id={f.id} className="card scroll-mt-20 p-4 group">
             <summary className="cursor-pointer list-none [&::-webkit-details-marker]:hidden text-sm font-bold text-slate-900 dark:text-white flex items-center justify-between gap-3">
               <span className="flex items-center gap-2 min-w-0">
                 <span aria-hidden className="shrink-0 text-[10px] text-brand-600 dark:text-brand-300 transition-transform duration-200 group-open:rotate-90">▶</span>
-                <span>{f.question}</span>
+                <span>{f.question}{f.editorialStatus === "draft" && "（修订中）"}</span>
               </span>
               <span className="shrink-0 text-xs font-mono text-brand-600 dark:text-brand-300 bg-brand-500/10 px-2 py-0.5 rounded border border-brand-500/20">
                 {f.category}

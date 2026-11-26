@@ -1,71 +1,78 @@
 [
   {
     "id": "mod-computer-network-c-1",
-    "title": "计算机网络学习与题库训练 架构原理与初始化",
+    "title": "网络分层、IP 寻址与路由转发",
     "slug": "course-1",
-    "summary": "深度探索 计算机网络学习与题库训练 的设计理念、运行架构以及初始化配置引导。",
+    "summary": "打通从应用层到链路层的完整封包路径，掌握 CIDR 子网划分、ARP、NAT 与路由最长前缀匹配。",
     "order": 1,
     "difficulty": "easy",
-    "estimatedHours": 57,
+    "estimatedHours": 8,
     "lessons": [
       "mod-computer-network-l-1",
       "mod-computer-network-l-2"
     ],
     "tags": [
-      "计算机网络",
-      "408",
       "TCP/IP",
-      "HTTP",
-      "DNS",
-      "子网划分",
-      "TCP",
-      "路由"
+      "CIDR",
+      "NAT",
+      "ARP"
     ]
   },
   {
     "id": "mod-computer-network-c-2",
-    "title": "计算机网络学习与题库训练 核心机制与开发实战",
+    "title": "TCP 可靠传输与拥塞控制精讲",
     "slug": "course-2",
-    "summary": "掌握 计算机网络学习与题库训练 的核心组件、API 接口调用以及本地开发调试。",
+    "summary": "彻底吃透三次握手、四次挥手、TIME_WAIT 调优、滑动窗口流量控制与慢启动/拥塞避免/BBR 算法。",
     "order": 2,
-    "difficulty": "easy",
-    "estimatedHours": 57,
+    "difficulty": "medium",
+    "estimatedHours": 12,
     "lessons": [
       "mod-computer-network-l-3",
       "mod-computer-network-l-4"
     ],
     "tags": [
-      "计算机网络",
-      "408",
-      "TCP/IP",
-      "HTTP",
-      "DNS",
-      "子网划分",
-      "TCP",
-      "路由"
+      "TCP握手",
+      "TIME_WAIT",
+      "滑动窗口",
+      "拥塞控制"
     ]
   },
   {
     "id": "mod-computer-network-c-3",
-    "title": "计算机网络学习与题库训练 高级优化与生产部署",
+    "title": "HTTP 协议演进与 TLS 1.3 安全加密",
     "slug": "course-3",
-    "summary": "学习如何进行系统性能监控调优、高可用集群部署与数据存储。",
+    "summary": "对比 HTTP/1.1、HTTP/2 多路复用与 HTTP/3 QUIC 队头阻塞治理，掌握 TLS 1.3 握手与数字证书链校验。",
     "order": 3,
-    "difficulty": "easy",
-    "estimatedHours": 57,
+    "difficulty": "medium",
+    "estimatedHours": 12,
     "lessons": [
       "mod-computer-network-l-5",
       "mod-computer-network-l-6"
     ],
     "tags": [
-      "计算机网络",
-      "408",
-      "TCP/IP",
-      "HTTP",
+      "HTTP/2",
+      "HTTP/3 QUIC",
+      "TLS 1.3",
+      "HTTPS"
+    ]
+  },
+  {
+    "id": "mod-computer-network-c-4",
+    "title": "DNS 体系与线上网络故障排查",
+    "slug": "course-4",
+    "summary": "掌握 DNS 递归/迭代解析与本地缓存，建立排查高延迟、丢包、连接超时与 RST 重置的工程方法论。",
+    "order": 4,
+    "difficulty": "hard",
+    "estimatedHours": 10,
+    "lessons": [
+      "mod-computer-network-l-7",
+      "mod-computer-network-l-8"
+    ],
+    "tags": [
       "DNS",
-      "子网划分",
-      "TCP",
-      "路由"
+      "网络排障",
+      "RST",
+      "抓包分析"
     ]
   }
 ]

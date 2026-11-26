@@ -3,7 +3,7 @@ import type { Tag } from "../types";
 
 interface Props {
   tags: Tag[];
-  selected: string[]; // tag ids
+  selected: string[]; // canonical tag names (compatible with tag ids)
   onChange: (next: string[]) => void;
 }
 
@@ -11,11 +11,12 @@ export default function TagFilter({ tags, selected, onChange }: Props) {
   const [expanded, setExpanded] = useState(false);
   const [tagSearch, setTagSearch] = useState("");
 
-  function toggle(id: string) {
-    if (selected.includes(id)) {
-      onChange(selected.filter((t) => t !== id));
+  function toggle(tag: Tag) {
+    const isSelected = selected.includes(tag.name) || selected.includes(tag.id);
+    if (isSelected) {
+      onChange(selected.filter((t) => t !== tag.name && t !== tag.id));
     } else {
-      onChange([...selected, id]);
+      onChange([...selected, tag.name]);
     }
   }
 
@@ -26,9 +27,9 @@ export default function TagFilter({ tags, selected, onChange }: Props) {
   const displayTags = expanded || tagSearch.trim() ? filteredTags : filteredTags.slice(0, 12);
 
   return (
-    <div className="space-y-2.5 card p-4 border border-slate-200 dark:border-white/10 bg-white/60 dark:bg-slate-950/40">
-      <div className="flex items-center justify-between gap-3">
-        <span className="text-xs font-bold text-slate-700 dark:text-white/80 flex items-center gap-1.5">
+    <div className="space-y-2.5 card p-4">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <span className="text-xs font-bold text-body flex items-center gap-1.5">
           标签筛选 ({tags.length})
         </span>
         {tags.length > 12 && (
@@ -38,12 +39,13 @@ export default function TagFilter({ tags, selected, onChange }: Props) {
               value={tagSearch}
               onChange={(e) => setTagSearch(e.target.value)}
               placeholder="快速搜索标签…"
-              className="px-2.5 py-1 text-xs rounded-lg border border-slate-200 dark:border-white/10 bg-white dark:bg-white/[0.04] text-slate-900 dark:text-white focus:outline-none focus:border-brand-500 w-32 sm:w-44"
+              aria-label="快速搜索标签"
+              className="px-2.5 py-1 text-xs rounded-lg border border-line-strong bg-surface text-body placeholder:text-subtle focus:outline-none focus:border-accent w-32 sm:w-44"
             />
             <button
               type="button"
               onClick={() => setExpanded(!expanded)}
-              className="text-xs text-brand-600 dark:text-brand-300 hover:underline font-semibold"
+              className="text-xs text-brand hover:underline font-semibold whitespace-nowrap"
             >
               {expanded ? "收起" : `展开全部 (${tags.length})`}
             </button>
@@ -57,23 +59,23 @@ export default function TagFilter({ tags, selected, onChange }: Props) {
           onClick={() => onChange([])}
           className={`rounded-full px-3 py-1 text-xs font-semibold transition ${
             selected.length === 0
-              ? "bg-brand-600 text-white shadow-sm"
-              : "border border-slate-200 dark:border-white/10 bg-slate-100 dark:bg-white/5 text-slate-700 dark:text-white/70 hover:bg-slate-200 dark:hover:bg-white/10"
+              ? "bg-accent text-accent-fg shadow-sm"
+              : "border border-line bg-surface-2 text-muted hover:text-body hover:border-line-strong"
           }`}
         >
           全部标签
         </button>
         {displayTags.map((t) => {
-          const active = selected.includes(t.id);
+          const active = selected.includes(t.name) || selected.includes(t.id);
           return (
             <button
               key={t.id}
               type="button"
-              onClick={() => toggle(t.id)}
+              onClick={() => toggle(t)}
               className={`rounded-full px-3 py-1 text-xs font-medium transition ${
                 active
-                  ? "bg-brand-600 text-white shadow-sm"
-                  : "border border-slate-200 dark:border-white/10 bg-slate-100 dark:bg-white/5 text-slate-700 dark:text-white/70 hover:bg-slate-200 dark:hover:bg-white/10"
+                  ? "bg-accent text-accent-fg shadow-sm"
+                  : "border border-line bg-surface-2 text-muted hover:text-body hover:border-line-strong"
               }`}
               title={t.description}
             >

@@ -6,10 +6,10 @@ interface Props {
 
 export default function ProgressBar({ value, label, className = "" }: Props) {
   const v = Math.max(0, Math.min(100, value));
-  const color = v === 100 ? "bg-emerald-500" : v > 0 ? "bg-brand-500" : "bg-surface-3";
+  const color = v === 100 ? "bg-emerald-500" : v > 0 ? "bg-accent" : "bg-surface-3";
   return (
     <div className={`w-full ${className}`}>
-      <div className="h-2 w-full rounded-full bg-white/10 overflow-hidden">
+      <div role="progressbar" aria-label={label || "进度"} aria-valuemin={0} aria-valuemax={100} aria-valuenow={v} className="h-2 w-full rounded-full bg-surface-3 overflow-hidden">
         <div
           className={`h-full ${color} transition-all`}
           style={{ width: `${v}%` }}

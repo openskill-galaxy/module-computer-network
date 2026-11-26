@@ -17,5 +17,5 @@ export default function ExamPage({ data }: { data: ModuleData }) {
   }
 
   const questions = getExamQuestions(exam, data.questions);
-  return <ExamPlayer exam={exam} questions={questions} />;
+  return <ExamPlayer key={exam.id} exam={exam} questions={questions} />;
 }

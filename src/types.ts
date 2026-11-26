@@ -1,4 +1,17 @@
 // =============== 模块元数据 ===============
+export interface ModuleStats {
+  courses?: number;
+  lessons?: number;
+  knowledgePoints?: number;
+  questions?: number;
+  cases?: number;
+  exams?: number;
+  routes?: number;
+  glossary?: number;
+  faqs?: number;
+  tags?: number;
+}
+
 export interface ModuleMeta {
   id: string;
   slug: string;
@@ -15,6 +28,7 @@ export interface ModuleMeta {
   coverEmoji: string;
   repoUrl?: string;
   portalUrl?: string;
+  stats?: ModuleStats;
 }
 
 export type Difficulty = "easy" | "medium" | "hard";
@@ -42,11 +56,13 @@ export interface Lesson {
   order: number;
   contentMarkdown: string;
   knowledgePoints: string[]; // kp ids
+  practiceQuestionIds?: string[];
   estimatedMinutes: number;
 }
 
 // =============== 知识点 ===============
 export interface KnowledgePoint {
+  editorialStatus?: "draft";
   id: string;
   slug: string;
   title: string;
@@ -61,7 +77,16 @@ export interface KnowledgePoint {
 }
 
 // =============== 题目 ===============
-export type QuestionType = "single" | "multiple" | "judge" | "short";
+export type QuestionType =
+  | "single"
+  | "multiple"
+  | "judge"
+  | "short"
+  | "fill"
+  | "calculation"
+  | "case_analysis"
+  | "code"
+  | "reading";
 
 export interface QuestionOption {
   key: string; // "A" "B" ...
@@ -99,7 +124,16 @@ export interface Exam {
 }
 
 // =============== 案例训练 ===============
+export interface CaseCriterion {
+  id: string;
+  title: string;
+  requirement: string;
+}
+
 export interface Case {
+  reviewRubric?: CaseCriterion[];
+  nextCaseId?: string;
+  editorialStatus?: "draft";
   id: string;
   slug: string;
   title: string;
@@ -133,6 +167,7 @@ export interface LearningRouteStep {
 
 // =============== 标签 ===============
 export interface Tag {
+  editorialStatus?: "draft";
   id: string;
   name: string;
   slug: string;
@@ -141,6 +176,7 @@ export interface Tag {
 
 // =============== 术语表 ===============
 export interface GlossaryTerm {
+  editorialStatus?: "draft";
   id: string;
   term: string;
   definition: string;
@@ -149,6 +185,7 @@ export interface GlossaryTerm {
 
 // =============== FAQ ===============
 export interface FaqItem {
+  editorialStatus?: "draft";
   id: string;
   question: string;
   answer: string; // markdown

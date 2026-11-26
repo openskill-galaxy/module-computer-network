@@ -68,7 +68,9 @@
     ],
     "difficulty": "easy",
     "chapter": "mod-computer-network-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0062"
+    ],
     "estimated_time": 3
   },
   {
@@ -104,7 +106,10 @@
     ],
     "difficulty": "easy",
     "chapter": "mod-computer-network-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0032",
+      "cn-kp-0033"
+    ],
     "estimated_time": 3
   },
   {
@@ -140,7 +145,9 @@
     ],
     "difficulty": "easy",
     "chapter": "mod-computer-network-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0061"
+    ],
     "estimated_time": 3
   },
   {
@@ -176,7 +183,10 @@
     ],
     "difficulty": "easy",
     "chapter": "mod-computer-network-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0062",
+      "cn-kp-0064"
+    ],
     "estimated_time": 3
   },
   {
@@ -212,7 +222,10 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-computer-network-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0045",
+      "cn-kp-0049"
+    ],
     "estimated_time": 3
   },
   {
@@ -249,7 +262,10 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-computer-network-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0045",
+      "cn-kp-0050"
+    ],
     "estimated_time": 3
   },
   {
@@ -286,7 +302,10 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-computer-network-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0045",
+      "cn-kp-0055"
+    ],
     "estimated_time": 3
   },
   {
@@ -322,7 +341,9 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-computer-network-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0034"
+    ],
     "estimated_time": 3
   },
   {
@@ -358,7 +379,9 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-computer-network-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0062"
+    ],
     "estimated_time": 3
   },
   {
@@ -394,7 +417,9 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-computer-network-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0037"
+    ],
     "estimated_time": 3
   },
   {
@@ -431,7 +456,9 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-computer-network-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0062"
+    ],
     "estimated_time": 3
   },
   {
@@ -467,7 +494,9 @@
     ],
     "difficulty": "hard",
     "chapter": "mod-computer-network-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0045"
+    ],
     "estimated_time": 3
   },
   {
@@ -504,7 +533,10 @@
     ],
     "difficulty": "hard",
     "chapter": "mod-computer-network-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0063",
+      "cn-kp-0072"
+    ],
     "estimated_time": 3
   },
   {
@@ -580,7 +612,10 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-computer-network-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0045",
+      "cn-kp-0044"
+    ],
     "estimated_time": 3
   },
   {
@@ -619,7 +654,9 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-computer-network-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0045"
+    ],
     "estimated_time": 3
   },
   {
@@ -658,7 +695,10 @@
     ],
     "difficulty": "hard",
     "chapter": "mod-computer-network-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0041",
+      "cn-kp-0042"
+    ],
     "estimated_time": 3
   },
   {
@@ -677,7 +717,9 @@
     ],
     "difficulty": "easy",
     "chapter": "mod-computer-network-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0039"
+    ],
     "estimated_time": 3
   },
   {
@@ -696,7 +738,9 @@
     ],
     "difficulty": "easy",
     "chapter": "mod-computer-network-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0038"
+    ],
     "estimated_time": 3
   },
   {
@@ -715,7 +759,10 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-computer-network-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0045",
+      "cn-kp-0050"
+    ],
     "estimated_time": 3
   },
   {
@@ -735,7 +782,9 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-computer-network-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0062"
+    ],
     "estimated_time": 3
   },
   {
@@ -754,7 +803,10 @@
     ],
     "difficulty": "medium",
     "chapter": "mod-computer-network-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0045",
+      "cn-kp-0050"
+    ],
     "estimated_time": 5
   },
   {
@@ -774,7 +826,85 @@
     ],
     "difficulty": "hard",
     "chapter": "mod-computer-network-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "cn-kp-0061"
+    ],
     "estimated_time": 5
+  },
+  {
+    "id": "mod-computer-network-q-25",
+    "slug": "dns-cached-ttl-cutover",
+    "type": "single",
+    "stem": "09:00 企业递归 DNS 从权威服务器取得旧 A 记录，TTL 为 600 秒。09:02 权威服务器切到新地址，09:07 客户端仍从同一递归 DNS 得到旧值。假设缓存按原 TTL 保留、无提前刷新，客户端也无本地缓存。旧记录何时到期？",
+    "options": [
+      {
+        "key": "A",
+        "text": "09:07"
+      },
+      {
+        "key": "B",
+        "text": "09:09"
+      },
+      {
+        "key": "C",
+        "text": "09:10"
+      },
+      {
+        "key": "D",
+        "text": "09:12"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "缓存寿命从 09:00 取得记录时起算，600 秒是 10 分钟，所以 09:10 到期。09:07 还有 180 秒；09:02 修改权威记录不会重置或主动清除递归 DNS 手里的旧 TTL。到期后的下一次查询才需要重新向上游解析。",
+    "tags": [
+      "DNS",
+      "域名解析"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-computer-network-c-4",
+    "knowledge_points": [
+      "cn-kp-0061"
+    ],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-computer-network-q-26",
+    "slug": "pooled-connection-idle-reset",
+    "type": "single",
+    "stem": "客户端连接池允许空闲 120 秒，网关日志确认它会在空闲 50 秒后丢弃连接状态。复用空闲 70 秒的旧连接时收到 TCP RST，新建连接立即成功。在网关设置不变的情况下，哪项调整直接针对这个故障？",
+    "options": [
+      {
+        "key": "A",
+        "text": "让客户端在空闲 40 秒时回收连接，再按需新建"
+      },
+      {
+        "key": "B",
+        "text": "把连接池的空闲上限延至 180 秒，减少新建次数"
+      },
+      {
+        "key": "C",
+        "text": "将新建连接的握手超时从 3 秒延长到 10 秒"
+      },
+      {
+        "key": "D",
+        "text": "延长域名解析的缓存时间，继续复用原有连接"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "故障发生在复用已被网关清掉状态的连接时。客户端先回收空闲连接，会在下一次请求时重新握手，避免把这类过期连接当成可用连接。新连接已成功说明握手等待和 DNS 缓存没有解释这个固定空闲时长的现象。",
+    "tags": [
+      "TCP",
+      "RST"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-computer-network-c-4",
+    "knowledge_points": [
+      "cn-kp-0045"
+    ],
+    "estimated_time": 3
   }
 ]

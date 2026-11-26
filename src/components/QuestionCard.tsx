@@ -1,3 +1,4 @@
+import type { PracticeResult } from "../utils/practiceReview";
 import { Link } from "react-router-dom";
 import type { Question } from "../types";
 import DifficultyBadge from "./DifficultyBadge";
@@ -6,9 +7,11 @@ import { typeLabel } from "../utils/scoring";
 export default function QuestionCard({
   question,
   to,
+  result,
 }: {
   question: Question;
   to?: string;
+  result?: PracticeResult;
 }) {
   const href = to || `/questions/${question.slug}`;
   return (
@@ -20,9 +23,9 @@ export default function QuestionCard({
           </span>
           <DifficultyBadge difficulty={question.difficulty} />
         </div>
-        <span className="text-xs font-mono text-slate-400 dark:text-white/40">#{question.slug}</span>
       </div>
-      <p className="mt-2 text-sm font-medium text-slate-900 dark:text-white/90 line-clamp-3 leading-relaxed">{question.stem}</p>
+      {result && <p className="mt-2 text-xs text-muted">{result.correct ? "上次答对" : "上次答错"} · {new Date(result.lastAt).toLocaleDateString("zh-CN")}</p>}
+      <p className="mt-2 text-sm font-semibold text-body line-clamp-3 leading-relaxed">{question.stem}</p>
       <div className="mt-3 flex flex-wrap gap-2">
         {question.tags.slice(0, 3).map((t) => (
           <span key={t} className="tag text-[10px]">{t}</span>

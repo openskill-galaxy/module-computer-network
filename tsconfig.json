@@ -11,6 +11,7 @@
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": true,
+    "tsBuildInfoFile": "./node_modules/.cache/openskill.tsbuildinfo",
     "jsx": "react-jsx",
     "strict": true,
     "noUnusedLocals": true,
@@ -21,5 +22,5 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["src"]
+  "include": ["src", "activities"]
 }

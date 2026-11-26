@@ -3,66 +3,127 @@
     "id": "mod-computer-network-l-1",
     "courseId": "mod-computer-network-c-1",
     "order": 1,
-    "title": "计算机网络学习与题库训练 环境依赖搭建与运行机制",
+    "title": "从输入 URL 到数据帧发出的分层封装链路",
     "slug": "lesson-1-1",
-    "summary": "了解平台运行依赖、环境参数配置以及本地运行引导流程。",
-    "contentMarkdown": "# 计算机网络学习与题库训练 环境依赖搭建与运行机制\n          \n## 1. 概述与背景\n在进行 `计算机网络学习与题库训练` 的开发实践中，`计算机网络学习与题库训练 环境依赖搭建与运行机制` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 计算机网络学习与题库训练 生产实践示例\nconsole.log(\"Initializing 计算机网络学习与题库训练 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "串联 DNS、TCP、TLS、HTTP、IP 路由与 ARP，看懂数据包在每一跳中哪些地址变、哪些地址不变。",
+    "contentMarkdown": "# 从输入 URL 到数据帧发出的分层封装链路\n\n## 1. 每跳转发中的“变与不变”\n数据包穿越多个路由器发往远端服务器时，有一个必须牢记的铁律：\n- **源 IP 与目的 IP（三层）**：在无 NAT 的路由转发中**全程保持不变**，决定最终终点。\n- **源 MAC 与目的 MAC（二层）**：**每经过一个路由器都会重新封装**，永远指向“下一跳网关”的物理网卡地址（通过 ARP 广播查询获取）。\n\n## 2. MTU 与 IP 分片陷阱\n以太网默认最大传输单元 **MTU = 1500 字节**。为了避免三层 IP 分片（任意一片丢失都要整包重传，性能极差），TCP 在握手时会协商 **MSS（最大报文段长度，通常 `1500 - 20(IP) - 20(TCP) = 1460` 字节）**，在传输层就主动把大数据切好再下发。",
+    "knowledgePoints": [
+      "cn-kp-0013",
+      "cn-kp-0037",
+      "cn-kp-0060"
+    ],
+    "estimatedMinutes": 35
   },
   {
     "id": "mod-computer-network-l-2",
     "courseId": "mod-computer-network-c-1",
     "order": 2,
-    "title": "计算机网络学习与题库训练 配置文件覆盖与属性解析",
+    "title": "CIDR 子网划分、路由匹配与 NAT 原理",
     "slug": "lesson-1-2",
-    "summary": "学习多环境配置管理，利用环境变量覆盖规则进行定制开发。",
-    "contentMarkdown": "# 计算机网络学习与题库训练 配置文件覆盖与属性解析\n          \n## 1. 概述与背景\n在进行 `计算机网络学习与题库训练` 的开发实践中，`计算机网络学习与题库训练 配置文件覆盖与属性解析` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 计算机网络学习与题库训练 生产实践示例\nconsole.log(\"Initializing 计算机网络学习与题库训练 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "熟练计算 CIDR 掩码与可用主机数，理解路由器最长前缀匹配以及家庭/云环境下的 SNAT 与 DNAT。",
+    "contentMarkdown": "# CIDR 子网划分、路由匹配与 NAT 原理\n\n## 1. CIDR 子网速算\n对于 `10.0.16.0/20`：\n- 前 20 位为网络前缀，剩余 `32 - 20 = 12` 位为主机位；\n- 总地址数 `2^12 = 4096` 个，除去全 0 网络号和全 1 广播号，可用主机地址 `4094` 个；\n- 路由器查路由表时始终遵循**最长前缀匹配（Longest Prefix Match）**原则，优先命中更精确的子网规则。\n\n## 2. NAT（网络地址转换）的两种方向\n- **SNAT（源地址转换）**：内网私网 IP（如 `192.168.1.5:51234`）访问公网时，网关将其改写为公网 IP + 新端口并记录映射表，解决 IPv4 公网地址枯竭问题。\n- **DNAT（目的地址转换）**：公网访问负载均衡器/网关端口时，将目的地址改写为内网真实服务节点 IP（如 Kubernetes Service / 云 SLB 转发）。",
+    "knowledgePoints": [
+      "cn-kp-0034",
+      "cn-kp-0036",
+      "cn-kp-0039"
+    ],
+    "estimatedMinutes": 35
   },
   {
     "id": "mod-computer-network-l-3",
     "courseId": "mod-computer-network-c-2",
     "order": 1,
-    "title": "计算机网络学习与题库训练 API 接口规范与数据通信",
+    "title": "TCP 三次握手、四次挥手与 TIME_WAIT 深度解析",
     "slug": "lesson-2-1",
-    "summary": "掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
-    "contentMarkdown": "# 计算机网络学习与题库训练 API 接口规范与数据通信\n          \n## 1. 概述与背景\n在进行 `计算机网络学习与题库训练` 的开发实践中，`计算机网络学习与题库训练 API 接口规范与数据通信` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 计算机网络学习与题库训练 生产实践示例\nconsole.log(\"Initializing 计算机网络学习与题库训练 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "回答清楚“为什么不是两次握手”“为什么 TIME_WAIT 要等 2MSL”，以及高并发短连接端口耗尽治理。",
+    "contentMarkdown": "# TCP 三次握手、四次挥手与 TIME_WAIT 深度解析\n\n## 1. 为什么握手必须是三次？\n1. **同步双方初始序列号（ISN）并双向确认收发能力**：两次握手只能确认客户端发、服务端收，服务端无法确认客户端的接收能力是否正常。\n2. **防止历史滞留的旧 SYN 报文建立无效连接**：客户端收到过期 SYN-ACK 时可发送 `RST` 拒绝，避免服务端白白分配资源。\n\n## 2. 为什么主动关闭方必须经历 `TIME_WAIT`（2MSL）？\n- **确保最后一个 ACK 到达对端**：若最后一次 ACK 丢失，对端会重发 `FIN`，处于 `TIME_WAIT` 的本端还能重发 ACK 优雅收尾。\n- **让本次连接的所有迷途旧报文在网络中自然消亡**，防止立刻复用相同四元组时串包污染新连接。\n\n> [!TIP]\n> 高并发后端作为客户端频繁向 Redis/下游发起短连接时，容易积压数万个 `TIME_WAIT` 导致本地临时端口耗尽。根治办法不是粗暴改内核，而是**使用长连接池（Keep-Alive / Connection Pool）复用连接**！",
+    "knowledgePoints": [
+      "cn-kp-0049",
+      "cn-kp-0050",
+      "cn-kp-0048"
+    ],
+    "estimatedMinutes": 45
   },
   {
     "id": "mod-computer-network-l-4",
     "courseId": "mod-computer-network-c-2",
     "order": 2,
-    "title": "计算机网络学习与题库训练 核心控制器与数据校验机制",
+    "title": "滑动窗口、流量控制与拥塞控制（CUBIC / BBR）",
     "slug": "lesson-2-2",
-    "summary": "掌握核心控制器的异常处理、拦截器配置与入参格式合法性检查。",
-    "contentMarkdown": "# 计算机网络学习与题库训练 核心控制器与数据校验机制\n          \n## 1. 概述与背景\n在进行 `计算机网络学习与题库训练` 的开发实践中，`计算机网络学习与题库训练 核心控制器与数据校验机制` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 计算机网络学习与题库训练 生产实践示例\nconsole.log(\"Initializing 计算机网络学习与题库训练 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "分清流量控制（rwnd）与拥塞控制（cwnd）的区别，理解慢启动、快速重传以及 Google BBR 的核心突破。",
+    "contentMarkdown": "# 滑动窗口、流量控制与拥塞控制（CUBIC / BBR）\n\n## 1. 流量控制 vs 拥塞控制\nTCP 发送窗口大小由 `min(rwnd, cwnd)` 共同决定：\n- **流量控制（`rwnd`）**：点对点保护**接收方**，防止发送太快把接收方缓冲区撑爆。\n- **拥塞控制（`cwnd`）**：全局保护**中间网络链路**，防止路由器队列溢出引发大规模丢包。\n\n## 2. 经典丢包驱动 vs BBR 带宽延迟积驱动\n- **传统算法（Reno / CUBIC）**：以“发生丢包”作为拥塞信号——慢启动指数增长 → 超 `ssthresh` 线性增长 → 收到 3 个重复 ACK 触发快速重传与快速恢复。缺点是在高延迟、偶发随机丢包的弱网/跨海链路下，吞吐会断崖式腰斩。\n- **BBR 算法**：不再把丢包等同于拥塞，而是周期性测量链路的**最大带宽（BtlBw）**与**最小往返延迟（RTprop）**，把在途字节数精准控制在 `BtlBw × RTprop` 附近，在跨地域和弱网环境下吞吐提升显著。",
+    "knowledgePoints": [
+      "cn-kp-0023",
+      "cn-kp-0054",
+      "cn-kp-0055",
+      "cn-kp-0057"
+    ],
+    "estimatedMinutes": 40
   },
   {
     "id": "mod-computer-network-l-5",
     "courseId": "mod-computer-network-c-3",
     "order": 1,
-    "title": "计算机网络学习与题库训练 缓存优化与垃圾回收调优",
+    "title": "HTTP/1.1、HTTP/2 多路复用与 HTTP/3 QUIC 演进",
     "slug": "lesson-3-1",
-    "summary": "定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
-    "contentMarkdown": "# 计算机网络学习与题库训练 缓存优化与垃圾回收调优\n          \n## 1. 概述与背景\n在进行 `计算机网络学习与题库训练` 的开发实践中，`计算机网络学习与题库训练 缓存优化与垃圾回收调优` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 计算机网络学习与题库训练 生产实践示例\nconsole.log(\"Initializing 计算机网络学习与题库训练 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "用一张表看清三代 HTTP 如何逐步解决队头阻塞（HOL Blocking）与弱网连接迁移问题。",
+    "contentMarkdown": "# HTTP/1.1、HTTP/2 多路复用与 HTTP/3 QUIC 演进\n\n## 1. 三代 HTTP 核心对比\n\n| 特性 | HTTP/1.1 | HTTP/2 | HTTP/3（QUIC） |\n| :--- | :--- | :--- | :--- |\n| 传输层协议 | TCP | TCP | **UDP**（应用层自实现可靠传输） |\n| 报文格式 | 纯文本 | 二进制分帧 + HPACK 头部压缩 | 二进制分帧 + QPACK 头部压缩 |\n| 并发机制 | 同一连接串行（需开 6 个并发连接） | **单 TCP 连接多路复用** | 独立多流真正并发 |\n| 队头阻塞 | 应用层 + 传输层双重阻塞 | 消除应用层，但**仍有 TCP 传输层队头阻塞** | **彻底消除队头阻塞**（单流丢包不影响其他流） |\n| 连接迁移 | IP 变化即断连重握 | IP 变化即断连重握 | 基于 **Connection ID**，Wi-Fi 切 5G 无感不断连 |\n\n> [!NOTE]\n> 移动端弱网环境（如进电梯、Wi-Fi 切换蜂窝网）是 HTTP/3 QUIC 收益最大的主战场；同时 QUIC 原生内置 TLS 1.3，将建连与加密握手合并为 **1-RTT（甚至 0-RTT）**。",
+    "knowledgePoints": [
+      "cn-kp-0062",
+      "cn-kp-0045",
+      "cn-kp-0044"
+    ],
+    "estimatedMinutes": 40
   },
   {
     "id": "mod-computer-network-l-6",
     "courseId": "mod-computer-network-c-3",
     "order": 2,
-    "title": "计算机网络学习与题库训练 可观测性日志与分布式链路监控",
+    "title": "TLS 1.3 加密握手、证书链信任与 mTLS",
     "slug": "lesson-3-2",
-    "summary": "配置全局日志收集管道，分析高负载服务下的运行指标波动。",
-    "contentMarkdown": "# 计算机网络学习与题库训练 可观测性日志与分布式链路监控\n          \n## 1. 概述与背景\n在进行 `计算机网络学习与题库训练` 的开发实践中，`计算机网络学习与题库训练 可观测性日志与分布式链路监控` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 计算机网络学习与题库训练 生产实践示例\nconsole.log(\"Initializing 计算机网络学习与题库训练 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "理解非对称加密协商会话密钥 + 对称加密传输数据的混合架构，以及 TLS 1.3 如何把握手砍到 1-RTT。",
+    "contentMarkdown": "# TLS 1.3 加密握手、证书链信任与 mTLS\n\n## 1. HTTPS 为什么同时用非对称加密和对称加密？\n- **非对称加密（ECDHE / RSA）**与数字签名：解决“身份防冒充”和“在不安全信道安全协商出共享密钥”，但计算开销大。\n- **对称加密（AES-GCM / ChaCha20-Poly1305）**：协商出会话密钥后，后续全部业务数据都走对称加密，兼顾极高吞吐与完整性防篡改。\n\n## 2. TLS 1.3 的三大革新\n1. **1-RTT 极速握手**：客户端在 `ClientHello` 中直接带上椭圆曲线公钥共享参数（Key Share），服务端回复 `ServerHello` 时即可算出对称密钥，比 TLS 1.2 省去整整 1 个 RTT。\n2. **强制前向保密（PFS）**：彻底废除静态 RSA 密钥交换，全部采用临时 ECDHE——即便服务端私钥未来泄露，攻击者也无法解密过去抓包留存的历史流量。\n3. **双向认证（mTLS）**：不仅客户端校验服务端证书，服务端也校验客户端证书，是微服务零信任网格（如 Istio）的标准内网鉴权方式。",
+    "knowledgePoints": [
+      "cn-kp-0072",
+      "cn-kp-0063"
+    ],
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "mod-computer-network-l-7",
+    "courseId": "mod-computer-network-c-4",
+    "order": 1,
+    "title": "DNS 递归/迭代解析、多级缓存与 HttpDNS",
+    "slug": "lesson-4-1",
+    "summary": "理清本地缓存 → LocalDNS → 根/顶级/权威域名服务器的完整查询路径，以及防 DNS 劫持与就近接入。",
+    "contentMarkdown": "# DNS 递归/迭代解析、多级缓存与 HttpDNS\n\n## 1. 一次完整 DNS 解析的层级\n1. 浏览器缓存 → 操作系统 hosts 与本地 DNS 缓存；\n2. 向运营商/企业 **LocalDNS** 发起**递归查询**；\n3. 若 LocalDNS 未命中缓存，则依次向**根域名服务器（`.`）→ 顶级域（`.com`）→ 权威域名服务器**发起**迭代查询**，拿到 A / AAAA / CNAME 记录并按 **TTL** 缓存返回。\n\n## 2. 生产常见问题与解法\n- **DNS 污染与跨网调度不准**：传统 UDP 53 端口明文查询易被劫持，且 LocalDNS 出口 IP 可能与用户真实归属地不一致导致 CDN 调度跨省。移动端 App 普遍采用 **HttpDNS**（通过 HTTPS 直连云厂商解析接口获取最优接入 IP）。\n- **Kubernetes 集群内的 `ndots:5` 放大问题**：Pod 默认 `/etc/resolv.conf` 配置 `ndots:5`，解析外部短域名时会先拼接多个集群后缀产生大量无效 DNS 查询，给外部域名加末尾点或合理调低 `ndots` 可大幅降低 CoreDNS 负载。",
+    "knowledgePoints": [
+      "cn-kp-0061",
+      "cn-kp-0067",
+      "cn-kp-0068"
+    ],
+    "estimatedMinutes": 35,
+    "practiceQuestionIds": [
+      "mod-computer-network-q-25"
+    ]
+  },
+  {
+    "id": "mod-computer-network-l-8",
+    "courseId": "mod-computer-network-c-4",
+    "order": 2,
+    "title": "线上网络排障方法论：超时、丢包与 Connection Reset",
+    "slug": "lesson-4-2",
+    "summary": "按“连通性 → 路由 → 端口 → 协议栈状态 → 抓包”五步定位线上疑难网络故障，快速区分 RST 与超时成因。",
+    "contentMarkdown": "# 线上网络排障方法论：超时、丢包与 Connection Reset\n\n## 1. 五步分层排障清单\n\n| 现象 | 优先排查方向 | 典型根因 |\n| :--- | :--- | :--- |\n| `Connection refused` | 目标主机可达，但目标端口无进程监听 | 服务未启动、监听在了回环地址而非 `0.0.0.0`、端口配置错误 |\n| `Connection timed out` | SYN 包发出后石沉大海 | 防火墙/安全组 `DROP` 丢包、路由黑洞、服务端半连接队列满 |\n| `Connection reset by peer` | 收到对端发来的 TCP **`RST`** 报文 | 服务端进程崩溃重启、空闲连接被中间 LB/NAT 超时静默踢掉后客户端仍继续发数据 |\n| 接口偶发 P99 飙高 200ms/1s | 抓包检查重传与延迟确认 | Nagle 算法 + Delayed ACK 叠加（开启 `TCP_NODELAY`）、首个 SYN 丢包触发 1 秒 RTO 重传 |\n\n> [!TIP]\n> 遇到“连接池里拿出一条旧连接一发请求就报 `Connection reset`”，90% 是因为客户端连接池的 `MaxIdleTime` 大于服务端或中间网关（Nginx/SLB）的 `keepalive_timeout`！把客户端空闲回收时间调得比服务端短即可根治。",
+    "knowledgePoints": [
+      "cn-kp-0045",
+      "cn-kp-0046",
+      "cn-kp-0053",
+      "cn-kp-0038"
+    ],
+    "estimatedMinutes": 40,
+    "practiceQuestionIds": [
+      "mod-computer-network-q-26"
+    ]
   }
 ]

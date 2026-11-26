@@ -1,3 +1,5 @@
+import { inPracticeCourse } from "../utils/practiceReview";
+import { courseMinutes, formatStudyTime } from "../utils/studyTime";
 import { Link, useParams } from "react-router-dom";
 import type { ModuleData } from "../data/loaders";
 import DifficultyBadge from "../components/DifficultyBadge";
@@ -27,6 +29,7 @@ export default function CourseDetailPage({ data }: { data: ModuleData }) {
   }
 
   const cp = courseProgress(course, progress);
+  const practiceCount = data.questions.filter((q) => inPracticeCourse(q, course)).length;
   const lessons = course.lessons
     .map((lid) => data.lessons.find((l) => l.id === lid))
     .filter(Boolean);
@@ -41,7 +44,7 @@ export default function CourseDetailPage({ data }: { data: ModuleData }) {
         <span className="text-white/80">{course.title}</span>
       </nav>
 
-      <header className="space-y-3">
+      <header className="work-heading space-y-3">
         <div className="flex flex-wrap items-center gap-2">
           <DifficultyBadge difficulty={course.difficulty} />
           {course.tags.map((t) => <span key={t} className="tag">{t}</span>)}
@@ -50,8 +53,13 @@ export default function CourseDetailPage({ data }: { data: ModuleData }) {
         <p className="text-white/70">{course.summary}</p>
         <div className="flex flex-wrap gap-4 text-sm text-white/60">
           <span>{lessons.length} 讲义</span>
-          <span>预计 {course.estimatedHours} 小时</span>
+          <span>讲义{formatStudyTime(courseMinutes(course.lessons, data.lessons))}</span>
         </div>
+        {practiceCount > 0 && (
+          <Link className="btn-ghost text-sm" to={"/questions?" + new URLSearchParams({ chapter: course.id })}>
+            本章练习 · {practiceCount} 道
+          </Link>
+        )}
       </header>
 
       <section>
@@ -75,7 +83,7 @@ export default function CourseDetailPage({ data }: { data: ModuleData }) {
                   <Link to={`/lessons/${lesson!.slug}`} className="text-sm font-medium text-white hover:underline">
                     {lesson!.title}
                   </Link>
-                  <p className="text-xs text-white/50">{lesson!.estimatedMinutes} 分钟 · {statusLabel}</p>
+                  <p className="text-xs text-white/50">{formatStudyTime(lesson!.estimatedMinutes)} · {statusLabel}</p>
                 </div>
                 <div className="flex gap-2">
                   {status === "not-started" && (

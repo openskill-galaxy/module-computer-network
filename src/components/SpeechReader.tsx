@@ -45,36 +45,39 @@ export default function SpeechReader({ text }: Props) {
   }
 
   return (
-    <div className="inline-flex items-center gap-1.5 bg-white/5 border border-white/10 px-2.5 py-1 rounded-xl text-xs print:hidden">
+    <div className="inline-flex items-center gap-1.5 bg-surface-2 border border-line px-2.5 py-1 rounded-xl text-xs print:hidden">
       <button
         onClick={handleToggleSpeech}
         type="button"
-        className={`font-semibold transition flex items-center gap-1 ${
-          speaking ? "text-cyan-300 animate-pulse font-bold" : "text-white/70 hover:text-white"
+        className={`font-semibold transition flex items-center gap-1 whitespace-nowrap ${
+          speaking ? "text-cyan-700 dark:text-cyan-300 animate-pulse font-bold" : "text-muted hover:text-body"
         }`}
         title="讲义语音朗读"
       >
         <span>{speaking ? "⏸ 暂停朗读" : "语音朗读"}</span>
       </button>
 
-      <div className="flex items-center gap-1 pl-1 border-l border-white/10 text-[10px] text-white/50 font-mono">
+      <div className="flex items-center gap-1 pl-1 border-l border-line text-[10px] text-subtle font-mono">
         <button
+          type="button"
           onClick={() => handleRateChange(1.0)}
-          className={`hover:text-white ${rate === 1.0 ? "text-cyan-300 font-bold" : ""}`}
+          className={`hover:text-body ${rate === 1.0 ? "text-cyan-700 dark:text-cyan-300 font-bold" : ""}`}
         >
           1x
         </button>
         <span>•</span>
         <button
+          type="button"
           onClick={() => handleRateChange(1.25)}
-          className={`hover:text-white ${rate === 1.25 ? "text-cyan-300 font-bold" : ""}`}
+          className={`hover:text-body ${rate === 1.25 ? "text-cyan-700 dark:text-cyan-300 font-bold" : ""}`}
         >
           1.25x
         </button>
         <span>•</span>
         <button
+          type="button"
           onClick={() => handleRateChange(1.5)}
-          className={`hover:text-white ${rate === 1.5 ? "text-cyan-300 font-bold" : ""}`}
+          className={`hover:text-body ${rate === 1.5 ? "text-cyan-700 dark:text-cyan-300 font-bold" : ""}`}
         >
           1.5x
         </button>

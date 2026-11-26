@@ -2,79 +2,100 @@
   {
     "id": "mod-computer-network-route-1",
     "slug": "professional-path",
-    "title": "计算机网络学习与题库训练 专业级成长路线",
-    "summary": "带您由浅入深、由原理到实战系统通关 计算机网络学习与题库训练 核心要点。",
+    "title": "计算机网络协议与线上排障完整路线",
+    "summary": "从分层封包与 CIDR/NAT、TCP 握手挥手与拥塞控制，到 HTTP/3 QUIC、TLS 1.3 与线上故障排查的完整路径。",
     "steps": [
       {
         "order": 1,
-        "title": "计算机网络学习与题库训练 环境依赖搭建与运行机制",
-        "description": "学习课时: 了解平台运行依赖、环境参数配置以及本地运行引导流程。",
+        "title": "从输入 URL 到数据帧发出的分层封装链路",
+        "description": "建立 IP 不变、MAC 逐跳重封与 MTU/MSS 的全局视角。",
         "courseId": "mod-computer-network-c-1",
         "lessonId": "mod-computer-network-l-1"
       },
       {
         "order": 2,
-        "title": "计算机网络学习与题库训练 配置文件覆盖与属性解析",
-        "description": "学习课时: 学习多环境配置管理，利用环境变量覆盖规则进行定制开发。",
+        "title": "CIDR 子网划分、路由匹配与 NAT 原理",
+        "description": "掌握子网速算、最长前缀匹配与 SNAT/DNAT。",
         "courseId": "mod-computer-network-c-1",
         "lessonId": "mod-computer-network-l-2"
       },
       {
         "order": 3,
-        "title": "计算机网络学习与题库训练 API 接口规范与数据通信",
-        "description": "学习课时: 掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
+        "title": "TCP 三次握手、四次挥手与 TIME_WAIT 深度解析",
+        "description": "吃透连接建立/释放状态机与端口耗尽治理。",
         "courseId": "mod-computer-network-c-2",
         "lessonId": "mod-computer-network-l-3"
       },
       {
         "order": 4,
-        "title": "计算机网络学习与题库训练 核心控制器与数据校验机制",
-        "description": "学习课时: 掌握核心控制器的异常处理、拦截器配置与入参格式合法性检查。",
+        "title": "滑动窗口、流量控制与拥塞控制（CUBIC / BBR）",
+        "description": "理清 rwnd/cwnd 协作与 BBR 弱网加速核心。",
         "courseId": "mod-computer-network-c-2",
         "lessonId": "mod-computer-network-l-4"
       },
       {
         "order": 5,
-        "title": "计算机网络学习与题库训练 缓存优化与垃圾回收调优",
-        "description": "学习课时: 定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
+        "title": "HTTP/1.1、HTTP/2 多路复用与 HTTP/3 QUIC 演进",
+        "description": "全面对比三代 HTTP 队头阻塞治理与连接迁移。",
         "courseId": "mod-computer-network-c-3",
         "lessonId": "mod-computer-network-l-5"
       },
       {
         "order": 6,
-        "title": "计算机网络学习与题库训练 可观测性日志与分布式链路监控",
-        "description": "学习课时: 配置全局日志收集管道，分析高负载服务下的运行指标波动。",
+        "title": "TLS 1.3 加密握手、证书链信任与 mTLS",
+        "description": "掌握混合加密体系、1-RTT 握手与前向保密。",
         "courseId": "mod-computer-network-c-3",
         "lessonId": "mod-computer-network-l-6"
+      },
+      {
+        "order": 7,
+        "title": "DNS 递归/迭代解析、多级缓存与 HttpDNS",
+        "description": "掌握域名解析全链路与 K8s ndots 优化。",
+        "courseId": "mod-computer-network-c-4",
+        "lessonId": "mod-computer-network-l-7"
+      },
+      {
+        "order": 8,
+        "title": "线上网络排障方法论：超时、丢包与 Connection Reset",
+        "description": "掌握常见网络报错的根因定位与连接池调优。",
+        "courseId": "mod-computer-network-c-4",
+        "lessonId": "mod-computer-network-l-8"
       }
     ]
   },
   {
     "id": "mod-computer-network-route-2",
     "slug": "quick-start-path",
-    "title": "计算机网络学习与题库训练 快速通关极速路线",
-    "summary": "专为快速开发或面试突击设计的速成学习路径。",
+    "title": "计算机网络高频面试 4 课冲刺路线",
+    "summary": "直击面试最高频的 TCP 握手挥手、HTTP/2&3 演进、TLS 1.3 加密与线上网络排障四大专题。",
     "steps": [
       {
         "order": 1,
-        "title": "计算机网络学习与题库训练 环境依赖搭建与运行机制",
-        "description": "学习课时: 了解平台运行依赖、环境参数配置以及本地运行引导流程。",
-        "courseId": "mod-computer-network-c-1",
-        "lessonId": "mod-computer-network-l-1"
-      },
-      {
-        "order": 3,
-        "title": "计算机网络学习与题库训练 API 接口规范与数据通信",
-        "description": "学习课时: 掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
+        "title": "TCP 三次握手、四次挥手与 TIME_WAIT 深度解析",
+        "description": "网络面试第一高频核心考点。",
         "courseId": "mod-computer-network-c-2",
         "lessonId": "mod-computer-network-l-3"
       },
       {
-        "order": 5,
-        "title": "计算机网络学习与题库训练 缓存优化与垃圾回收调优",
-        "description": "学习课时: 定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
+        "order": 2,
+        "title": "HTTP/1.1、HTTP/2 多路复用与 HTTP/3 QUIC 演进",
+        "description": "讲清队头阻塞演变与 QUIC 优势。",
         "courseId": "mod-computer-network-c-3",
         "lessonId": "mod-computer-network-l-5"
+      },
+      {
+        "order": 3,
+        "title": "TLS 1.3 加密握手、证书链信任与 mTLS",
+        "description": "讲清 HTTPS 混合加密与 1-RTT 前向保密。",
+        "courseId": "mod-computer-network-c-3",
+        "lessonId": "mod-computer-network-l-6"
+      },
+      {
+        "order": 4,
+        "title": "线上网络排障方法论：超时、丢包与 Connection Reset",
+        "description": "用实战案例体现工程排障深度。",
+        "courseId": "mod-computer-network-c-4",
+        "lessonId": "mod-computer-network-l-8"
       }
     ]
   }

@@ -172,6 +172,8 @@ export function IconX(p: IconProps) {
   );
 }
 
+export const IconClose = IconX;
+
 export function IconTrophy(p: IconProps) {
   return (
     <svg {...base(p)}>
@@ -271,13 +273,53 @@ export function IconVolumeX(p: IconProps) {
   );
 }
 
-/** Deterministic harmonious color from a string id (for category accents). */
+function hslToRgb(h: number, s: number, l: number): [number, number, number] {
+  const sn = s / 100;
+  const ln = l / 100;
+  const k = (n: number) => (n + h / 30) % 12;
+  const a = sn * Math.min(ln, 1 - ln);
+  const f = (n: number) => ln - a * Math.max(-1, Math.min(k(n) - 3, 9 - k(n), 1));
+  return [f(0) * 255, f(8) * 255, f(4) * 255];
+}
+
+function relativeLuminance([r, g, b]: [number, number, number]): number {
+  const lin = (c: number) => {
+    const v = c / 255;
+    return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+  };
+  return 0.2126 * lin(r) + 0.7152 * lin(g) + 0.0722 * lin(b);
+}
+
+function contrastRatio(a: [number, number, number], b: [number, number, number]): number {
+  const l1 = relativeLuminance(a);
+  const l2 = relativeLuminance(b);
+  return (Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05);
+}
+
+function calibratedLightL(hue: number): number {
+  const tintRgb = hslToRgb(hue, 66, 50);
+  const softBg: [number, number, number] = [
+    tintRgb[0] * 0.12 + 255 * 0.88,
+    tintRgb[1] * 0.12 + 255 * 0.88,
+    tintRgb[2] * 0.12 + 255 * 0.88,
+  ];
+  for (let l = 44; l >= 20; l--) {
+    if (contrastRatio(hslToRgb(hue, 68, l), softBg) >= 4.7) return l;
+  }
+  return 24;
+}
+
+/** Deterministic harmonious color from a string id (for category accents, WCAG AA >= 4.7:1). */
 export function colorFromId(id: string): { fg: string; soft: string } {
-  let h = 0;
-  for (let i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) >>> 0;
+  let h = 2166136261;
+  for (let i = 0; i < id.length; i++) {
+    h ^= id.charCodeAt(i);
+    h = Math.imul(h, 16777619) >>> 0;
+  }
   const hue = h % 360;
+  const lightL = calibratedLightL(hue);
   return {
-    fg: `hsl(${hue} 62% 48%)`,
+    fg: `light-dark(hsl(${hue} 68% ${lightL}%), hsl(${hue} 72% 72%))`,
     soft: `hsl(${hue} 66% 50% / 0.12)`,
   };
 }

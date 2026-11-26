@@ -11,7 +11,8 @@ export function calculateSM2(
   quality: number, // 0 - 5
   prevInterval = 0,
   prevRepetitions = 0,
-  prevEaseFactor = 2.5
+  prevEaseFactor = 2.5,
+  reviewedAt = new Date()
 ): SRSItem {
   let interval = 1;
   let repetitions = prevRepetitions;
@@ -23,7 +24,7 @@ export function calculateSM2(
     } else if (prevRepetitions === 1) {
       interval = 6;
     } else {
-      interval = Math.round(prevInterval * prevEaseFactor);
+      interval = Math.min(365, Math.round(prevInterval * prevEaseFactor));
     }
     repetitions = prevRepetitions + 1;
   } else {
@@ -35,7 +36,7 @@ export function calculateSM2(
   easeFactor = prevEaseFactor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
   if (easeFactor < 1.3) easeFactor = 1.3;
 
-  const nextDate = new Date();
+  const nextDate = new Date(reviewedAt);
   nextDate.setDate(nextDate.getDate() + interval);
 
   return {
@@ -44,7 +45,7 @@ export function calculateSM2(
     repetitions,
     easeFactor: Number(easeFactor.toFixed(2)),
     nextReviewDate: nextDate.toISOString(),
-    lastReviewedAt: new Date().toISOString(),
+    lastReviewedAt: reviewedAt.toISOString(),
   };
 }
 

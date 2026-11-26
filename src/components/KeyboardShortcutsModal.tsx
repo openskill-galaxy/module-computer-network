@@ -22,12 +22,12 @@ export default function KeyboardShortcutsModal({ onClose }: Props) {
       role="dialog"
       aria-modal="true"
       aria-label="全站键盘快捷键指南"
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-md animate-fade-in"
+      className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto overscroll-contain p-4 bg-black/60 backdrop-blur-md animate-fade-in"
     >
       <div
         ref={panelRef}
         onClick={(e) => e.stopPropagation()}
-        className="card max-w-md w-full p-6 space-y-6 border border-slate-200 dark:border-white/10 bg-white dark:bg-slate-950 shadow-soft-lg relative"
+        className="card my-auto max-w-md w-full p-6 space-y-6 border border-slate-200 dark:border-white/10 bg-white dark:bg-slate-950 shadow-soft-lg relative"
       >
         <button
           onClick={onClose}
@@ -54,7 +54,7 @@ export default function KeyboardShortcutsModal({ onClose }: Props) {
             >
               <div className="space-y-0.5">
                 <p className="text-xs font-semibold text-slate-900 dark:text-white">{item.label}</p>
-                <p className="text-[10px] text-slate-500 dark:text-white/40">{item.scope}</p>
+                <p className="text-[10px] text-subtle">{item.scope}</p>
               </div>
               <kbd className="px-2.5 py-1 text-xs font-mono font-bold text-cyan-700 dark:text-cyan-300 bg-cyan-500/10 border border-cyan-500/20 rounded-md shrink-0">
                 {item.key}

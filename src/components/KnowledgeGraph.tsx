@@ -12,7 +12,7 @@ interface NodeItem {
   label: string;
   x: number;
   y: number;
-  slug?: string;
+  slug: string;
   summary?: string;
 }
 
@@ -20,7 +20,7 @@ export default function KnowledgeGraph({ data }: Props) {
   const [hoveredNode, setHoveredNode] = useState<NodeItem | null>(null);
 
   const width = 800;
-  const height = 340;
+  const height = 250;
 
   const courses = data.courses || [];
   const lessons = data.lessons || [];
@@ -36,7 +36,7 @@ export default function KnowledgeGraph({ data }: Props) {
   courses.forEach((course, cIdx) => {
     const cx = courseSpacingX * (cIdx + 1);
     const cy = 100;
-    nodes.push({ id: course.id, type: "course", label: course.title, x: cx, y: cy });
+    nodes.push({ id: course.id, type: "course", label: course.title, slug: course.slug, summary: course.summary, x: cx, y: cy });
 
     const courseLessons = lessons.filter((l) => l.courseId === course.id);
     const lessonCount = courseLessons.length;
@@ -65,14 +65,28 @@ export default function KnowledgeGraph({ data }: Props) {
     <div className="card p-5 relative overflow-hidden">
       <div className="flex items-center justify-between border-b border-slate-200 dark:border-white/5 pb-3 mb-2">
         <h3 className="text-sm font-bold text-slate-900 dark:text-white tracking-wide flex items-center gap-2">
-          课程结构知识星图拓扑
+          课程结构
         </h3>
-        <span className="text-xs text-slate-500 dark:text-white/40">点击星轨节点直达讲义</span>
+
       </div>
 
-      <div className="relative flex justify-center overflow-x-auto">
-        {/* 小屏改为横向滚动而非等比缩小，保证节点文字可读 */}
-        <svg viewBox={`0 0 ${width} ${height}`} className="w-full min-w-[640px] max-w-[800px] h-auto">
+      <ul className="space-y-4 pt-2 md:hidden">
+        {courses.map((course) => (
+          <li key={course.id}>
+            <Link to={`/courses/${course.slug}`} className="font-semibold text-body hover:text-brand">{course.title}</Link>
+            <ul className="mt-1 border-l border-line-strong pl-3">
+              {lessons.filter((lesson) => lesson.courseId === course.id).map((lesson) => (
+                <li key={lesson.id}>
+                  <Link to={`/lessons/${lesson.slug}`} className="block py-2 text-sm text-brand">{lesson.title}</Link>
+                </li>
+              ))}
+            </ul>
+          </li>
+        ))}
+      </ul>
+
+      <div className="relative hidden overflow-x-auto md:block">
+        <svg viewBox={`0 0 ${width} ${height}`} aria-label="课程及其关联讲义" className="mx-auto block w-full min-w-[640px] max-w-[800px] h-auto">
           <defs>
             <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="1">
               <stop offset="0%" stopColor="#818cf8" stopOpacity="0.6" />
@@ -100,12 +114,14 @@ export default function KnowledgeGraph({ data }: Props) {
             return (
               <g
                 key={node.id}
+                onFocus={() => setHoveredNode(node)}
+                onBlur={() => setHoveredNode(null)}
                 onMouseEnter={() => setHoveredNode(node)}
                 onMouseLeave={() => setHoveredNode(null)}
                 className="cursor-pointer group"
               >
                 {isCourse ? (
-                  <>
+                  <Link to={`/courses/${node.slug}`} aria-label={node.label}>
                     <circle cx={node.x} cy={node.y} r="22" className="fill-brand-600/30 stroke-brand-400 stroke-2" />
                     <circle cx={node.x} cy={node.y} r="14" className="fill-indigo-500 shadow-lg" />
                     <text
@@ -114,11 +130,11 @@ export default function KnowledgeGraph({ data }: Props) {
                       textAnchor="middle"
                       className="fill-slate-900 dark:fill-white text-xs font-bold tracking-wider"
                     >
-                      {node.label}
+                      {node.label.length > 12 ? `${node.label.slice(0, 12)}…` : node.label}
                     </text>
-                  </>
+                  </Link>
                 ) : (
-                  <Link to={`/lessons/${node.slug}`}>
+                  <Link to={`/lessons/${node.slug}`} aria-label={node.label}>
                     <circle
                       cx={node.x}
                       cy={node.y}

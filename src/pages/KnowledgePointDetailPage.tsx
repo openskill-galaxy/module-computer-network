@@ -8,9 +8,9 @@ import { useSEO } from "../hooks/useSEO";
 export default function KnowledgePointDetailPage({ data }: { data: ModuleData }) {
   const { slug } = useParams<{ slug: string }>();
   const toggleFavorite = useProgressStore((s) => s.toggleFavorite);
-  const isFavorite = useProgressStore((s) => s.isFavorite);
+  const favorites = useProgressStore((s) => s.favorites);
 
-  const kp = data.knowledgePoints.find((k) => k.slug === slug);
+  const kp = data.knowledgePoints.find((k) => k.slug === slug) ?? data.drafts.knowledgePoints.find((k) => k.slug === slug);
 
   useSEO({
     title: kp ? `${kp.title} · ${data.module.title}` : data.module.title,
@@ -40,6 +40,7 @@ export default function KnowledgePointDetailPage({ data }: { data: ModuleData })
       </nav>
 
       <header className="space-y-3">
+        {kp.editorialStatus === "draft" && <p className="text-sm text-muted">此条目正在修订，保留原链接供查阅。</p>}
         <div className="flex items-start justify-between gap-3">
           <div className="flex flex-wrap items-center gap-2">
             <DifficultyBadge difficulty={kp.difficulty} />
@@ -50,7 +51,7 @@ export default function KnowledgePointDetailPage({ data }: { data: ModuleData })
             className="btn-ghost text-xs"
             onClick={() => toggleFavorite({ type: "knowledge", id: kp.id })}
           >
-            {isFavorite("knowledge", kp.id) ? "★ 已收藏" : "☆ 收藏"}
+            {favorites.some((f) => f.type === "knowledge" && f.id === kp.id) ? "★ 已收藏" : "☆ 收藏"}
           </button>
         </div>
         <h1 className="text-2xl font-bold text-white">{kp.title}</h1>

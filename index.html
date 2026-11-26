@@ -2,17 +2,65 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <link rel="manifest" href="./manifest.json" />
-    <meta name="theme-color" content="#fbfbfd" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#0a0b0f" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <link rel="manifest" href="%BASE_URL%manifest.json" />
+    <meta name="theme-color" content="#f4f5fa" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#141729" media="(prefers-color-scheme: dark)" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="OpenSkill Galaxy Module — reusable static learning module." />
-    <meta property="og:title" content="OpenSkill Galaxy Module" />
-    <meta property="og:description" content="OpenSkill Galaxy Module — reusable static learning module." />
+    <meta name="description" content="面向计算机专业学生408考研后端开发和网络工程学习者的网络体系结构TCP/IPHTTPDNS子网划分路由与综合组网训练模块。" />
+    <meta property="og:title" content="计算机网络学习与题库训练 · OpenSkill Galaxy" />
+    <meta property="og:description" content="面向计算机专业学生408考研后端开发和网络工程学习者的网络体系结构TCP/IPHTTPDNS子网划分路由与综合组网训练模块。" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary" />
-    <title>OpenSkill Galaxy Module</title>
+    <title>计算机网络学习与题库训练 · OpenSkill Galaxy</title>
+    <script>
+      // Restore deep links from 404.html (?page=path&k=v~and~k2=v2) or Portal (?page=%2Flessons%2F...) before mount
+      (function () {
+        try {
+          var l = window.location;
+          var home = "%BASE_URL%";
+          if (l.pathname !== home) return;
+          var route = new URLSearchParams(l.search).get("__osg_route");
+          if (route !== null) {
+            var target = new URL(home + route, l.origin);
+            if (target.origin === l.origin && target.pathname.startsWith(home)) {
+              history.replaceState(null, "", target.pathname + target.search + target.hash);
+            }
+            return;
+          }
+
+          if (!l.search) return;
+          var base = "%BASE_URL%";
+          if (base.indexOf("BASE_URL") !== -1) base = "/";
+          if (!base.endsWith("/")) base += "/";
+
+          var parts = l.search.slice(1).split("&");
+          var rawPage = null;
+          var restParts = [];
+          for (var i = 0; i < parts.length; i++) {
+            var part = parts[i];
+            if (!part) continue;
+            if (part.indexOf("page=") === 0 && rawPage === null) {
+              rawPage = part.slice(5);
+            } else {
+              restParts.push(part.replace(/~and~/g, "&"));
+            }
+          }
+          if (rawPage !== null) {
+            var decodedPage = decodeURIComponent(rawPage.replace(/\+/g, " ")).replace(/~and~/g, "&");
+            var qIdx = decodedPage.indexOf("?");
+            var pagePath = qIdx >= 0 ? decodedPage.slice(0, qIdx) : decodedPage;
+            var pageQuery = qIdx >= 0 ? decodedPage.slice(qIdx + 1) : "";
+            var cleanPath = pagePath.replace(/^\/+/, "");
+            var allQueries = [];
+            if (pageQuery) allQueries.push(pageQuery);
+            if (restParts.length) allQueries.push(restParts.join("&"));
+            var finalSearch = allQueries.length ? "?" + allQueries.join("&") : "";
+            window.history.replaceState(null, "", base + cleanPath + finalSearch + l.hash);
+          }
+        } catch (e) {}
+      })();
+    </script>
     <script>
       // Set theme before paint to avoid flash (light default)
       (function () {
@@ -26,28 +74,27 @@
     </script>
     <script>
       function showUpdateToast() {
-        // 跟随当前主题（与门户同款做法）
-        var isDark = document.documentElement.classList.contains('dark');
-        var surface = isDark ? 'rgba(20, 22, 29, 0.92)' : 'rgba(255, 255, 255, 0.92)';
-        var border = isDark ? 'rgba(255, 255, 255, 0.08)' : 'rgba(15, 23, 42, 0.1)';
-        var textMain = isDark ? '#f3f4f7' : '#0b0f19';
-        var textSub = isDark ? '#a4abbb' : '#4b5468';
-        var shadow = isDark ? '0 12px 32px rgba(0, 0, 0, 0.55)' : '0 12px 32px rgba(15, 23, 42, 0.18)';
+        if (document.querySelector('.update-toast')) return;
         const toast = document.createElement('div');
         toast.className = 'update-toast';
+        toast.setAttribute('role', 'status');
+        toast.setAttribute('aria-live', 'polite');
         toast.innerHTML = `
-          <div style="background: ${surface}; backdrop-filter: blur(12px); border: 1px solid ${border}; border-radius: 16px; padding: 16px; box-shadow: ${shadow}; display: flex; align-items: center; gap: 12px; max-width: 320px;">
-            <span style="font-size: 16px;">✦</span>
-            <div style="flex: 1;">
-              <h4 style="margin: 0; color: ${textMain}; font-size: 13px; font-weight: 600; font-family: Inter, system-ui, sans-serif;">本模块内容已升级</h4>
-              <p style="margin: 4px 0 0 0; color: ${textSub}; font-size: 11px; line-height: 1.4; font-family: Inter, system-ui, sans-serif;">新讲义与评测题目已更新，立即刷新体验最新版本。</p>
+          <div style="background: var(--surface); backdrop-filter: blur(12px); border: 1px solid var(--border-strong); border-radius: 16px; padding: 16px; box-shadow: var(--shadow-lg); display: flex; align-items: center; gap: 12px; width: 100%; box-sizing: border-box; font-family: Inter, system-ui, sans-serif;">
+            <span style="font-size: 16px; color: var(--accent-text);">✦</span>
+            <div style="flex: 1; min-width: 0;">
+              <h4 style="margin: 0; color: var(--text); font-size: 13px; font-weight: 600;">本模块内容已升级</h4>
+              <p style="margin: 4px 0 0 0; color: var(--text-muted); font-size: 12px; line-height: 1.4;">新讲义与评测题目已更新，立即刷新体验最新版本。</p>
             </div>
-            <button onclick="window.location.reload()" style="background: #4f46e5; color: #fff; border: 0; padding: 6px 12px; border-radius: 8px; font-size: 10px; font-weight: 600; cursor: pointer; white-space: nowrap; box-shadow: 0 4px 12px rgba(79, 70, 229, 0.2); font-family: Inter, system-ui, sans-serif;">重载</button>
+            <button onclick="window.location.reload()" style="background: var(--accent); color: var(--accent-fg); border: 0; padding: 9px 14px; border-radius: 8px; font-size: 12px; font-weight: 600; cursor: pointer; white-space: nowrap; box-shadow: var(--shadow-accent); font-family: inherit;">重载</button>
+            <button onclick="this.closest('.update-toast').remove()" aria-label="关闭" style="background: transparent; color: var(--text-subtle); border: 0; padding: 8px; border-radius: 8px; font-size: 13px; line-height: 1; cursor: pointer; font-family: inherit;">✕</button>
           </div>
         `;
         toast.style.position = 'fixed';
-        toast.style.bottom = '24px';
-        toast.style.right = '24px';
+        toast.style.bottom = '16px';
+        toast.style.right = '16px';
+        toast.style.width = '340px';
+        toast.style.maxWidth = 'calc(100vw - 32px)';
         toast.style.zIndex = '99999';
         toast.style.opacity = '0';
         toast.style.transform = 'translateY(10px)';
@@ -59,15 +106,18 @@
         }, 100);
       }
 
-      if ('serviceWorker' in navigator) {
+      if ('%MODE%' === 'production' && 'serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('./sw.js').then(reg => {
+          var base = "%BASE_URL%";
+          if (base.indexOf("BASE_URL") !== -1) base = "/";
+          if (!base.endsWith("/")) base += "/";
+          navigator.serviceWorker.register(base + 'sw.js', { scope: base }).then(reg => {
             reg.onupdatefound = () => {
               const installingWorker = reg.installing;
               if (installingWorker) {
                 installingWorker.onstatechange = () => {
                   if (installingWorker.state === 'installed') {
-                    if (navigator.serviceWorker.controller) {
+                    if (navigator.serviceWorker.controller?.scriptURL === installingWorker.scriptURL) {
                       showUpdateToast();
                     }
                   }

@@ -1,3 +1,4 @@
+import { formatStudyTime, sumMinutes } from "../utils/studyTime";
 import type { ModuleData } from "../data/loaders";
 import { useProgressStore } from "../store/useProgressStore";
 import { colorFromId, monogram } from "../components/icons";
@@ -8,7 +9,7 @@ export default function AboutPage({ data }: { data: ModuleData }) {
 
   return (
     <article className="space-y-8 max-w-3xl">
-      <header>
+      <header className="work-heading">
         <h1 className="text-2xl font-bold text-slate-900 dark:text-white">关于本模块</h1>
       </header>
 
@@ -27,7 +28,7 @@ export default function AboutPage({ data }: { data: ModuleData }) {
         <div className="grid grid-cols-2 gap-3 text-sm">
           <div className="card p-3"><p className="text-slate-500 dark:text-white/50 text-xs">版本</p><p className="text-slate-900 dark:text-white font-semibold">{m.version || "v1.0.0"}</p></div>
           <div className="card p-3"><p className="text-slate-500 dark:text-white/50 text-xs">许可</p><p className="text-slate-900 dark:text-white font-semibold">{m.license || "MIT"}</p></div>
-          <div className="card p-3"><p className="text-slate-500 dark:text-white/50 text-xs">预计时长</p><p className="text-slate-900 dark:text-white font-semibold">{m.estimatedHours || 12} 小时</p></div>
+          <div className="card p-3"><p className="text-slate-500 dark:text-white/50 text-xs">讲义预计用时</p><p className="text-slate-900 dark:text-white font-semibold">{formatStudyTime(sumMinutes(data.lessons.map((lesson) => lesson.estimatedMinutes)))}</p></div>
           <div className="card p-3"><p className="text-slate-500 dark:text-white/50 text-xs">更新日期</p><p className="text-slate-900 dark:text-white font-semibold">{m.updatedAt || new Date().toISOString().slice(0, 10)}</p></div>
         </div>
         <div className="card p-3">
@@ -58,7 +59,7 @@ export default function AboutPage({ data }: { data: ModuleData }) {
       <section className="space-y-2">
         <h2 className="text-lg font-bold text-slate-900 dark:text-white">本地存储与隐私声明</h2>
         <p className="text-sm text-slate-600 dark:text-white/70 leading-relaxed">
-          您的学习进度、双模设置、收藏清单、错题与考试记录完全加密保存在本地浏览器 localStorage 中，未经过允许不会上传服务器。
+          学习进度、收藏、错题和考试记录保存在此浏览器中。使用云端同步时，您可以将记录备份到所选 Appwrite 项目。
         </p>
         <button
           type="button"

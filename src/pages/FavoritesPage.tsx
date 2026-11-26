@@ -31,13 +31,13 @@ export default function FavoritesPage({ data }: { data: ModuleData }) {
             const l = data.lessons.find((x) => x.id === f.id);
             if (l) { title = l.title; summary = l.summary; url = `/lessons/${l.slug}`; }
           } else if (f.type === "knowledge") {
-            const k = data.knowledgePoints.find((x) => x.id === f.id);
+            const k = data.knowledgePoints.find((x) => x.id === f.id) ?? data.drafts.knowledgePoints.find((x) => x.id === f.id);
             if (k) { title = k.title; summary = k.summary; url = `/knowledge/${k.slug}`; }
           } else if (f.type === "question") {
             const q = data.questions.find((x) => x.id === f.id);
             if (q) { title = q.stem.slice(0, 60); summary = (q.explanation || q.analysis || "").slice(0, 80); url = `/questions/${q.slug}`; }
           } else if (f.type === "case") {
-            const c = data.cases.find((x) => x.id === f.id);
+            const c = data.cases.find((x) => x.id === f.id) ?? data.drafts.cases.find((x) => x.id === f.id);
             if (c) { title = c.title; summary = c.summary; url = `/cases/${c.slug}`; }
           }
           return { fav: f, title, summary, url };
@@ -60,7 +60,7 @@ export default function FavoritesPage({ data }: { data: ModuleData }) {
 
   return (
     <div className="space-y-6">
-      <header className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+      <header className="work-heading flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
           <h1 className="text-2xl font-bold text-slate-900 dark:text-white">收藏夹</h1>
           <p className="mt-1 text-sm text-slate-600 dark:text-white/60">共 {items.length} 条已收藏核心资源</p>
@@ -73,9 +73,9 @@ export default function FavoritesPage({ data }: { data: ModuleData }) {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="搜索收藏夹标题/摘要..."
-            className="w-full pl-8 pr-3 py-1.5 text-xs rounded-xl border border-slate-200 dark:border-white/10 bg-slate-50 dark:bg-white/[0.04] text-slate-900 dark:text-white placeholder:text-slate-400 dark:placeholder:text-white/40 focus:outline-none focus:border-brand-500"
+            className="w-full pl-8 pr-3 py-1.5 text-xs rounded-xl border border-slate-200 dark:border-white/10 bg-slate-50 dark:bg-white/[0.04] text-slate-900 dark:text-white placeholder:text-subtle focus:outline-none focus:border-brand-500"
           />
-          <span className="absolute left-2.5 top-1/2 -translate-y-1/2 text-slate-400 dark:text-white/40 pointer-events-none">
+          <span className="absolute left-2.5 top-1/2 -translate-y-1/2 text-subtle pointer-events-none">
             <IconSearch size={13} />
           </span>
         </div>
@@ -116,7 +116,7 @@ export default function FavoritesPage({ data }: { data: ModuleData }) {
         <div className="space-y-3">
           {filteredItems.map((item) => (
             <div key={`${item.fav.type}-${item.fav.id}`} className="card p-4 flex items-start justify-between gap-4">
-              <div className="space-y-1 min-w-0">
+              <div className="space-y-1 flex-1 min-w-0">
                 <div className="flex items-center gap-2">
                   <span className="tag text-[10px] shrink-0">{typeLabel[item.fav.type]}</span>
                   <Link to={item.url} className="font-bold text-slate-900 dark:text-white hover:text-brand-600 dark:hover:text-brand-300 truncate">
@@ -129,7 +129,7 @@ export default function FavoritesPage({ data }: { data: ModuleData }) {
               <button
                 type="button"
                 onClick={() => toggleFavorite({ type: item.fav.type, id: item.fav.id })}
-                className="btn-ghost text-xs text-amber-600 dark:text-amber-300 shrink-0 font-medium"
+                className="btn-ghost text-xs text-amber-700 dark:text-amber-300 shrink-0 font-medium"
               >
                 ★ 取消收藏
               </button>

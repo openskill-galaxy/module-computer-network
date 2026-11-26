@@ -1,6 +1,8 @@
 import { useMemo } from "react";
 import { useProgressStore } from "../store/useProgressStore";
 import { useModalA11y } from "../hooks/useModalA11y";
+import { STORAGE_KEYS } from "../config/constants";
+import { readJson } from "../utils/storage";
 
 interface Props {
   onClose: () => void;
@@ -15,8 +17,7 @@ export default function AchievementsModal({ onClose }: Props) {
 
   const achievements = useMemo(() => {
     const completedCount = Object.values(progress).filter((v) => v.status === "completed").length;
-    const activeDatesStr = localStorage.getItem("openskill-active-dates");
-    const activeDates: Record<string, number> = activeDatesStr ? JSON.parse(activeDatesStr) : {};
+    const activeDates = readJson<Record<string, number>>("active-dates", {}, STORAGE_KEYS.ACTIVE_DATES);
     const streakDays = Object.keys(activeDates).length;
 
     return [
@@ -79,12 +80,12 @@ export default function AchievementsModal({ onClose }: Props) {
       role="dialog"
       aria-modal="true"
       aria-label="游戏化成就勋章墙"
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-md animate-fade-in"
+      className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto overscroll-contain p-4 bg-black/60 backdrop-blur-md animate-fade-in"
     >
       <div
         ref={panelRef}
         onClick={(e) => e.stopPropagation()}
-        className="card max-w-lg w-full p-6 space-y-6 border border-slate-200 dark:border-white/10 bg-white dark:bg-slate-950 shadow-soft-lg relative"
+        className="card my-auto max-w-lg w-full p-6 space-y-6 border border-slate-200 dark:border-white/10 bg-white dark:bg-slate-950 shadow-soft-lg relative"
       >
         <button
           onClick={onClose}

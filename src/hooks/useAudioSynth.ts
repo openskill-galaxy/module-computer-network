@@ -3,13 +3,21 @@ import { STORAGE_KEYS } from "../config/constants";
 
 export function useAudioSynth() {
   const [muted, setMuted] = useState<boolean>(() => {
-    return localStorage.getItem(STORAGE_KEYS.SOUND_MUTED) === "true";
+    try {
+      return localStorage.getItem(STORAGE_KEYS.SOUND_MUTED) === "true";
+    } catch {
+      return false;
+    }
   });
 
   const toggleMute = () => {
     setMuted((prev) => {
       const next = !prev;
-      localStorage.setItem(STORAGE_KEYS.SOUND_MUTED, String(next));
+      try {
+        localStorage.setItem(STORAGE_KEYS.SOUND_MUTED, String(next));
+      } catch {
+        /* ignore */
+      }
       return next;
     });
   };
@@ -17,17 +25,19 @@ export function useAudioSynth() {
   const playSound = (type: "correct" | "incorrect" | "timer") => {
     if (muted) return;
     try {
-      const AudioCtx = window.AudioContext || (window as any).webkitAudioContext;
+      const AudioCtx = window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
       if (!AudioCtx) return;
       const ctx = new AudioCtx();
 
       if (ctx.state === "suspended") {
-        ctx.resume();
+        ctx.resume().catch(() => {});
       }
 
       const closeContext = (delayMs: number) => {
         setTimeout(() => {
-          ctx.close().catch(() => {});
+          if (ctx.state !== "closed") {
+            ctx.close().catch(() => {});
+          }
         }, delayMs);
       };
 

@@ -27,15 +27,15 @@
   "portalUrl": "https://openskill-galaxy.github.io/",
   "status": "stable",
   "stats": {
-    "courses": 3,
-    "lessons": 6,
-    "knowledgePoints": 800,
-    "questions": 24,
-    "cases": 260,
+    "courses": 4,
+    "lessons": 8,
+    "knowledgePoints": 74,
+    "questions": 26,
+    "cases": 1,
     "exams": 3,
     "routes": 2,
-    "glossary": 360,
-    "faqs": 210,
-    "tags": 350
+    "glossary": 43,
+    "faqs": 25,
+    "tags": 291
   }
 }

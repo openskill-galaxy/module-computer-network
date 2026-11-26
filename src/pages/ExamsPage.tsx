@@ -8,7 +8,7 @@ export default function ExamsPage({ data }: { data: ModuleData }) {
 
   return (
     <div className="space-y-6">
-      <header>
+      <header className="work-heading">
         <h1 className="text-2xl font-bold text-slate-900 dark:text-white">模拟考试</h1>
         <p className="mt-1 text-sm text-slate-600 dark:text-white/60">共 {data.exams.length} 套全真标准试卷</p>
       </header>
@@ -49,7 +49,11 @@ export default function ExamsPage({ data }: { data: ModuleData }) {
               return (
                 <div key={idx} className="px-4 py-3 flex items-center justify-between gap-3">
                   <div>
-                    <p className="text-sm font-semibold text-slate-900 dark:text-white">{exam?.title || rec.examId}</p>
+                    {exam ? (
+                      <Link className="text-sm font-semibold text-brand hover:underline" to={`/exams/${exam.slug}/result?attempt=${encodeURIComponent(rec.startedAt)}`}>
+                        {exam.title}
+                      </Link>
+                    ) : <p className="text-sm font-semibold text-body">{rec.examId}</p>}
                     <p className="text-xs text-slate-500 dark:text-white/50 mt-0.5">{rec.finishedAt}</p>
                   </div>
                   <span className={`text-sm font-extrabold ${rec.passed ? "text-emerald-700 dark:text-emerald-300" : "text-rose-700 dark:text-rose-300"}`}>
