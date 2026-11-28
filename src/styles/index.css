@@ -72,7 +72,7 @@ body {
 
 ::selection {
   background: var(--accent);
-  color: #fff;
+  color: var(--accent-fg);
 }
 
 ::-webkit-scrollbar {
@@ -141,6 +141,8 @@ body {
     background: var(--accent);
     color: var(--accent-fg);
     box-shadow: var(--shadow-accent);
+    min-height: 2.75rem;
+    touch-action: manipulation;
   }
   .btn-primary:hover {
     background: var(--accent-hover);
@@ -150,6 +152,8 @@ body {
     background: var(--surface);
     color: var(--text);
     border: 1px solid var(--border-strong);
+    min-height: 2.75rem;
+    touch-action: manipulation;
   }
   .btn-ghost:hover {
     background: var(--surface-2);
@@ -160,6 +164,8 @@ body {
     background: rgba(244, 63, 94, 0.1);
     color: #be123c;
     border: 1px solid rgba(244, 63, 94, 0.25);
+    min-height: 2.75rem;
+    touch-action: manipulation;
   }
   .dark .btn-danger {
     color: #fda4af;
@@ -190,6 +196,7 @@ body {
     background: var(--surface);
     color: var(--text);
     border: 1px solid var(--border-strong);
+    min-height: 2.75rem;
   }
   .input::placeholder {
     color: var(--text-subtle);
@@ -220,6 +227,8 @@ body {
     background: var(--surface);
     color: var(--text);
     border: 1px solid var(--border-strong);
+    min-height: 2.75rem;
+    touch-action: manipulation;
   }
   .option-btn:hover {
     border-color: var(--accent);
@@ -262,6 +271,9 @@ body {
     border: 1px solid var(--border);
     background: var(--surface);
     color: var(--text-muted);
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+    touch-action: manipulation;
   }
   .icon-btn:hover {
     background: var(--surface-2);
@@ -270,14 +282,31 @@ body {
   }
 }
 
+.btn-primary:focus-visible,
+.btn-ghost:focus-visible,
+.btn-danger:focus-visible,
+.icon-btn:focus-visible,
+.option-btn:focus-visible {
+  outline: 2px solid var(--focus) !important;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px var(--ring);
+}
+
+.note-toggle,
+.notes-inline-action,
+.feedback-link {
+  min-height: 2.75rem;
+  touch-action: manipulation;
+}
+
+.note-toggle,
+.notes-inline-action { display: inline-flex; align-items: center; }
+.note-toggle { padding-inline: .5rem; margin-inline: -.5rem; border-radius: .5rem; }
+.notes-inline-action { padding-inline: .35rem; margin-inline: -.35rem; }
+.mobile-nav-action { min-height: 2.75rem; touch-action: manipulation; }
+
 /* Gradient text — used sparingly for hero */
 .text-gradient { color: var(--accent-text); }
-.dark .text-gradient {
-  background: linear-gradient(135deg, #a5b4fc 0%, #c4b5fd 50%, #7dd3fc 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 /* ---- Markdown prose ---- */
 .prose-tight {
@@ -464,7 +493,7 @@ text.fill-white\/70, text.fill-white\/60 { fill: var(--text-muted); }
 .module-bar-inner { max-width: 1600px; }
 .module-shell { width: 100%; max-width: 1600px; margin-inline: auto; }
 .module-rail { width: clamp(10.5rem, 15vw, 13rem); background: var(--surface); }
-.module-rail .nav-link { min-height: 2.25rem; }
+.module-rail .nav-link { min-height: 2.75rem; }
 .module-rail .nav-link-active { box-shadow: inset 3px 0 var(--accent); }
 .module-content { padding-block: clamp(1.5rem, 3vw, 3rem) 4rem; }
 .module-home { display: grid; gap: clamp(1.65rem, 3.2vw, 2.8rem); }
@@ -551,7 +580,7 @@ text.fill-white\/70, text.fill-white\/60 { fill: var(--text-muted); }
 .reader-heading > p { max-width: 48rem; line-height: 1.7; }
 .reader-actions { padding-top: .3rem; }
 .reader-tools { padding-block: .2rem; }
-.reader-tools .btn-ghost { background: transparent; min-height: 2rem; }
+.reader-tools .btn-ghost { background: transparent; min-height: 2.75rem; }
 .reader-body { display: grid; grid-template-columns: minmax(0, 1fr) minmax(10rem, 13.5rem); gap: 1.3rem; align-items: start; }
 .reader-paper {
   grid-column: 1;
@@ -567,7 +596,7 @@ text.fill-white\/70, text.fill-white\/60 { fill: var(--text-muted); }
 .reader-toc { position: sticky; top: 5.5rem; grid-column: 2; grid-row: 1; min-width: 0; border-inline-start: 1px solid var(--border-strong); padding-inline-start: .9rem; }
 .reader-toc-title { font-size: .85rem; font-weight: 730; margin-bottom: .45rem; }
 .reader-toc nav { overflow-y: auto; max-height: 68vh; }
-.reader-toc button { overflow-wrap: anywhere; }
+.reader-toc button { overflow-wrap: anywhere; min-height: 2.5rem; touch-action: manipulation; }
 .reader-toc-toggle { display: none; }
 
 @media (max-width: 1023px) {
@@ -576,7 +605,7 @@ text.fill-white\/70, text.fill-white\/60 { fill: var(--text-muted); }
   .reader-paper { grid-row: auto; }
   .reader-toc-title, .reader-toc nav[data-expanded=false] { display: none; }
   .reader-toc nav { border-top: 1px solid var(--border); padding-block: .4rem; }
-  .reader-toc-toggle { display: flex; align-items: center; justify-content: space-between; gap: .5rem; width: 100%; min-height: 2.55rem; text-align: left; font-size: .85rem; font-weight: 700; }
+  .reader-toc-toggle { display: flex; align-items: center; justify-content: space-between; gap: .5rem; width: 100%; min-height: 2.75rem; text-align: left; font-size: .85rem; font-weight: 700; touch-action: manipulation; }
 }
 @media (max-width: 680px) {
   .module-landing, .work-list { grid-template-columns: minmax(0, 1fr); }

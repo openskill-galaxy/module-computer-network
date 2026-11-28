@@ -248,7 +248,7 @@ export default function Header({ module, data }: { module: ModuleMeta; data: Mod
             {showMobileMenu ? <IconClose size={17} /> : <IconMenu size={17} />}
           </button>
 
-          <Link to="/" className="flex items-center gap-2.5 font-bold transition hover:opacity-90 shrink-0 sm:min-w-0">
+          <Link to="/" aria-label={module.title + "首页"} className="flex min-h-11 min-w-11 justify-center items-center gap-2.5 font-bold transition hover:opacity-90 shrink-0 sm:min-w-0">
             <span
               className="inline-flex h-9 w-9 shrink-0 items-center justify-center brand-mark text-sm font-bold"
               style={{ background: badgeColor.soft, color: badgeColor.fg }}
@@ -356,7 +356,7 @@ export default function Header({ module, data }: { module: ModuleMeta; data: Mod
                       end={item.end}
                       onClick={() => setShowMobileMenu(false)}
                       className={({ isActive }) =>
-                        `px-3 py-2 rounded-xl text-xs font-semibold transition ${
+                        `mobile-nav-action px-3 py-2 rounded-xl text-xs font-semibold transition ${
                           isActive
                             ? "bg-accent-soft text-brand font-semibold"
                             : "text-muted hover:text-body hover:bg-surface-2"
@@ -381,7 +381,7 @@ export default function Header({ module, data }: { module: ModuleMeta; data: Mod
                     setShowMobileMenu(false);
                     setShowAppwrite(true);
                   }}
-                  className="flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-medium text-muted hover:text-body hover:bg-surface-2 text-left transition"
+                  className="mobile-nav-action flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-medium text-muted hover:text-body hover:bg-surface-2 text-left transition"
                 >
                   <IconCloud size={15} /> 云端同步
                 </button>
@@ -391,7 +391,7 @@ export default function Header({ module, data }: { module: ModuleMeta; data: Mod
                     setShowMobileMenu(false);
                     setShowAchievements(true);
                   }}
-                  className="flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-medium text-muted hover:text-body hover:bg-surface-2 text-left transition"
+                  className="mobile-nav-action flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-medium text-muted hover:text-body hover:bg-surface-2 text-left transition"
                 >
                   <IconTrophy size={15} /> 成就勋章墙
                 </button>
@@ -401,7 +401,7 @@ export default function Header({ module, data }: { module: ModuleMeta; data: Mod
                     setShowMobileMenu(false);
                     setShowExport(true);
                   }}
-                  className="flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-medium text-muted hover:text-body hover:bg-surface-2 text-left transition"
+                  className="mobile-nav-action flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-medium text-muted hover:text-body hover:bg-surface-2 text-left transition"
                 >
                   <IconDownload size={15} /> 数据导出
                 </button>
@@ -411,7 +411,7 @@ export default function Header({ module, data }: { module: ModuleMeta; data: Mod
                     setShowMobileMenu(false);
                     setShowBackup(true);
                   }}
-                  className="flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-medium text-muted hover:text-body hover:bg-surface-2 text-left transition"
+                  className="mobile-nav-action flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-medium text-muted hover:text-body hover:bg-surface-2 text-left transition"
                 >
                   <IconArchive size={15} /> JSON 备份
                 </button>
@@ -421,7 +421,7 @@ export default function Header({ module, data }: { module: ModuleMeta; data: Mod
                     setShowMobileMenu(false);
                     setShowShortcuts(true);
                   }}
-                  className="flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-medium text-muted hover:text-body hover:bg-surface-2 text-left transition"
+                  className="mobile-nav-action flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-medium text-muted hover:text-body hover:bg-surface-2 text-left transition"
                 >
                   <IconKeyboard size={15} /> 快捷键指南
                 </button>

@@ -17,7 +17,20 @@ export default defineConfig({
         const published = (dir: string) => readdirSync(join(out, dir))
           .filter((name) => name.endsWith(".json"))
           .map((name) => dir + "/" + name);
-        const files = [...Object.keys(bundle), ...published("data"), "manifest.json", "favicon.svg"].sort();
+        // Include ordinary public assets in the shell cache. Runtime bundles are
+        // deliberately excluded because Python and SQLite cache them on demand
+        // after the learner first opens an executable exercise.
+        const publicFiles = (dir: string, prefix = ""): string[] => readdirSync(join(out, dir), { withFileTypes: true })
+          .flatMap((entry) => {
+            const relative = prefix + entry.name;
+            if (entry.isDirectory()) {
+              if (relative.endsWith("-runtime")) return [];
+              return publicFiles(join(dir, entry.name), relative + "/");
+            }
+            if (relative === "sw.js" || relative.startsWith("data/")) return [];
+            return [relative];
+          });
+        const files = [...new Set([...Object.keys(bundle), ...published("data"), ...publicFiles(".")])].sort();
         const file = (name: string) => readFileSync(join(out, name));
         const worker = file("sw.js").toString();
         const hash = createHash("sha256").update(worker);

@@ -49,7 +49,7 @@ export default function PomodoroTimer() {
       <button
         onClick={() => setIsOpen(!isOpen)}
         type="button"
-        className={`btn-ghost text-xs flex items-center gap-1.5 h-9 px-2 sm:px-2.5 py-0 rounded-lg sm:rounded-full transition ${
+        className={`btn-ghost text-xs flex items-center gap-1.5 min-w-11 px-2 sm:px-2.5 py-0 rounded-lg sm:rounded-full transition ${
           isRunning ? "border-accent/50 text-brand bg-accent-soft animate-pulse" : ""
         }`}
         title="番茄专注计时器"

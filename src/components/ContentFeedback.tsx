@@ -38,7 +38,7 @@ export default function ContentFeedback({ module, item }: { module: ModuleMeta; 
   if (!href) return null;
   return (
     <a href={href} target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer"
-      className="print:hidden inline-flex items-center py-1 text-sm font-medium text-brand hover:underline"
+      className="feedback-link print:hidden inline-flex items-center py-1 text-sm font-medium text-brand hover:underline"
       title="在 GitHub 打开反馈草稿">
       {item ? labels[item.section] + "纠错" : "反馈模块问题"}
     </a>

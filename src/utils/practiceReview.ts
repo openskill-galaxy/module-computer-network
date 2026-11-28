@@ -59,11 +59,17 @@ export function readPracticeHistory(exams: ExamRecord[], wrongs: Record<string, 
   }
   for (const item of Object.values(wrongs)) {
     const prev = history[item.questionId];
-    if (!Number.isFinite(Date.parse(item.lastAt)) || (prev && Date.parse(prev.lastAt) >= Date.parse(item.lastAt))) continue;
-    const inferred = schedule(undefined, (item.repetitions ?? 0) > 0, item.lastAt);
+    if (!Number.isFinite(Date.parse(item.lastAt)) || (prev && Date.parse(prev.lastAt) > Date.parse(item.lastAt))) continue;
+    const inferred = prev?.lastAt === item.lastAt ? prev : schedule(undefined, (item.repetitions ?? 0) > 0, item.lastAt);
     // A legacy mistake without a scheduled follow-up was immediately available for review.
-    history[item.questionId] = { ...inferred, nextReviewDate: item.nextReviewDate && Number.isFinite(Date.parse(item.nextReviewDate))
-      ? item.nextReviewDate : item.lastAt };
+    const { interval, repetitions, easeFactor, nextReviewDate } = item;
+    history[item.questionId] = {
+      ...inferred,
+      interval: typeof interval === "number" && Number.isInteger(interval) && interval >= 1 && interval <= 365 ? interval : inferred.interval,
+      repetitions: typeof repetitions === "number" && Number.isSafeInteger(repetitions) && repetitions >= 0 ? repetitions : inferred.repetitions,
+      easeFactor: typeof easeFactor === "number" && easeFactor >= 1.3 && easeFactor <= 4 ? easeFactor : inferred.easeFactor,
+      nextReviewDate: nextReviewDate && Number.isFinite(Date.parse(nextReviewDate)) ? nextReviewDate : prev?.lastAt === item.lastAt ? inferred.nextReviewDate : item.lastAt,
+    };
   }
   try {
     const prefix = STORAGE_PREFIX + resultPrefix;

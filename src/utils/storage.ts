@@ -81,19 +81,21 @@ export function readRaw(key: string, legacyExactKey?: string): string {
   }
 }
 
-export function writeRaw(key: string, value: string): void {
+export function writeRaw(key: string, value: string): boolean {
   try {
     localStorage.setItem(STORAGE_PREFIX + key, value);
+    return true;
   } catch {
-    /* 存储满或被禁用时静默 */
+    return false;
   }
 }
 
-export function removeKey(key: string): void {
+export function removeKey(key: string): boolean {
   try {
     localStorage.removeItem(STORAGE_PREFIX + key);
+    return true;
   } catch {
-    /* ignore */
+    return false;
   }
 }
 

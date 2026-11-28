@@ -42,18 +42,19 @@ self.addEventListener("fetch", (event) => {
   const isAppRoute = request.mode === "navigate" && !path.includes(".") &&
     (slug !== "portal" || /^(?:$|(?:modules|paths|about)(?:\/|$))/.test(path));
 
-  const isChunk = path.startsWith("assets/");
-  if (isAppRoute || isChunk || assetUrls.has(url.href)) {
+  if (isAppRoute || path.startsWith("assets/") || assetUrls.has(url.href)) {
     event.respondWith((async () => {
       const cached = await caches.match(isAppRoute ? shellUrl : request, { cacheName: CACHE_NAME });
       if (cached) return cached;
-      if (isChunk) {
-        const previous = (await caches.keys()).find((key) => key !== CACHE_NAME &&
-          key.startsWith(CACHE_PREFIX) && /^v\d+-[a-f0-9]{16}$/.test(key.slice(CACHE_PREFIX.length)));
-        if (previous) {
-          const chunk = await caches.match(request, { cacheName: previous });
-          if (chunk) return chunk;
-        }
+      // A new worker claims an already-open tab immediately. Keep every
+      // resource from one previous release available so its old JS cannot be
+      // paired with a missing or newer JSON document during the transition.
+      const previous = (await caches.keys()).find((key) => key !== CACHE_NAME &&
+        key.startsWith(CACHE_PREFIX) && /^v\d+-[a-f0-9]{16}$/.test(key.slice(CACHE_PREFIX.length)));
+      if (previous) {
+        const previousRequest = isAppRoute ? shellUrl : request;
+        const previousCached = await caches.match(previousRequest, { cacheName: previous });
+        if (previousCached) return previousCached;
       }
       return fetch(request);
     })());

@@ -1,4 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+
+import { markdownHeading } from "../utils/markdown";
 
 export interface TOCItem {
   id: string;
@@ -38,27 +40,21 @@ export function parseHeadings(markdown: string): TOCItem[] {
       return;
     }
 
-    const match = line.match(/^(#{1,4})\s+(\S.*)$/);
-    if (match) {
-      const level = match[1].length;
-      const text = match[2].replace(/[*_`]/g, "").trim();
-      const id = `heading-${index}-${text.toLowerCase().replace(/[^\w\u4e00-\u9fa5]+/g, "-")}`;
-      items.push({ id, level, text });
-    }
+    const heading = markdownHeading(line, index);
+    if (heading) items.push(heading);
   });
   return items;
 }
 
 export default function LessonTOC({ content, omitTitle }: Props) {
-  const [headings, setHeadings] = useState<TOCItem[]>([]);
   const [activeId, setActiveId] = useState<string>("");
   const [open, setOpen] = useState(false);
 
-  useEffect(() => {
+  const headings = useMemo(() => {
     const items = parseHeadings(content);
     const firstLine = content.replace(/^\s+/, "").split(/\r?\n/, 1)[0];
     const duplicate = firstLine.startsWith("# ") && items[0]?.text === omitTitle;
-    setHeadings(duplicate ? items.slice(1) : items);
+    return duplicate ? items.slice(1) : items;
   }, [content, omitTitle]);
 
   useEffect(() => {

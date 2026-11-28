@@ -12,20 +12,39 @@ function escapeHtml(s: string): string {
     .replace(/'/g, "&#39;");
 }
 
-function inline(s: string): string {
-  let out = escapeHtml(s);
-  // 行内代码 `code`
-  out = out.replace(/`([^`]+)`/g, "<code>$1</code>");
-  // 加粗 **text**
-  out = out.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
-  // 斜体 *text*
-  out = out.replace(/(^|[^*])\*([^*]+)\*(?!\*)/g, "$1<em>$2</em>");
-  // 链接 [text](url) — 仅允许 http/https，且已转义引号防属性注入 XSS
-  out = out.replace(
-    /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,
-    '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-brand-600 dark:text-brand-300 hover:underline">$1</a>'
-  );
-  return out;
+// Match code as a single token so operators inside it remain literal, including inside bold text.
+const INLINE_TOKEN = /`([^`]+)`|\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)|\*\*((?:`[^`]+`|[^*`])+)\*\*|\*(?!\*)([^*]+)\*(?!\*)/g;
+
+function inline(source: string, plain = false): string {
+  const literal = plain ? (s: string) => s : escapeHtml;
+  let result = "";
+  let offset = 0;
+  for (const match of source.matchAll(INLINE_TOKEN)) {
+    const [token, code, label, url, bold, emphasis] = match;
+    result += literal(source.slice(offset, match.index));
+    if (code !== undefined) {
+      result += plain ? code : `<code>${escapeHtml(code)}</code>`;
+    } else {
+      const content = inline(label ?? bold ?? emphasis, plain);
+      if (plain) result += content;
+      else if (url) result += `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" class="text-brand-600 dark:text-brand-300 hover:underline">${content}</a>`;
+      else if (bold !== undefined) result += `<strong>${content}</strong>`;
+      else result += `<em>${content}</em>`;
+    }
+    offset = match.index! + token.length;
+  }
+  return result + literal(source.slice(offset));
+}
+
+const HEADING_RE = /^(#{1,4})\s+(\S.*)$/;
+
+export function markdownHeading(line: string, index: number) {
+  const match = HEADING_RE.exec(line);
+  if (!match) return null;
+  const source = match[2];
+  // Keep existing fragment identifiers when improving the visible heading text.
+  const slug = source.replace(/[*_`]/g, "").trim().toLowerCase().replace(/[^\w\u4e00-\u9fa5]+/g, "-");
+  return { id: `heading-${index}-${slug}`, level: match[1].length, text: inline(source, true).trim(), source };
 }
 
 const CALLOUT_STYLES: Record<string, { label: string; cls: string }> = {
@@ -93,8 +112,6 @@ function splitTableRow(line: string): string[] {
     .split("|")
     .map((c) => c.trim());
 }
-
-const HEADING_RE = /^(#{1,4})\s+(\S.*)$/;
 
 export function renderMarkdown(md: string, omitTitle?: string): React.ReactNode {
   if (!md) return null;
@@ -185,17 +202,15 @@ export function renderMarkdown(md: string, omitTitle?: string): React.ReactNode 
     }
 
     // 标题 H1-H4
-    const h = HEADING_RE.exec(line);
-    if (h) {
-      const level = h[1].length;
-      const cleanText = h[2].replace(/[*_`]/g, "").trim();
+    const heading = markdownHeading(line, i);
+    if (heading) {
+      const { level, id: headingId } = heading;
       // A lesson already renders its title in the page heading.
-      if (omitTitle === cleanText && h[1].length === 1 && !lines.slice(0, i).some((line) => line.trim())) {
+      if (omitTitle === heading.text && level === 1 && !lines.slice(0, i).some((line) => line.trim())) {
         i++;
         continue;
       }
-      const headingId = `heading-${i}-${cleanText.toLowerCase().replace(/[^\w\u4e00-\u9fa5]+/g, "-")}`;
-      const content = inline(h[2]);
+      const content = inline(heading.source);
       if (level <= 2) push(<h2 id={headingId} dangerouslySetInnerHTML={{ __html: content }} />);
       else if (level === 3) push(<h3 id={headingId} dangerouslySetInnerHTML={{ __html: content }} />);
       else push(<h4 id={headingId} className="text-sm font-semibold mt-4 mb-1" dangerouslySetInnerHTML={{ __html: content }} />);

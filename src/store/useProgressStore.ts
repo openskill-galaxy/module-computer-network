@@ -1,4 +1,4 @@
-import { clearPendingPracticeResults, readPracticeHistory, recordPracticeResult, type PracticeHistory } from "../utils/practiceReview";
+import { clearPendingPracticeResults, readPracticeHistory, recordPracticeResult, type PracticeHistory, type PracticeResult } from "../utils/practiceReview";
 import { create } from "zustand";
 import type {
   ProgressRecord,
@@ -8,7 +8,6 @@ import type {
   Lesson,
 } from "../types";
 import { readJson, writeJson, nowIso, clearAll } from "../utils/storage";
-import { calculateSM2 } from "../utils/srs";
 
 interface ProgressState {
   practiceHistory: PracticeHistory;
@@ -37,46 +36,23 @@ function updateWrongQuestion(
   wrongs: Record<string, WrongQuestionRecord>,
   questionId: string,
   userAnswer: string[],
-  correct: boolean,
-  at: string
+  result: PracticeResult
 ) {
   const prev = wrongs[questionId];
-  if (correct) {
-    if (prev) {
-      // 答对：SM-2 推进复习间隔；连续答对达 3 次视为掌握，移出错题本
-      const sm2 = calculateSM2(
-        4,
-        prev.interval ?? 0,
-        prev.repetitions ?? 0,
-        prev.easeFactor ?? 2.5
-      );
-      if (sm2.repetitions >= 3) {
-        delete wrongs[questionId];
-      } else {
-        wrongs[questionId] = {
-          ...prev,
-          lastAnswer: userAnswer,
-          lastAt: at,
-          interval: sm2.interval,
-          repetitions: sm2.repetitions,
-          easeFactor: sm2.easeFactor,
-          nextReviewDate: sm2.nextReviewDate,
-        };
-      }
-    }
+  if (result.correct && !prev) return;
+  if (result.correct && result.repetitions >= 3) {
+    delete wrongs[questionId];
     return;
   }
-  // 答错：重置重复次数，间隔回到 1 天
-  const sm2 = calculateSM2(1, prev?.interval ?? 0, 0, prev?.easeFactor ?? 2.5);
   wrongs[questionId] = {
     questionId,
-    wrongCount: (prev?.wrongCount || 0) + 1,
+    wrongCount: (prev?.wrongCount ?? 0) + (result.correct ? 0 : 1),
     lastAnswer: userAnswer,
-    lastAt: at,
-    interval: sm2.interval,
-    repetitions: sm2.repetitions,
-    easeFactor: sm2.easeFactor,
-    nextReviewDate: sm2.nextReviewDate,
+    lastAt: result.lastAt,
+    interval: result.interval,
+    repetitions: result.repetitions,
+    easeFactor: result.easeFactor,
+    nextReviewDate: result.nextReviewDate,
   };
 }
 
@@ -147,9 +123,10 @@ export const useProgressStore = create<ProgressState>((set, get) => ({
     const wrongs = { ...get().wrongs };
     if (!userAnswer.some((value) => value.trim())) return;
     const history = get().practiceHistory;
-    const result = recordPracticeResult(history, questionId, correct, nowIso());
-    updateWrongQuestion(wrongs, questionId, userAnswer, correct, result.lastAt);
-    if (wrongs[questionId]) wrongs[questionId].nextReviewDate = result.nextReviewDate;
+    const at = nowIso();
+    const result = recordPracticeResult(history, questionId, correct, at);
+    if (Date.parse(result.lastAt) > Date.parse(at)) return;
+    updateWrongQuestion(wrongs, questionId, userAnswer, result);
     set({ wrongs, practiceHistory: { ...history, [questionId]: result } });
     writeJson("wrongs", wrongs);
   },
@@ -177,8 +154,7 @@ export const useProgressStore = create<ProgressState>((set, get) => ({
         const result = recordPracticeResult(practiceHistory, detail.questionId, detail.correct, rec.finishedAt);
         practiceHistory[detail.questionId] = result;
         if (Date.parse(result.lastAt) > Date.parse(rec.finishedAt)) continue;
-        updateWrongQuestion(wrongs, detail.questionId, detail.userAnswer, detail.correct, rec.finishedAt);
-        if (wrongs[detail.questionId]) wrongs[detail.questionId].nextReviewDate = result.nextReviewDate;
+        updateWrongQuestion(wrongs, detail.questionId, detail.userAnswer, result);
       }
     }
     set({ exams, wrongs, practiceHistory });

@@ -45,43 +45,29 @@ export default function SpeechReader({ text }: Props) {
   }
 
   return (
-    <div className="inline-flex items-center gap-1.5 bg-surface-2 border border-line px-2.5 py-1 rounded-xl text-xs print:hidden">
+    <div className="inline-flex items-center bg-surface-2 border border-line rounded-xl text-xs print:hidden">
       <button
         onClick={handleToggleSpeech}
         type="button"
-        className={`font-semibold transition flex items-center gap-1 whitespace-nowrap ${
+        className={`min-h-11 px-3 font-semibold transition flex items-center gap-1 whitespace-nowrap ${
           speaking ? "text-cyan-700 dark:text-cyan-300 animate-pulse font-bold" : "text-muted hover:text-body"
         }`}
         title="讲义语音朗读"
       >
-        <span>{speaking ? "⏸ 暂停朗读" : "语音朗读"}</span>
+        <span>{speaking ? "停止朗读" : "语音朗读"}</span>
       </button>
 
-      <div className="flex items-center gap-1 pl-1 border-l border-line text-[10px] text-subtle font-mono">
-        <button
-          type="button"
-          onClick={() => handleRateChange(1.0)}
-          className={`hover:text-body ${rate === 1.0 ? "text-cyan-700 dark:text-cyan-300 font-bold" : ""}`}
+      <label className="relative flex items-center">
+        <select
+          aria-label="朗读倍速"
+          value={rate}
+          onChange={(event) => handleRateChange(Number(event.target.value))}
+          className="h-11 appearance-none rounded-r-xl border-l border-line bg-surface-2 pl-2 pr-7 text-sm text-body"
         >
-          1x
-        </button>
-        <span>•</span>
-        <button
-          type="button"
-          onClick={() => handleRateChange(1.25)}
-          className={`hover:text-body ${rate === 1.25 ? "text-cyan-700 dark:text-cyan-300 font-bold" : ""}`}
-        >
-          1.25x
-        </button>
-        <span>•</span>
-        <button
-          type="button"
-          onClick={() => handleRateChange(1.5)}
-          className={`hover:text-body ${rate === 1.5 ? "text-cyan-700 dark:text-cyan-300 font-bold" : ""}`}
-        >
-          1.5x
-        </button>
-      </div>
+          {[1, 1.25, 1.5].map((speed) => <option key={speed} value={speed}>{speed} 倍速</option>)}
+        </select>
+        <span aria-hidden="true" className="pointer-events-none absolute right-2 text-muted">▾</span>
+      </label>
     </div>
   );
 }

@@ -364,7 +364,7 @@ export default function QuestionPlayer({
             const isAnswered = itemAns.some((v) => v.trim() !== "");
             const itemJudged = !!judged[item.id];
 
-            let btnClass = "flex h-9 w-9 items-center justify-center rounded-xl border text-xs font-bold transition-all duration-200 ";
+            let btnClass = "flex h-11 w-11 items-center justify-center rounded-xl border text-xs font-bold transition-all duration-200 ";
 
             if (itemJudged && instant) {
               const correct = isAnswerCorrect(item, itemAns);
